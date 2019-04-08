@@ -2,7 +2,7 @@ package main
 
 import (
 	"testing"
-	"truman.com/leetcode/1020.PartitionArrayIntoThreePartsWithEqualSum/canThreePartsEqualSum"
+	"truman.com/leetcode/1013.PartitionArrayIntoThreePartsWithEqualSum/canThreePartsEqualSum"
 )
 
 func TestCanThreePartsEqualSum(t *testing.T)  {
