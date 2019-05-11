@@ -2,7 +2,7 @@ package main
 
 import (
 	"testing"
-	"truman.com/leetcode/5016.RemoveOutermostParentheses/removeOuterParentheses"
+	"truman.com/leetcode/1021.RemoveOutermostParentheses/removeOuterParentheses"
 )
 
 func TestRemoveOuterParentheses(t *testing.T)  {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"testing"
-	"truman.com/leetcode/1022.SmallestIntegerDivisiblebyK/smallestRepunitDivByK"
+	"truman.com/leetcode/1015.SmallestIntegerDivisiblebyK/smallestRepunitDivByK"
 )
 
 func TestSmallestRepunitDivByK(t *testing.T)  {

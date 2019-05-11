@@ -2,7 +2,7 @@ package main
 
 import (
 	"testing"
-	"truman.com/leetcode/1029.BinaryPrefixDivisibleBy5/prefixesDivBy5"
+	"truman.com/leetcode/1018.BinaryPrefixDivisibleBy5/prefixesDivBy5"
 )
 
 func TestPrefixesDivBy5(t *testing.T)  {
