@@ -123,7 +123,7 @@
 |[0141](https://leetcode-cn.com/problems/linked-list-cycle)|[Linked List Cycle](algorithms/0141.LinkedListCycle)|Easy*|
 |[0144](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[Binary Tree Preorder Traversal](algorithms/0144.BinaryTreePreorderTraversal)|Medium|
 |[0145](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[BinaryTree PostorderTraversal](algorithms/0145.BinaryTreePostorderTraversal)|Medium|
-|[0146](https://leetcode-cn.com/problems/lru-cache)|[LRU Cache](algorithms/0146.LRU Cache)|Hard|
+|[0146](https://leetcode-cn.com/problems/lru-cache)|[LRU Cache](algorithms/0146.LRUCache)|Hard|
 |[0151](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[Reverse Words in a String](algorithms/0151.ReverseWordsinaString)|Medium|
 |[0152](https://leetcode-cn.com/problems/maximum-product-subarray)|[Maximum Product Subarray](algorithms/0152.MaximumProductSubarray)|Medium|
 |[0153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[Find Minimum in Rotated Sorted Array](algorithms/0153.FindMinimuminRotatedSortedArray)|Medium|
@@ -297,7 +297,7 @@
 |[0788](https://leetcode-cn.com/problems/rotated-digits)|[Rotated Digits](algorithms/0788.RotatedDigits)|Easy|
 |[0792](https://leetcode-cn.com/problems/number-of-matching-subsequences)|[Number of Matching Subsequences](algorithms/0792.NumberofMatchingSubsequences)|Medium|
 |[0796](https://leetcode-cn.com/problems/rotate-string)|[Rotate String](algorithms/0796.RotateString)|Easy|
-|[0804](https://leetcode-cn.com/problems/unique-morse-code-words)|[Unique Morse Code Words](algorithms/0804.UniqueMorseCode Words)|Easy|
+|[0804](https://leetcode-cn.com/problems/unique-morse-code-words)|[Unique Morse Code Words](algorithms/0804.UniqueMorseCodeWords)|Easy|
 |[0806](https://leetcode-cn.com/problems/number-of-lines-to-write-string)|[Number of Lines To Write String](algorithms/0806.NumberofLinesToWriteStringWords)|Easy*|
 |[0811](https://leetcode-cn.com/problems/subdomain-visit-count)|[Subdomain Visit Count](algorithms/0811.SubdomainVisitCount)|Easy|
 |[0819](https://leetcode-cn.com/problems/most-common-word)|[Most Common Word](algorithms/0819.MostCommonWord)|Easy|
