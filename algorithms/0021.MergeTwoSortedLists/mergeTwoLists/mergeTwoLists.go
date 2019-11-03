@@ -1,12 +1,10 @@
 package mergeTwoLists
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func MergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
 	}
@@ -16,10 +14,10 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	var res *ListNode
 	if l1.Val >= l2.Val {
 		res = l2
-		res.Next = mergeTwoLists(l1, l2.Next)
+		res.Next = MergeTwoLists(l1, l2.Next)
 	} else {
 		res = l1
-		res.Next = mergeTwoLists(l1.Next, l2)
+		res.Next = MergeTwoLists(l1.Next, l2)
 	}
 	return res
 }

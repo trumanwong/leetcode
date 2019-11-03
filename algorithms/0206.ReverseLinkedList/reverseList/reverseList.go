@@ -1,10 +1,8 @@
 package reverseList
 
-//Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
 func ReverseList(head *ListNode) *ListNode {
 	var res *ListNode

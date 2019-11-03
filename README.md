@@ -5,12 +5,6 @@
 [![Build Status](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go.svg?branch=master)](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go)
  [![Go](https://img.shields.io/badge/Go-1.13-blue.svg)](https://golang.google.cn)
 
-## 进度
-
-|     |Easy|Medium|Hard|Total|
-|:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|239|169|22|432|
-
 ## 题解
 
 |题号|题目|难度|
@@ -121,6 +115,7 @@
 |[0137](https://leetcode-cn.com/problems/single-number-ii)|[Single Number II](algorithms/0137.SingleNumberII)|Medium|
 |[0139](https://leetcode-cn.com/problems/word-break)|[Word Break](algorithms/0139.WordBreak)|Medium|
 |[0141](https://leetcode-cn.com/problems/linked-list-cycle)|[Linked List Cycle](algorithms/0141.LinkedListCycle)|Easy*|
+|[0142](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[Linked List Cycle II](algorithms/0142.LinkedListCycleII)|Medium?|
 |[0144](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[Binary Tree Preorder Traversal](algorithms/0144.BinaryTreePreorderTraversal)|Medium|
 |[0145](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[BinaryTree PostorderTraversal](algorithms/0145.BinaryTreePostorderTraversal)|Medium|
 |[0146](https://leetcode-cn.com/problems/lru-cache)|[LRU Cache](algorithms/0146.LRUCache)|Hard|
@@ -129,6 +124,7 @@
 |[0153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[Find Minimum in Rotated Sorted Array](algorithms/0153.FindMinimuminRotatedSortedArray)|Medium|
 |[0154](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Find Minimum in Rotated Sorted Array II](algorithms/0154.FindMinimuminRotatedSortedArrayII)|Hard|
 |[0155](https://leetcode-cn.com/problems/min-stack)|[Min Stack](algorithms/0155.MinStack)|Easy|
+|[0160](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](algorithms/0160.IntersectionofTwoLinkedLists)|Easy|
 |[0162](https://leetcode-cn.com/problems/find-peak-element)|[Find Peak Element](algorithms/0162.FindPeakElement)|Medium|
 |[0165](https://leetcode-cn.com/problems/compare-version-numbers)|[Compare Version Numbers](algorithms/0165.CompareVersionNumbers)|Medium|
 |[0167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)|[Two Sum II - Input array is sorted](algorithms/0167.TwoSumII-Inputarrayissorted)|Easy|
@@ -137,7 +133,7 @@
 |[0171](https://leetcode-cn.com/problems/excel-sheet-column-number)|[Excel Sheet Column Number](algorithms/0171.ExcelSheetColumnNumber)|Easy|
 |[0172](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[Factorial Trailing Zeroes](algorithms/0172.FactorialTrailingZeroes)|Easy|
 |[0179](https://leetcode-cn.com/problems/largest-number)|[Largest Number](algorithms/0179.LargestNumber)|Medium|
-|[0187](https://leetcode-cn.com/problems/repeated-dna-sequences)|[Repeated DNA Sequences](algorithms/187.RepeatedDNASequences)|Medium?|
+|[0187](https://leetcode-cn.com/problems/repeated-dna-sequences)|[Repeated DNA Sequences](algorithms/0187.RepeatedDNASequences)|Medium?|
 |[0188](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[Best Time to Buy and Sell Stock IV](algorithms/0188.BestTimetoBuyandSellStockIV)|Hard?|
 |[0189](https://leetcode-cn.com/problems/rotate-array)|[Rotate Array](algorithms/0189.RotateArray)|Easy|
 |[0190](https://leetcode-cn.com/problems/reverse-bits)|[Reverse Bits](algorithms/0190.ReverseBits)|Easy|
@@ -440,12 +436,11 @@
 |[1230](https://leetcode-cn.com/problems/toss-strange-coins)|[Toss Strange Coins](algorithms/1230.TossStrangeCoins)|Medium|
 |[1232](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line)|[Check If It Is a Straight Line](algorithms/1232.CheckIfItIsaStraightLine)|Easy|
 |[1233](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem)|[Remove Sub-Folders from the Filesystem](algorithms/1233.RemoveSubFoldersfromtheFilesystem)|Medium|
-|[5239](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[Circular Permutation in Binary Representation](algorithms/5239.CircularPermutationinBinaryRepresentation)|Medium*|
-|[5240](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Maximum Length of a Concatenated String with Unique Characters](algorithms/5240.MaximumLengthofaConcatenatedStringwithUniqueCharacters)|Medium|
+|[1238](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[Circular Permutation in Binary Representation](algorithms/1238.CircularPermutationinBinaryRepresentation)|Medium*|
+|[1239](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Maximum Length of a Concatenated String with Unique Characters](algorithms/1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters)|Medium|
 |[LCP1](https://leetcode-cn.com/problems/guess-numbers)|[Guess Numbers](algorithms/LCP1.GuessNumbers)|Easy|
 |[LCP2](https://leetcode-cn.com/problems/deep-dark-fraction)|[Deep Dark Fraction](algorithms/LCP2.DeepDarkFraction)|Easy|
 
 
 ## Note: 
 ?暂时不能提交 Go 解答
-

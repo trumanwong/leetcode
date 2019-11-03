@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5239.CircularPermutationinBinaryRepresentation/circularPermutation"
+	"leetcode/algorithms/1238.CircularPermutationinBinaryRepresentation/circularPermutation"
 	"testing"
 )
 

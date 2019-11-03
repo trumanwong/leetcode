@@ -1,13 +1,10 @@
 package isPalindrome
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-
-func isPalindrome(head *ListNode) bool {
+func IsPalindrome(head *ListNode) bool {
 	arr := make([]int, 0)
 	for head != nil {
 		arr = append(arr, head.Val)

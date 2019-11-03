@@ -1,12 +1,10 @@
 package deleteDuplicates
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func deleteDuplicates(head *ListNode) *ListNode {
+func DeleteDuplicates(head *ListNode) *ListNode {
 	current := head
 	for current != nil && current.Next != nil {
 		if current.Next.Val == current.Val {

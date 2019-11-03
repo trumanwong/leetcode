@@ -1,12 +1,10 @@
 package oddEvenList
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func oddEvenList(head *ListNode) *ListNode {
+func OddEvenList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}

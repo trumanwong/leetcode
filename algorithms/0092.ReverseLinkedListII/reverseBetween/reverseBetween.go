@@ -1,12 +1,10 @@
 package reverseBetween
 
-//Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func reverseBetween(head *ListNode, m int, n int) *ListNode {
+func ReverseBetween(head *ListNode, m int, n int) *ListNode {
 	if m == n || head == nil {
 		return head
 	}

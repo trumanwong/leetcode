@@ -1,10 +1,8 @@
 package reverseKGroup
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
 func ReverseKGroup(head *ListNode, k int) *ListNode {
 	dummy := &ListNode{0, nil}

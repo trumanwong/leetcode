@@ -1,12 +1,10 @@
 package rotateRight
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func rotateRight(head *ListNode, k int) *ListNode {
+func RotateRight(head *ListNode, k int) *ListNode {
 	if head == nil || k == 0 {
 		return head
 	}

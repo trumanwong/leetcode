@@ -1,12 +1,9 @@
 package mergeKLists
 
-import "sort"
-
-//Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+	"sort"
+)
 
 func MergeKLists(lists []*ListNode) *ListNode {
 	head := &ListNode{0, nil}
@@ -14,8 +11,8 @@ func MergeKLists(lists []*ListNode) *ListNode {
 	nodes := make([]int, 0)
 	for _, list := range lists {
 		for list != nil {
-			nodes = append(nodes, list.Val)
-			list = list.Next
+			nodes = append(nodes, Val)
+			list = Next
 		}
 	}
 

@@ -1,12 +1,10 @@
 package partition
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func partition(head *ListNode, x int) *ListNode {
+func Partition(head *ListNode, x int) *ListNode {
 	small, big, dummy := &ListNode{0, nil}, &ListNode{0, nil}, &ListNode{0, nil}
 	s, b := small, big
 	t := head

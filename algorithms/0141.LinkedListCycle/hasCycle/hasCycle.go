@@ -1,12 +1,10 @@
 package hasCycle
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-func hasCycle(head *ListNode) bool {
+func HasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return false
 	}

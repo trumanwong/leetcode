@@ -1,10 +1,9 @@
 package removeElements
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
+
 func RemoveElements(head *ListNode, val int) *ListNode {
 	if head == nil {
 		return head

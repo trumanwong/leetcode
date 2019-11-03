@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5240.MaximumLengthofaConcatenatedStringwithUniqueCharacters/maxLength"
+	"leetcode/algorithms/1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters/maxLength"
 	"testing"
 )
 

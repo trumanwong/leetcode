@@ -1,10 +1,8 @@
 package middleNode
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
 func middleNode(head *ListNode) *ListNode {
 	slow, fast := head, head

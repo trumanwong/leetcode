@@ -1,8 +1,8 @@
 package main
 
 import (
+	"leetcode/algorithms/0520.DetectCapital/detectCapitalUse"
 	"testing"
-	detectCapitalUse2 "truman.com/leetcode/algorithms/520.DetectCapital/detectCapitalUse"
 )
 
 func TestDetectCapitalUse(t *testing.T)  {
@@ -15,7 +15,7 @@ func TestDetectCapitalUse(t *testing.T)  {
 	}
 
 	for _, test := range tests {
-		ret := detectCapitalUse2.DetectCapitalUse(test.word)
+		ret := detectCapitalUse.DetectCapitalUse(test.word)
 		if ret != test.output {
 			t.Errorf("Got %t for input %s; expected %t", ret, test.word, test.output)
 		}

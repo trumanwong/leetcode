@@ -1,10 +1,8 @@
 package removeNthFromEnd
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
 func RemoveNthFromEnd(head *ListNode, n int) *ListNode {
 	if head == nil || head.Next == nil {

@@ -1,13 +1,10 @@
 package deleteNode
 
+import (
+	. "leetcode/common/list"
+)
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func deleteNode(node *ListNode) {
+func DeleteNode(node *ListNode) {
 	node.Val = node.Next.Val;
 	node.Next = node.Next.Next;
 }

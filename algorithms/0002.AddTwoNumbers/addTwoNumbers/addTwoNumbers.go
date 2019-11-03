@@ -1,5 +1,5 @@
 /*
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked 
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -11,18 +11,10 @@ Explanation: 342 + 465 = 807.
 */
 package addTwoNumbers
 
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+import (
+	. "leetcode/common/list"
+)
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummyHead := &ListNode{0, nil}
 	p, q, curr := l1, l2, dummyHead
