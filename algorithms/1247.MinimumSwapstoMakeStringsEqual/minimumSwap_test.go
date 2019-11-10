@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5247.MinimumSwapstoMakeStringsEqual/minimumSwap"
+	"leetcode/algorithms/1247.MinimumSwapstoMakeStringsEqual/minimumSwap"
 	"testing"
 )
 

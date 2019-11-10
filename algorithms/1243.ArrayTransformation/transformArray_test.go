@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5096.ArrayTransformation/transformArray"
+	"leetcode/algorithms/1243.ArrayTransformation/transformArray"
 	"reflect"
 	"testing"
 )

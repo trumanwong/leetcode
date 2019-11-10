@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5250.CheckIfItIsaGoodArray/isGoodArray"
+	"leetcode/algorithms/1250.CheckIfItIsaGoodArray/isGoodArray"
 	"testing"
 )
 

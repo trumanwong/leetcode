@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5249.MinimumRemovetoMakeValidParentheses/minRemoveToMakeValid"
+	"leetcode/algorithms/1249.MinimumRemovetoMakeValidParentheses/minRemoveToMakeValid"
 	"testing"
 )
 

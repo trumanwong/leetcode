@@ -1,9 +1,7 @@
 # [LeetCode](https://leetcode.com) 的 Go 解答
 
-[![LeetCode 排名](https://img.shields.io/badge/aQuaYi-588-blue.svg)](https://leetcode.com/aQuaYi/)
-[![codecov](https://codecov.io/gh/aQuaYi/LeetCode-in-Go/branch/master/graph/badge.svg)](https://codecov.io/gh/aQuaYi/LeetCode-in-Go)
-[![Build Status](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go.svg?branch=master)](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go)
- [![Go](https://img.shields.io/badge/Go-1.13-blue.svg)](https://golang.google.cn)
+[![LeetCode 排名](https://img.shields.io/badge/trumanwong-447-brightgreen)](https://leetcode-cn.com/u/ren-zai-lu-tu-2/)
+[![Go](https://img.shields.io/badge/Go-1.13-blue.svg)](https://golang.google.cn)
 
 ## 题解
 
@@ -119,6 +117,7 @@
 |[0144](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[Binary Tree Preorder Traversal](algorithms/0144.BinaryTreePreorderTraversal)|Medium|
 |[0145](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[BinaryTree PostorderTraversal](algorithms/0145.BinaryTreePostorderTraversal)|Medium|
 |[0146](https://leetcode-cn.com/problems/lru-cache)|[LRU Cache](algorithms/0146.LRUCache)|Hard|
+|[0148](https://leetcode-cn.com/problems/sort-list)|[Sort List](algorithms/0148.SortList)|Medium|
 |[0151](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[Reverse Words in a String](algorithms/0151.ReverseWordsinaString)|Medium|
 |[0152](https://leetcode-cn.com/problems/maximum-product-subarray)|[Maximum Product Subarray](algorithms/0152.MaximumProductSubarray)|Medium|
 |[0153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[Find Minimum in Rotated Sorted Array](algorithms/0153.FindMinimuminRotatedSortedArray)|Medium|
@@ -190,6 +189,7 @@
 |[0347](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Top K Frequent Elements](algorithms/0347.TopKFrequentElements)|Medium|
 |[0349](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[Intersection of Two Arrays](algorithms/0349.IntersectionofTwoArrays)|Easy|
 |[0350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[Intersection of Two Arrays II](algorithms/0350.IntersectionofTwoArraysII)|Easy|
+|[0355](https://leetcode-cn.com/problems/design-twitter)|[Design Twitter](algorithms/0355.DesignTwitter)|Medium|
 |[0357](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)|[Count Numbers with Unique Digits](algorithms/0357.CountNumberswithUniqueDigits)|Medium|
 |[0367](https://leetcode-cn.com/problems/valid-perfect-square)|[Valid Perfect Square](algorithms/0367.ValidPerfectSquare)|Easy|
 |[0371](https://leetcode-cn.com/problems/sum-of-two-integers)|[Sum of Two Integers](algorithms/0371.SumofTwoIntegers)|Easy|
@@ -214,6 +214,7 @@
 |[0441](https://leetcode-cn.com/problems/arranging-coins)|[Arranging Coins](algorithms/0441.ArrangingCoins)|Easy|
 |[0442](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[Find All Duplicates in an Array](algorithms/0442.FindAllDuplicatesinanArray)|Medium|
 |[0443](https://leetcode-cn.com/problems/string-compression)|[String Compression](algorithms/0443.StringCompression)|Easy|
+|[0445](https://leetcode-cn.com/problems/add-two-numbers-ii)|[Add Two Numbers II](algorithms/0445.AddTwoNumbersII)|Medium|
 |[0448](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[Find All Numbers Disappeared in an Array](algorithms/0448.FindAllNumbersDisappearedinanArray)|Easy|
 |[0451](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Sort Characters By Frequency](algorithms/0451.SortCharactersByFrequency)|Medium|
 |[0459](https://leetcode-cn.com/problems/repeated-substring-pattern)|[Repeated Substring Pattern](algorithms/0459.RepeatedSubstringPattern)|Easy|
@@ -235,6 +236,7 @@
 |[0520](https://leetcode-cn.com/problems/detect-capital)|[Detect Capital](algorithms/0520.DetectCapital)|Easy|
 |[0521](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i)|[Longest Uncommon Subsequence I](algorithms/0521.LongestUncommonSubsequenceI)|Easy*|
 |[0530](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)|[Minimum Absolute Difference in BST](algorithms/0530.MinimumAbsoluteDifferenceinBST)|Easy|
+|[0532](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array)|[K-diff Pairs in an Array](algorithms/0532.K-diffPairsinanArray)|Easy|
 |[0537](https://leetcode-cn.com/problems/complex-number-multiplication)|[Complex Number Multiplication](algorithms/0537.ComplexNumberMultiplication)|Easy|
 |[0539](https://leetcode-cn.com/problems/minimum-time-difference)|[Minimum Time Difference](algorithms/0539.MinimumTimeDifference)|Medium?|
 |[0540](https://leetcode-cn.com/problems/single-element-in-a-sorted-array)|[Single Element in a Sorted Array](algorithms/0540.SingleElementinaSortedArray)|Medium|
@@ -249,15 +251,18 @@
 |[0567](https://leetcode-cn.com/problems/permutation-in-string)|[Permutation in String](algorithms/0567.PermutationinString)|Medium|
 |[0575](https://leetcode-cn.com/problems/distribute-candies)|[Distribute Candies](algorithms/0575.DistributeCandies)|Easy?|
 |[0581](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[Shortest Unsorted Continuous Subarray](algorithms/0581.ShortestUnsortedContinuousSubarray)|Easy?|
+|[0594](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[Longest Harmonious Subsequence](algorithms/0594.LongestHarmoniousSubsequence)|Easy|
 |[0599](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists)|[Minimum Index Sum of Two Lists](algorithms/0599.MinimumIndexSumofTwoLists)|Easy|
 |[0605](https://leetcode-cn.com/problems/can-place-flowers)|[Can Place Flowers](algorithms/0605.CanPlaceFlowers)|Easy|
 |[0606](https://leetcode-cn.com/problems/construct-string-from-binary-tree)|[Construct String from Binary Tree](algorithms/0606.ConstructStringfromBinaryTree)|Easy|
 |[0611](https://leetcode-cn.com/problems/valid-triangle-number)|[Valid Triangle Number](algorithms/0611.ValidTriangleNumber)|Medium|
 |[0617](https://leetcode-cn.com/problems/merge-two-binary-trees)|[Merge Two Binary Trees](algorithms/0617.MergeTwoBinaryTrees)|Easy|
+|[0622](https://leetcode-cn.com/problems/design-circular-queue)|[Design Circular Queue](algorithms/0622.DesignCircularQueue)|Medium|
 |[0628](https://leetcode-cn.com/problems/maximum-product-of-three-numbers)|[Maximum Product of Three Numbers](algorithms/0628.MaximumProductofThreeNumbers)|Easy|
 |[0633](https://leetcode-cn.com/problems/sum-of-square-numbers)|[Sum of Square Numbers](algorithms/0633.SumofSquareNumbers)|Easy|
 |[0637](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)|[Average of Levels in Binary Tree](algorithms/0637.AverageofLevelsinBinaryTree)|Easy|
 |[0640](https://leetcode-cn.com/problems/solve-the-equation)|[Solve the Equation](algorithms/0640.SolvetheEquation)|Medium|
+|[0641](https://leetcode-cn.com/problems/design-circular-deque)|[Design Circular Deque](algorithms/0641.DesignCircularDeque)|Medium|
 |[0643](https://leetcode-cn.com/problems/maximum-average-subarray-i)|[Maximum Average Subarray I](algorithms/0643.MaximumAverageSubarrayI)|Easy|
 |[0645](https://leetcode-cn.com/problems/set-mismatch)|[Set Mismatch](algorithms/0645.SetMismatch)|Easy|
 |[0657](https://leetcode-cn.com/problems/robot-return-to-origin)|[Robot Return to Origin](algorithms/0657.RobotReturntoOrigin)|Easy|
@@ -266,6 +271,7 @@
 |[0674](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence)|[Longest Continuous Increasing Subsequence](algorithms/0674.LongestContinuousIncreasingSubsequence)|Easy|
 |[0679](https://leetcode-cn.com/problems/24-game)|[24 Game](algorithms/0679.24Game)|Hard*|
 |[0680](https://leetcode-cn.com/problems/valid-palindrome-ii)|[Valid Palindrome II](algorithms/0680.ValidPalindromeII)|Easy|
+|[0686](https://leetcode-cn.com/problems/repeated-string-match)|[Repeated String Match](algorithms/0686.RepeatedStringMatch)|Easy|
 |[0687](https://leetcode-cn.com/problems/longest-univalue-path)|[Longest Univalue Path](algorithms/0687.LongestUnivaluePath)|Easy|
 |[0692](https://leetcode-cn.com/problems/top-k-frequent-words)|[Top K Frequent Words](algorithms/0692.TopKFrequentWords)|Medium|
 |[0693](https://leetcode-cn.com/problems/binary-number-with-alternating-bits)|[Binary Number with Alternating Bits](algorithms/0693.BinaryNumberwithAlternatingBits)|Easy|
@@ -275,6 +281,7 @@
 |[0704](https://leetcode-cn.com/problems/binary-search)|[Binary Search](algorithms/0704.BinarySearch)|Easy|
 |[0705](https://leetcode-cn.com/problems/design-hashset)|[Design HashSet](algorithms/0705.DesignHashSet)|Easy|
 |[0706](https://leetcode-cn.com/problems/design-hashmap)|[Design HashMap](algorithms/0706.DesignHashMap)|Easy|
+|[0707](https://leetcode-cn.com/problems/design-linked-list)|[Design Linked List](algorithms/0707.DesignLinkedList)|Medium|
 |[0709](https://leetcode-cn.com/problems/to-lower-case)|[To Lower Case](algorithms/0709.ToLowerCase)|Easy|
 |[0713](https://leetcode-cn.com/problems/subarray-product-less-than-k)|[Subarray Product Less Than K](algorithms/0713.SubarrayProductLessThanK)|Medium|
 |[0724](https://leetcode-cn.com/problems/find-pivot-index)|[Find Pivot Index](algorithms/0724.FindPivotIndex)|Easy|
@@ -344,12 +351,14 @@
 |[1002](https://leetcode-cn.com/problems/find-common-characters)|[Find Common Characters](algorithms/1002.FindCommonCharacters)|Easy|
 |[1005](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations)|[Maximize Sum Of Array After K Negations](algorithms/1005.MaximizeSumOfArrayAfterKNegations)|Easy|
 |[1009](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[Maximize Sum Of Array After K Negations](algorithms/1009.ComplementofBase10Integer)|Easy|
-|[1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)|[Partition Array Into Three Parts With Equal Sum](algorithms/1013.PartitionArrayIntoThreePartsWithEqualSum)|Easy|
+|[1010](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|[Maximize Sum Of Array After K Negations](algorithms/1009.ComplementofBase10Integer)|Easy|
+|[1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)|[Pairs of Songs With Total Durations Divisible by 60](algorithms/1010.PairsofSongsWithTotalDurationsDivisibleby60)|Easy|
 |[1014](https://leetcode-cn.com/problems/best-sightseeing-pair)|[Best Sightseeing Pair](algorithms/1014.BestSightseeingPair)|Medium|
 |[1015](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k)|[Smallest Integer Divisible by K](algorithms/1015.SmallestIntegerDivisiblebyK)|Medium|
 |[1016](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n)|[Binary String With Substrings Representing 1 To N](algorithms/1016.BinaryStringWithSubstringsRepresenting1ToN)|Medium|
 |[1017](https://leetcode-cn.com/problems/convert-to-base-2)|[Convert to Base -2](algorithms/1017.ConverttoBase-2)|Medium|
 |[1018](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)|[Binary Prefix Divisible By 5](algorithms/1018.BinaryPrefixDivisibleBy5)|Easy|
+|[1019](https://leetcode-cn.com/problems/next-greater-node-in-linked-list)|[Next Greater Node In Linked List](algorithms/1019.NextGreaterNodeInLinkedList)|Medium|
 |[1021](https://leetcode-cn.com/problems/remove-outermost-parentheses)|[Remove Outermost Parentheses](algorithms/1021.RemoveOutermostParentheses)|Easy|
 |[1022](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers)|[Sum of Root To Leaf Binary Numbers](algorithms/1022.SumofRootToLeafBinaryNumbers)|Easy|
 |[1025](https://leetcode-cn.com/problems/divisor-game)|[Divisor Game](algorithms/1025.DivisorGame)|Easy|
@@ -438,6 +447,11 @@
 |[1233](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem)|[Remove Sub-Folders from the Filesystem](algorithms/1233.RemoveSubFoldersfromtheFilesystem)|Medium|
 |[1238](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[Circular Permutation in Binary Representation](algorithms/1238.CircularPermutationinBinaryRepresentation)|Medium*|
 |[1239](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Maximum Length of a Concatenated String with Unique Characters](algorithms/1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters)|Medium|
+|[1243](https://leetcode-cn.com/problems/array-transformation)|[Array Transformation](algorithms/1243.ArrayTransformation)|Easy|
+|[1244](https://leetcode-cn.com/problems/design-a-leaderboard)|[Design A Leaderboard](algorithms/1244.DesignALeaderboard)|Medium|
+|[1247](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal)|[Minimum Swaps to Make Strings Equal](algorithms/1247.MinimumSwapstoMakeStringsEqual)|Medium|
+|[1249](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses)|[Minimum Remove to Make Valid Parentheses](algorithms/1249.MinimumRemovetoMakeValidParentheses)|Medium|
+|[1250](https://leetcode-cn.com/problems/check-if-it-is-a-good-array)|[Check If It Is a Good Array](algorithms/1250.CheckIfItIsaGoodArray)|Hard|
 |[LCP1](https://leetcode-cn.com/problems/guess-numbers)|[Guess Numbers](algorithms/LCP1.GuessNumbers)|Easy|
 |[LCP2](https://leetcode-cn.com/problems/deep-dark-fraction)|[Deep Dark Fraction](algorithms/LCP2.DeepDarkFraction)|Easy|
 

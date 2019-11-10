@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/algorithms/5097.DesignALeaderboard/Leaderboard"
+	"leetcode/algorithms/1244.DesignALeaderboard/Leaderboard"
 	"testing"
 )
 
