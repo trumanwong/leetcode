@@ -131,6 +131,7 @@
 |[0169](https://leetcode-cn.com/problems/majority-element)|[Majority Element](algorithms/0169.MajorityElement)|Easy|
 |[0171](https://leetcode-cn.com/problems/excel-sheet-column-number)|[Excel Sheet Column Number](algorithms/0171.ExcelSheetColumnNumber)|Easy|
 |[0172](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[Factorial Trailing Zeroes](algorithms/0172.FactorialTrailingZeroes)|Easy|
+|[0173](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[Binary Search Tree Iterator](algorithms/0173.BinarySearchTreeIterator)|Medium|
 |[0179](https://leetcode-cn.com/problems/largest-number)|[Largest Number](algorithms/0179.LargestNumber)|Medium|
 |[0187](https://leetcode-cn.com/problems/repeated-dna-sequences)|[Repeated DNA Sequences](algorithms/0187.RepeatedDNASequences)|Medium?|
 |[0188](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[Best Time to Buy and Sell Stock IV](algorithms/0188.BestTimetoBuyandSellStockIV)|Hard?|
@@ -144,7 +145,9 @@
 |[0204](https://leetcode-cn.com/problems/count-primes)|[Count Primes](algorithms/0204.CountPrimes)|Easy|
 |[0205](https://leetcode-cn.com/problems/isomorphic-strings)|[Isomorphic Strings](algorithms/0205.IsomorphicStrings)|Easy|
 |[0206](https://leetcode-cn.com/problems/reverse-linked-list)|[Reverse Linked List](algorithms/0206.ReverseLinkedList)|Easy|
-|[0206](https://leetcode-cn.com/problems/word-search-ii)|[Word Search II](algorithms/0212.WordSearchII)|Hard|
+|[0208](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|[Implement Trie (Prefix Tree)](algorithms/0208.ImplementTrie)|Medium|
+|[0211](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design)|[Add and Search Word - Data structure design](algorithms/0211.AddandSearchWordDatastructuredesign)|Medium|
+|[0212](https://leetcode-cn.com/problems/word-search-ii)|[Word Search II](algorithms/0212.WordSearchII)|Hard|
 |[0215](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](algorithms/0215.KthLargestElementinanArray)|Medium|
 |[0217](https://leetcode-cn.com/problems/contains-duplicate)|[Contains Duplicate](algorithms/0217.ContainsDuplicate)|Easy|
 |[0219](https://leetcode-cn.com/problems/contains-duplicate-ii)|[Contains Duplicate II](algorithms/0219.ContainsDuplicateII)|Easy|
@@ -210,6 +213,7 @@
 |[0415](https://leetcode-cn.com/problems/add-strings)|[Add Strings](algorithms/0415.AddStrings)|Easy|
 |[0421](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)|[Maximum XOR of Two Numbers in an Array](algorithms/0421.MaximumXORofTwoNumbersinanArray)|Medium|
 |[0434](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[Number of Segments in a String](algorithms/0434.NumberofSegmentsinaString)|Easy|
+|[0437](https://leetcode-cn.com/problems/path-sum-iii)|[Path Sum III](algorithms/0437.PathSumIII)|Easy|
 |[0438](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[Find All Anagrams in a String](algorithms/0438.FindAllAnagramsinaString)|Medium|
 |[0441](https://leetcode-cn.com/problems/arranging-coins)|[Arranging Coins](algorithms/0441.ArrangingCoins)|Easy|
 |[0442](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[Find All Duplicates in an Array](algorithms/0442.FindAllDuplicatesinanArray)|Medium|
@@ -242,6 +246,7 @@
 |[0540](https://leetcode-cn.com/problems/single-element-in-a-sorted-array)|[Single Element in a Sorted Array](algorithms/0540.SingleElementinaSortedArray)|Medium|
 |[0541](https://leetcode-cn.com/problems/reverse-string-ii)|[Reverse String II](algorithms/0541.ReverseStringII)|Easy|
 |[0542](https://leetcode-cn.com/problems/01-matrix)|[01 Matrix](algorithms/0542.01Matrix)|Medium|
+|[0543](https://leetcode-cn.com/problems/diameter-of-binary-tree)|[Diameter of Binary Tree](algorithms/0543.DiameterofBinaryTree)|Easy|
 |[0551](https://leetcode-cn.com/problems/student-attendance-record-i)|[Student Attendance Record I](algorithms/0551.StudentAttendanceRecordI)|Easy|
 |[0557](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)|[Reverse Words in a String III](algorithms/0557.ReverseWordsinaStringIII)|Easy|
 |[0560](https://leetcode-cn.com/problems/subarray-sum-equals-k)|[Subarray Sum Equals K](algorithms/0560.SubarraySumEqualsK)|Medium|
@@ -265,8 +270,10 @@
 |[0641](https://leetcode-cn.com/problems/design-circular-deque)|[Design Circular Deque](algorithms/0641.DesignCircularDeque)|Medium|
 |[0643](https://leetcode-cn.com/problems/maximum-average-subarray-i)|[Maximum Average Subarray I](algorithms/0643.MaximumAverageSubarrayI)|Easy|
 |[0645](https://leetcode-cn.com/problems/set-mismatch)|[Set Mismatch](algorithms/0645.SetMismatch)|Easy|
+|[0653](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst)|[Two Sum IV - Input is a BST](algorithms/0653.TwoSumIVInputisaBST)|Easy|
 |[0657](https://leetcode-cn.com/problems/robot-return-to-origin)|[Robot Return to Origin](algorithms/0657.RobotReturntoOrigin)|Easy|
 |[0665](https://leetcode-cn.com/problems/non-decreasing-array)|[Non-decreasing Array](algorithms/0665.Non-decreasingArray)|Easy|
+|[0669](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[Trim a Binary Search Tree](algorithms/0669.TrimaBinarySearchTree)|Easy|
 |[0671](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[Second Minimum Node In a Binary Tree](algorithms/0671.SecondMinimumNodeInaBinaryTree)|Easy|
 |[0674](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence)|[Longest Continuous Increasing Subsequence](algorithms/0674.LongestContinuousIncreasingSubsequence)|Easy|
 |[0679](https://leetcode-cn.com/problems/24-game)|[24 Game](algorithms/0679.24Game)|Hard*|
