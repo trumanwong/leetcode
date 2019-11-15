@@ -196,6 +196,8 @@
 |[0357](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)|[Count Numbers with Unique Digits](algorithms/0357.CountNumberswithUniqueDigits)|Medium|
 |[0367](https://leetcode-cn.com/problems/valid-perfect-square)|[Valid Perfect Square](algorithms/0367.ValidPerfectSquare)|Easy|
 |[0371](https://leetcode-cn.com/problems/sum-of-two-integers)|[Sum of Two Integers](algorithms/0371.SumofTwoIntegers)|Easy|
+|[0380](https://leetcode-cn.com/problems/insert-delete-getrandom-o1)|[Insert Delete GetRandom O(1)](algorithms/0380.InsertDeleteGetRandomO1)|Medium|
+|[0381](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[Insert Delete GetRandom O(1) - Duplicates allowed](algorithms/0381.InsertDeleteGetRandomO1Duplicatesallowed)|Hard|
 |[0383](https://leetcode-cn.com/problems/ransom-note)|[Ransom Note](algorithms/0383.RansomNote)|Easy|
 |[0387](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[First Unique Character in a String](algorithms/0387.FirstUniqueCharacterinaString)|Easy|
 |[0389](https://leetcode-cn.com/problems/find-the-difference)|[Find the Difference](algorithms/0389.FindtheDifference)|Easy|
@@ -276,6 +278,7 @@
 |[0669](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[Trim a Binary Search Tree](algorithms/0669.TrimaBinarySearchTree)|Easy|
 |[0671](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[Second Minimum Node In a Binary Tree](algorithms/0671.SecondMinimumNodeInaBinaryTree)|Easy|
 |[0674](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence)|[Longest Continuous Increasing Subsequence](algorithms/0674.LongestContinuousIncreasingSubsequence)|Easy|
+|[0676](https://leetcode-cn.com/problems/implement-magic-dictionary)|[Implement Magic Dictionary](algorithms/0676.ImplementMagicDictionary)|Medium|
 |[0679](https://leetcode-cn.com/problems/24-game)|[24 Game](algorithms/0679.24Game)|Hard*|
 |[0680](https://leetcode-cn.com/problems/valid-palindrome-ii)|[Valid Palindrome II](algorithms/0680.ValidPalindromeII)|Easy|
 |[0686](https://leetcode-cn.com/problems/repeated-string-match)|[Repeated String Match](algorithms/0686.RepeatedStringMatch)|Easy|
