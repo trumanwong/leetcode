@@ -462,6 +462,13 @@
 |[1247](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal)|[Minimum Swaps to Make Strings Equal](algorithms/1247.MinimumSwapstoMakeStringsEqual)|Medium|
 |[1249](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses)|[Minimum Remove to Make Valid Parentheses](algorithms/1249.MinimumRemovetoMakeValidParentheses)|Medium|
 |[1250](https://leetcode-cn.com/problems/check-if-it-is-a-good-array)|[Check If It Is a Good Array](algorithms/1250.CheckIfItIsaGoodArray)|Hard|
+|[1252](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix)|[Cells with Odd Values in a Matrix](algorithms/1252.CellswithOddValuesinaMatrix)|Easy|
+|[1253](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix)|[Reconstruct a 2-Row Binary Matrix](algorithms/1253.Reconstructa2-RowBinaryMatrix)|Easy|
+|[1254](https://leetcode-cn.com/problems/number-of-closed-islands)|[Number of Closed Islands](algorithms/1254.NumberofClosedIslands)|Medium|
+|[1256](https://leetcode-cn.com/problems/encode-number)|[Encode Number](algorithms/1256.EncodeNumber)|Medium|
+|[1260](https://leetcode-cn.com/problems/shift-2d-grid)|[Shift 2D Grid](algorithms/1260.Shift2DGrid)|Easy|
+|[1261](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree)|[Find Elements in a Contaminated Binary Tree](algorithms/1261.FindElementsinaContaminatedBinaryTree)|Easy|
+|[1262](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)|[Greatest Sum Divisible by Three](algorithms/1262.GreatestSumDivisiblebyThree)|Medium|
 |[LCP1](https://leetcode-cn.com/problems/guess-numbers)|[Guess Numbers](algorithms/LCP1.GuessNumbers)|Easy|
 |[LCP2](https://leetcode-cn.com/problems/deep-dark-fraction)|[Deep Dark Fraction](algorithms/LCP2.DeepDarkFraction)|Easy|
 

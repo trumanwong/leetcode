@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5255.CellswithOddValuesinaMatrix/oddCells"
+	"leetcode/algorithms/1252.CellswithOddValuesinaMatrix/oddCells"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5108.EncodeNumber/encode"
+	"leetcode/algorithms/1256.EncodeNumber/encode"
 	"testing"
 )
 

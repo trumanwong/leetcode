@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5263.Shift2DGrid/shiftGrid"
+	"leetcode/algorithms/1260.Shift2DGrid/shiftGrid"
 	"reflect"
 	"testing"
 )

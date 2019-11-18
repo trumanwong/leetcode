@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5264.FindElementsinaContaminatedBinaryTree/FindElements"
+	"leetcode/algorithms/1261.FindElementsinaContaminatedBinaryTree/FindElements"
 	"leetcode/common/treeNode"
 	"testing"
 )

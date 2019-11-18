@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/5256.Reconstructa2-RowBinaryMatrix/reconstructMatrix"
+	"leetcode/algorithms/1253.Reconstructa2-RowBinaryMatrix/reconstructMatrix"
 	"reflect"
 	"testing"
 )
