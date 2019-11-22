@@ -88,6 +88,7 @@
 |[0092](https://leetcode-cn.com/problems/reverse-linked-list-ii)|[Reverse Linked List II](algorithms/0092.ReverseLinkedListII)|Medium*|
 |[0093](https://leetcode-cn.com/problems/restore-ip-addresses)|[Restore IP Addresses](algorithms/0093.RestoreIPAddresses)|Medium*|
 |[0094](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[Binary Tree Inorder Traversal](algorithms/0094.BinaryTreeInorderTraversal)|Medium|
+|[0095](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[Unique Binary Search Trees II](algorithms/0095.UniqueBinarySearchTreesII)|Medium|
 |[0096](https://leetcode-cn.com/problems/unique-binary-search-trees)|[Unique Binary Search Trees](algorithms/0096.UniqueBinarySearchTrees)|Medium*|
 |[0098](https://leetcode-cn.com/problems/validate-binary-search-tree)|[Validate Binary Search Tree](algorithms/0098.ValidateBinarySearchTree)|Medium*|
 |[0100](https://leetcode-cn.com/problems/same-tree)|[Same Tree](algorithms/0100.SameTree)|Easy|
@@ -180,6 +181,7 @@
 |[0292](https://leetcode-cn.com/problems/nim-game)|[Nim Game](algorithms/0292.NimGame)|Easy|
 |[0300](https://leetcode-cn.com/problems/longest-increasing-subsequence)|[Longest Increasing Subsequence](algorithms/0300.LongestIncreasingSubsequence)|Medium|
 |[0303](https://leetcode-cn.com/problems/range-sum-query-immutable)|[Range Sum Query - Immutable](algorithms/0303.RangeSumQueryImmutable)|Easy|
+|[0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable)|[Range Sum Query 2D - Immutable](algorithms/0304.RangeSumQuery2DImmutable)|Medium|
 |[0316](https://leetcode-cn.com/problems/remove-duplicate-letters)|[Remove Duplicate Letters](algorithms/0316.RemoveDuplicateLetters)|Hard|
 |[0318](https://leetcode-cn.com/problems/maximum-product-of-word-lengths)|[Maximum Product of Word Lengths](algorithms/0318.MaximumProductofWordLengths)|Medium|
 |[0322](https://leetcode-cn.com/problems/coin-change)|[Coin Change](algorithms/0322.CoinChange)|Medium|
@@ -187,12 +189,14 @@
 |[0328](https://leetcode-cn.com/problems/odd-even-linked-list)|[Odd Even Linked List](algorithms/0328.OddEvenLinkedList)|Medium|
 |[0338](https://leetcode-cn.com/problems/counting-bits)|[Counting Bits](algorithms/0338.CountingBits)|Medium|
 |[0342](https://leetcode-cn.com/problems/power-of-four)|[Power of Four](algorithms/0342.PowerofFour)|Easy|
+|[0343](https://leetcode-cn.com/problems/integer-break)|[Integer Break](algorithms/0343.IntegerBreak)|Medium|
 |[0344](https://leetcode-cn.com/problems/reverse-string)|[Reverse String](algorithms/0344.ReverseString)|Easy|
 |[0345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[Reverse Vowels of a String](algorithms/0345.ReverseVowelsofaString)|Easy|
 |[0347](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Top K Frequent Elements](algorithms/0347.TopKFrequentElements)|Medium|
 |[0349](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[Intersection of Two Arrays](algorithms/0349.IntersectionofTwoArrays)|Easy|
 |[0350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[Intersection of Two Arrays II](algorithms/0350.IntersectionofTwoArraysII)|Easy|
 |[0355](https://leetcode-cn.com/problems/design-twitter)|[Design Twitter](algorithms/0355.DesignTwitter)|Medium|
+|[0356](https://leetcode-cn.com/problems/water-and-jug-problem)|[Water and Jug Problem](algorithms/0356.WaterandJugProblem)|Medium|
 |[0357](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)|[Count Numbers with Unique Digits](algorithms/0357.CountNumberswithUniqueDigits)|Medium|
 |[0367](https://leetcode-cn.com/problems/valid-perfect-square)|[Valid Perfect Square](algorithms/0367.ValidPerfectSquare)|Easy|
 |[0371](https://leetcode-cn.com/problems/sum-of-two-integers)|[Sum of Two Integers](algorithms/0371.SumofTwoIntegers)|Easy|
@@ -225,6 +229,7 @@
 |[0451](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Sort Characters By Frequency](algorithms/0451.SortCharactersByFrequency)|Medium|
 |[0459](https://leetcode-cn.com/problems/repeated-substring-pattern)|[Repeated Substring Pattern](algorithms/0459.RepeatedSubstringPattern)|Easy|
 |[0461](https://leetcode-cn.com/problems/hamming-distance)|[Hamming Distance](algorithms/0461.HammingDistance)|Easy|
+|[0463](https://leetcode-cn.com/problems/island-perimeter)|[Island Perimeter](algorithms/0463.IslandPerimeter)|Easy|
 |[0476](https://leetcode-cn.com/problems/number-complement)|[Number Complement](algorithms/0476.NumberComplement)|Easy|
 |[0477](https://leetcode-cn.com/problems/total-hamming-distance)|[Total Hamming Distance](algorithms/0477.TotalHammingDistance)|Medium|
 |[0482](https://leetcode-cn.com/problems/license-key-formatting)|[License Key Formatting](algorithms/0482.LicenseKeyFormatting)|Easy|
@@ -358,6 +363,7 @@
 |[0991](https://leetcode-cn.com/problems/broken-calculator)|[Broken Calculator](algorithms/0991.BrokenCalculator)|Medium|
 |[0993](https://leetcode-cn.com/problems/cousins-in-binary-tree)|[Cousins in Binary Tree](algorithms/0993.CousinsinBinaryTree)|Easy|
 |[0997](https://leetcode-cn.com/problems/find-the-town-judge)|[Find the Town Judge](algorithms/0997.FindtheTownJudge)|Easy|
+|[0999](https://leetcode-cn.com/problems/available-captures-for-rook)|[Available Captures for Rook](algorithms/0999.AvailableCapturesforRook)|Easy|
 |[1002](https://leetcode-cn.com/problems/find-common-characters)|[Find Common Characters](algorithms/1002.FindCommonCharacters)|Easy|
 |[1005](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations)|[Maximize Sum Of Array After K Negations](algorithms/1005.MaximizeSumOfArrayAfterKNegations)|Easy|
 |[1009](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[Maximize Sum Of Array After K Negations](algorithms/1009.ComplementofBase10Integer)|Easy|
@@ -427,6 +433,7 @@
 |[1166](https://leetcode-cn.com/problems/design-file-system)|[Design File System](algorithms/1166.DesignFileSystem)|Medium|
 |[1167](https://leetcode-cn.com/problems/minimum-cost-to-connect-sticks)|[Minimum Cost to Connect Sticks](algorithms/1167.MinimumCosttoConnectSticks)|Medium|
 |[1169](https://leetcode-cn.com/problems/invalid-transactions)|[Invalid Transactions](algorithms/1169.InvalidTransactions)|Medium|
+|[1170](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character)|[Compare Strings by Frequency of the Smallest Character](algorithms/1170.CompareStringsbyFrequencyoftheSmallestCharacter)|Easy|
 |[1176](https://leetcode-cn.com/problems/diet-plan-performance)|[Diet Plan Performance](algorithms/1176.DietPlanPerformance)|Easy|
 |[1178](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle)|[Number of Valid Words for Each Puzzle](algorithms/1178.NumberofValidWordsforEachPuzzle)|Hard*|
 |[1180](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter)|[Count Substrings with Only One Distinct Letter](algorithms/1180.CountSubstringswithOnlyOneDistinctLetter)|Easy|
