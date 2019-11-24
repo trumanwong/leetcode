@@ -1,1 +1,7 @@
-package _170_CompareStringsbyFrequencyoftheSmallestCharacter
+package main
+
+import "testing"
+
+func TestNumSmallerByFrequency(t *testing.T)  {
+
+}
