@@ -1,6 +1,8 @@
 package numSmallerByFrequency
 
-import "sort"
+import (
+	"sort"
+)
 
 type ByteSlice []byte
 
@@ -16,11 +18,13 @@ func (b ByteSlice) Less(i, j int) bool {
 	return b[i] < b[j]
 }
 
-func numSmallerByFrequency(queries []string, words []string) []int {
+func NumSmallerByFrequency(queries []string, words []string) []int {
 	res := make([]int, 0)
 	count := make([]int, 11)
 	for i := 0; i < len(words); i++ {
-		count[f(ByteSlice([]byte(words[i])))]++
+		temp := ByteSlice([]byte(words[i]))
+		sort.Sort(temp)
+		count[f(temp)]++
 	}
 
 	for i := 9; i >= 0; i-- {
@@ -28,7 +32,9 @@ func numSmallerByFrequency(queries []string, words []string) []int {
 	}
 
 	for _, v := range queries {
-		res = append(res, count[f(ByteSlice([]byte(v)))])
+		temp := ByteSlice([]byte(v))
+		sort.Sort(temp)
+		res = append(res, count[f(temp) + 1])
 	}
 	return res
 }

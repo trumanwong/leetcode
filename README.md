@@ -10,7 +10,7 @@
 |[0001](https://leetcode-cn.com/problems/two-sum)|[Two Sum](algorithms/0001.TwoSum)|Easy|
 |[0002](https://leetcode-cn.com/problems/add-two-numbers)|[Add Two Numbers](algorithms/0002.AddTwoNumbers)|Medium|
 |[0003](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)|[Longest Substring Without Repeating Characters](algorithms/0003.LongestSubstringWithoutRepeatingCharacters)|Medium|
-|[0004](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[Median of Two Sorted Arrays](algorithms/0004.MedianofTwoSorted]Arrays)|Hard*|
+|[0004](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[Median of Two Sorted Arrays](algorithms/0004.MedianofTwoSorted]Arrays)|Hard|
 |[0005](https://leetcode-cn.com/problems/longest-palindromic-substring)|[Longest Palindromic Substring](algorithms/0005.LongestPalindromicSubstring)|Medium|
 |[0006](https://leetcode-cn.com/problems/zigzag-conversion)|[Longest Palindromic Substring](algorithms/0006.ZigZagConversion)|Medium|
 |[0007](https://leetcode-cn.com/problems/reverse-integer)|[Reverse Integer](algorithms/0007.ReverseInteger)|Easy|
@@ -227,8 +227,10 @@
 |[0445](https://leetcode-cn.com/problems/add-two-numbers-ii)|[Add Two Numbers II](algorithms/0445.AddTwoNumbersII)|Medium|
 |[0448](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[Find All Numbers Disappeared in an Array](algorithms/0448.FindAllNumbersDisappearedinanArray)|Easy|
 |[0451](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Sort Characters By Frequency](algorithms/0451.SortCharactersByFrequency)|Medium|
+|[0453](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[Minimum Moves to Equal Array Elements](algorithms/0453.MinimumMovestoEqualArrayElements)|Easy|
 |[0459](https://leetcode-cn.com/problems/repeated-substring-pattern)|[Repeated Substring Pattern](algorithms/0459.RepeatedSubstringPattern)|Easy|
 |[0461](https://leetcode-cn.com/problems/hamming-distance)|[Hamming Distance](algorithms/0461.HammingDistance)|Easy|
+|[0462](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii)|[Minimum Moves to Equal Array Elements II](algorithms/0462.MinimumMovestoEqualArrayElementsII)|Medium|
 |[0463](https://leetcode-cn.com/problems/island-perimeter)|[Island Perimeter](algorithms/0463.IslandPerimeter)|Easy|
 |[0476](https://leetcode-cn.com/problems/number-complement)|[Number Complement](algorithms/0476.NumberComplement)|Easy|
 |[0477](https://leetcode-cn.com/problems/total-hamming-distance)|[Total Hamming Distance](algorithms/0477.TotalHammingDistance)|Medium|
@@ -286,6 +288,7 @@
 |[0676](https://leetcode-cn.com/problems/implement-magic-dictionary)|[Implement Magic Dictionary](algorithms/0676.ImplementMagicDictionary)|Medium|
 |[0679](https://leetcode-cn.com/problems/24-game)|[24 Game](algorithms/0679.24Game)|Hard*|
 |[0680](https://leetcode-cn.com/problems/valid-palindrome-ii)|[Valid Palindrome II](algorithms/0680.ValidPalindromeII)|Easy|
+|[0682](https://leetcode-cn.com/problems/baseball-game)|[Baseball Game](algorithms/0682.BaseballGame)|Easy|
 |[0686](https://leetcode-cn.com/problems/repeated-string-match)|[Repeated String Match](algorithms/0686.RepeatedStringMatch)|Easy|
 |[0687](https://leetcode-cn.com/problems/longest-univalue-path)|[Longest Univalue Path](algorithms/0687.LongestUnivaluePath)|Easy|
 |[0692](https://leetcode-cn.com/problems/top-k-frequent-words)|[Top K Frequent Words](algorithms/0692.TopKFrequentWords)|Medium|
@@ -318,6 +321,7 @@
 |[0804](https://leetcode-cn.com/problems/unique-morse-code-words)|[Unique Morse Code Words](algorithms/0804.UniqueMorseCodeWords)|Easy|
 |[0806](https://leetcode-cn.com/problems/number-of-lines-to-write-string)|[Number of Lines To Write String](algorithms/0806.NumberofLinesToWriteStringWords)|Easy*|
 |[0811](https://leetcode-cn.com/problems/subdomain-visit-count)|[Subdomain Visit Count](algorithms/0811.SubdomainVisitCount)|Easy|
+|[0812](https://leetcode-cn.com/problems/largest-triangle-area)|[Largest Triangle Area](algorithms/0812.LargestTriangleAreat)|Easy|
 |[0819](https://leetcode-cn.com/problems/most-common-word)|[Most Common Word](algorithms/0819.MostCommonWord)|Easy|
 |[0821](https://leetcode-cn.com/problems/shortest-distance-to-a-character)|[Shortest Distance to a Character](algorithms/0821.ShortestDistancetoaCharacter)|Easy|
 |[0824](https://leetcode-cn.com/problems/goat-latin)|[Goat Latin](algorithms/0824.GoatLatin)|Easy|
@@ -332,6 +336,7 @@
 |[0860](https://leetcode-cn.com/problems/lemonade-change)|[Lemonade Change](algorithms/0860.LemonadeChange)|Easy|
 |[0867](https://leetcode-cn.com/problems/transpose-matrix)|[Transpose Matrix](algorithms/0867.TransposeMatrix)|Easy|
 |[0868](https://leetcode-cn.com/problems/binary-gap)|[Binary Gap](algorithms/0868.BinaryGap)|Easy|
+|[0872](https://leetcode-cn.com/problems/leaf-similar-trees)|[Leaf-Similar Trees](algorithms/0872.LeafSimilarTrees)|Easy|
 |[0876](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[Middle of the Linked List](algorithms/0876.MiddleoftheLinkedList)|Easy|
 |[0884](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[Uncommon Words from Two Sentences](algorithms/0884.UncommonWordsfromTwoSentences)|Easy|
 |[0896](https://leetcode-cn.com/problems/monotonic-array)|[Monotonic Array](algorithms/0896.MonotonicArray)|Easy|
