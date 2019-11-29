@@ -214,6 +214,7 @@
 |[0402](https://leetcode-cn.com/problems/remove-k-digits)|[Remove K Digits](algorithms/0402.RemoveKDigits)|Medium*|
 |[0404](https://leetcode-cn.com/problems/sum-of-left-leaves)|[Sum of Left Leaves](algorithms/0404.SumofLeftLeaves)|Easy|
 |[0405](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[Convert a Number to Hexadecimal](algorithms/0405.ConvertaNumbertoHexadecimal)|Easy|
+|[0409](https://leetcode-cn.com/problems/longest-palindrome)|[Longest Palindrome](algorithms/0409.LongestPalindrome)|Easy|
 |[0412](https://leetcode-cn.com/problems/fizz-buzz)|[Fizz Buzz](algorithms/0412.FizzBuzz)|Easy|
 |[0414](https://leetcode-cn.com/problems/third-maximum-number)|[Third Maximum Number](algorithms/0414.ThirdMaximumNumber)|Easy|
 |[0415](https://leetcode-cn.com/problems/add-strings)|[Add Strings](algorithms/0415.AddStrings)|Easy|
@@ -251,6 +252,7 @@
 |[0530](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)|[Minimum Absolute Difference in BST](algorithms/0530.MinimumAbsoluteDifferenceinBST)|Easy|
 |[0532](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array)|[K-diff Pairs in an Array](algorithms/0532.K-diffPairsinanArray)|Easy|
 |[0537](https://leetcode-cn.com/problems/complex-number-multiplication)|[Complex Number Multiplication](algorithms/0537.ComplexNumberMultiplication)|Easy|
+|[0538](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)|[Convert BST to Greater Tree](algorithms/0538.ConvertBSTtoGreaterTree)|Easy|
 |[0539](https://leetcode-cn.com/problems/minimum-time-difference)|[Minimum Time Difference](algorithms/0539.MinimumTimeDifference)|Medium?|
 |[0540](https://leetcode-cn.com/problems/single-element-in-a-sorted-array)|[Single Element in a Sorted Array](algorithms/0540.SingleElementinaSortedArray)|Medium|
 |[0541](https://leetcode-cn.com/problems/reverse-string-ii)|[Reverse String II](algorithms/0541.ReverseStringII)|Easy|
@@ -263,9 +265,11 @@
 |[0563](https://leetcode-cn.com/problems/binary-tree-tilt)|[Binary Tree Tilt](algorithms/0563.BinaryTreeTilt)|Easy|
 |[0566](https://leetcode-cn.com/problems/reshape-the-matrix)|[Reshape the Matrix](algorithms/0566.ReshapetheMatrix)|Easy|
 |[0567](https://leetcode-cn.com/problems/permutation-in-string)|[Permutation in String](algorithms/0567.PermutationinString)|Medium|
+|[0572](https://leetcode-cn.com/problems/subtree-of-another-tree)|[Subtree of Another Tree](algorithms/0572.SubtreeofAnotherTree)|Easy?|
 |[0575](https://leetcode-cn.com/problems/distribute-candies)|[Distribute Candies](algorithms/0575.DistributeCandies)|Easy?|
 |[0581](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[Shortest Unsorted Continuous Subarray](algorithms/0581.ShortestUnsortedContinuousSubarray)|Easy?|
 |[0594](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[Longest Harmonious Subsequence](algorithms/0594.LongestHarmoniousSubsequence)|Easy|
+|[0598](https://leetcode-cn.com/problems/range-addition-ii)|[Range Addition II](algorithms/0598.RangeAdditionII)|Easy|
 |[0599](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists)|[Minimum Index Sum of Two Lists](algorithms/0599.MinimumIndexSumofTwoLists)|Easy|
 |[0605](https://leetcode-cn.com/problems/can-place-flowers)|[Can Place Flowers](algorithms/0605.CanPlaceFlowers)|Easy|
 |[0606](https://leetcode-cn.com/problems/construct-string-from-binary-tree)|[Construct String from Binary Tree](algorithms/0606.ConstructStringfromBinaryTree)|Easy|
@@ -339,6 +343,7 @@
 |[0872](https://leetcode-cn.com/problems/leaf-similar-trees)|[Leaf-Similar Trees](algorithms/0872.LeafSimilarTrees)|Easy|
 |[0876](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[Middle of the Linked List](algorithms/0876.MiddleoftheLinkedList)|Easy|
 |[0884](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[Uncommon Words from Two Sentences](algorithms/0884.UncommonWordsfromTwoSentences)|Easy|
+|[0893](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings)|[Groups of Special-Equivalent Strings](algorithms/0893.GroupsofSpecialEquivalentStrings)|Easy|
 |[0896](https://leetcode-cn.com/problems/monotonic-array)|[Monotonic Array](algorithms/0896.MonotonicArray)|Easy|
 |[0897](https://leetcode-cn.com/problems/increasing-order-search-tree)|[Increasing Order Search Tree](algorithms/0897.IncreasingOrderSearchTree)|Easy|
 |[0905](https://leetcode-cn.com/problems/sort-array-by-parity)|[Sort Array By Parity](algorithms/0905.SortArrayByParity)|Easy|
@@ -354,6 +359,7 @@
 |[0941](https://leetcode-cn.com/problems/valid-mountain-array)|[Valid Mountain Array](algorithms/0941.ValidMountainArray)|Easy|
 |[0942](https://leetcode-cn.com/problems/di-string-match)|[DI String Match](algorithms/0942.DIStringMatch)|Easy|
 |[0944](https://leetcode-cn.com/problems/delete-columns-to-make-sorted)|[Delete Columns to Make Sorted](algorithms/0944.DeleteColumnstoMakeSorted)|Easy|
+|[0949](https://leetcode-cn.com/problems/delete-columns-to-make-sorted)|[Largest Time for Given Digits](algorithms/0949.LargestTimeforGivenDigits)|Easy|
 |[0961](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array)|[N-Repeated Element in Size 2N Array](algorithms/0961.N-RepeatedElementinSize2NArray)|Easy|
 |[0962](https://leetcode-cn.com/problems/maximum-width-ramp)|[Maximum Width Ramp](algorithms/0962.MaximumWidthRamp)|Medium|
 |[0965](https://leetcode-cn.com/problems/univalued-binary-tree)|[Univalued Binary Tree](algorithms/0965.UnivaluedBinaryTree)|Easy|
