@@ -96,6 +96,7 @@
 |[0102](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[Binary Tree Level Order Traversal](algorithms/0102.BinaryTreeLevelOrderTraversal)|Medium|
 |[0103](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)|[Binary Tree Zigzag Level Order Traversal](algorithms/0103.BinaryTreeZigzagLevelOrderTraversal)|Medium|
 |[0104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[Maximum Depth of Binary Tree](algorithms/0104.MaximumDepthofBinaryTree)|Easy|
+|[0105](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[Construct Binary Tree from Preorder and Inorder Traversal](algorithms/0105.ConstructBinaryTreefromPreorderandInorderTraversal)|Medium|
 |[0107](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii)|[Binary Tree Level Order Traversal II](algorithms/0107.BinaryTreeLevelOrderTraversalII)|Easy|
 |[0108](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[Convert Sorted Array to Binary Search Tree](algorithms/0108.ConvertSortedArraytoBinarySearchTree)|Easy*|
 |[0110](https://leetcode-cn.com/problems/balanced-binary-tree)|[Balanced Binary Tree](algorithms/0110.BalancedBinaryTree)|Easy|
