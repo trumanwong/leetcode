@@ -334,12 +334,14 @@
 |[0806](https://leetcode-cn.com/problems/number-of-lines-to-write-string)|[Number of Lines To Write String](algorithms/0806.NumberofLinesToWriteStringWords)|Easy*|
 |[0811](https://leetcode-cn.com/problems/subdomain-visit-count)|[Subdomain Visit Count](algorithms/0811.SubdomainVisitCount)|Easy|
 |[0812](https://leetcode-cn.com/problems/largest-triangle-area)|[Largest Triangle Area](algorithms/0812.LargestTriangleAreat)|Easy|
+|[0814](https://leetcode-cn.com/problems/binary-tree-pruning)|[Binary Tree Pruning](algorithms/0814.BinaryTreePruning)|Medium|
 |[0819](https://leetcode-cn.com/problems/most-common-word)|[Most Common Word](algorithms/0819.MostCommonWord)|Easy|
 |[0821](https://leetcode-cn.com/problems/shortest-distance-to-a-character)|[Shortest Distance to a Character](algorithms/0821.ShortestDistancetoaCharacter)|Easy|
 |[0824](https://leetcode-cn.com/problems/goat-latin)|[Goat Latin](algorithms/0824.GoatLatin)|Easy|
 |[0830](https://leetcode-cn.com/problems/positions-of-large-groups)|[Positions of Large Groups](algorithms/0830.PositionsofLargeGroups)|Easy|
 |[0831](https://leetcode-cn.com/problems/masking-personal-information)|[Masking Personal Information](algorithms/0831.MaskingPersonalInformation)|Medium|
 |[0832](https://leetcode-cn.com/problems/flipping-an-image)|[Flipping an Image](algorithms/0832.FlippinganImage)|Easy|
+|[0836](https://leetcode-cn.com/problems/rectangle-overlap)|[Rectangle Overlap](algorithms/0836.RectangleOverlap)|Easy|
 |[0844](https://leetcode-cn.com/problems/backspace-string-compare)|[Backspace String Compare](algorithms/0844.BackspaceStringCompare)|Easy|
 |[0845](https://leetcode-cn.com/problems/longest-mountain-in-array)|[Longest Mountain in Array](algorithms/0845.LongestMountaininArray)|Medium|
 |[0849](https://leetcode-cn.com/problems/maximize-distance-to-closest-person)|[Maximize Distance to Closest Person](algorithms/0849.MaximizeDistancetoClosestPerson)|Easy*|
@@ -385,6 +387,7 @@
 |[0999](https://leetcode-cn.com/problems/available-captures-for-rook)|[Available Captures for Rook](algorithms/0999.AvailableCapturesforRook)|Easy|
 |[1002](https://leetcode-cn.com/problems/find-common-characters)|[Find Common Characters](algorithms/1002.FindCommonCharacters)|Easy|
 |[1005](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations)|[Maximize Sum Of Array After K Negations](algorithms/1005.MaximizeSumOfArrayAfterKNegations)|Easy|
+|[1008](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal)|[Construct Binary Search Tree from Preorder Traversal](algorithms/1008.ConstructBinarySearchTreefromPreorderTraversal)|Medium|
 |[1009](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[Maximize Sum Of Array After K Negations](algorithms/1009.ComplementofBase10Integer)|Easy|
 |[1010](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|[Maximize Sum Of Array After K Negations](algorithms/1009.ComplementofBase10Integer)|Easy|
 |[1013](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)|[Pairs of Songs With Total Durations Divisible by 60](algorithms/1010.PairsofSongsWithTotalDurationsDivisibleby60)|Easy|
