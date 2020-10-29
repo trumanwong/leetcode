@@ -1,5 +1,5 @@
 module leetcode
 
-replace leetcode => ./leetcode
+replace leetcode => D:\goworkspace\leetcode
 
 go 1.15

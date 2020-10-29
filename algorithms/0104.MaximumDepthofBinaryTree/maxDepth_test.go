@@ -1,8 +1,8 @@
 package main
 
 import (
+	"leetcode/algorithms/0104.MaximumDepthofBinaryTree/maxDepth"
 	"testing"
-	"truman.com/leetcode/algorithms/104.MaximumDepthofBinaryTree/maxDepth"
 )
 
 func TestMaxDepth(t *testing.T)  {

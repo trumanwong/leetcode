@@ -1,7 +1,7 @@
 package main
 
 import (
-	"leetcode/algorithms/0018.4Sum/fourSum"
+	"leetcode/algorithms/0184.Sum/fourSum"
 	"testing"
 )
 
