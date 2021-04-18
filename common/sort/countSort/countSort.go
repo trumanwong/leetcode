@@ -1,4 +1,4 @@
-package count_sort
+package countSort
 
 func CountSort(arr []int) []int {
 	res := make([]int, len(arr))
@@ -14,10 +14,13 @@ func CountSort(arr []int) []int {
 	k := max - min + 1
 	counts := make([]int, k)
 	for _, v := range arr {
-		counts[v - min + 1]++
+		counts[v - min]++
 	}
 	for i := 1; i < len(counts); i++ {
 		counts[i] += counts[i - 1]
 	}
-	for i := len(arr) - 1
+	for i := len(arr) - 1; i >= 0; i-- {
+		res[counts[arr[i] - min] - 1] = arr[i]
+	}
+	return res
 }
