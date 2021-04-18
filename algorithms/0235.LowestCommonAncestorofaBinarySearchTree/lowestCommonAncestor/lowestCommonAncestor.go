@@ -1,10 +1,12 @@
 package lowestCommonAncestor
 
+import . "leetcode/common/list"
+
 // Definition for TreeNode.
 type TreeNode struct {
-	Val int
-	Left *ListNode
-	Right *ListNode
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
