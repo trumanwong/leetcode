@@ -1,8 +1,8 @@
 package main
 
 import (
+	"leetcode/algorithms/0145.BinaryTreePostorderTraversal/postorderTraversal"
 	"testing"
-	"truman.com/leetcode/algorithms/145.BinaryTreePostorderTraversal/postorderTraversal"
 )
 
 func TestPostorderTraversal(t *testing.T)  {
