@@ -3,7 +3,7 @@ package numKLenSubstrNoRepeats
 func NumKLenSubstrNoRepeats(S string, K int) int {
 	start, ret := 0, 0
 	s := []byte(S)
-	for start < len(S) - K + 1 {
+	for start < len(S)-K+1 {
 		end := start + K
 		m := make(map[byte]int)
 		ret++

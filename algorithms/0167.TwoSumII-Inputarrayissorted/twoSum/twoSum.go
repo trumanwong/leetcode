@@ -1,7 +1,7 @@
 package twoSum
 
 func TwoSum(numbers []int, target int) []int {
-	start, end, res := 0, len(numbers) - 1, []int{}
+	start, end, res := 0, len(numbers)-1, []int{}
 	for start < end {
 		temp := numbers[start] + numbers[end]
 		if temp == target {

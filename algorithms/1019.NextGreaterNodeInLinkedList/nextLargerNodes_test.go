@@ -7,13 +7,13 @@ import (
 	"testing"
 )
 
-func TestNextLargerNodes(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestNextLargerNodes(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output []int
 	}{
 		{[]int{2, 1, 5}, []int{5, 5, 0}},
-		{[]int{2,7,4,3,5}, []int{7,0,5,5,0}},
+		{[]int{2, 7, 4, 3, 5}, []int{7, 0, 5, 5, 0}},
 	}
 
 	for _, test := range tests {

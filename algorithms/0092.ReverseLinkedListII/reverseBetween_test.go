@@ -7,11 +7,11 @@ import (
 	"testing"
 )
 
-func TestReverseBetween(t *testing.T)  {
-	tests := []struct{
-		head []int
-		m int
-		n int
+func TestReverseBetween(t *testing.T) {
+	tests := []struct {
+		head   []int
+		m      int
+		n      int
 		output []int
 	}{
 		{[]int{1, 2, 3, 4, 5}, 2, 4, []int{1, 4, 3, 2, 5}},

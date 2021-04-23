@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestMaskPII(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestMaskPII(t *testing.T) {
+	tests := []struct {
+		S      string
 		output string
 	}{
-		{"LeetCode@LeetCode.com","l*****e@leetcode.com"},
+		{"LeetCode@LeetCode.com", "l*****e@leetcode.com"},
 		{"AB@qq.com", "a*****b@qq.com"},
 		{"1(234)567-890", "***-***-7890"},
 		{"86-(10)12345678", "+**-***-***-5678"},

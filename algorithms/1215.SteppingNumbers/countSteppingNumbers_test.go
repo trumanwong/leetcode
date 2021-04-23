@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCountSteppingNumbers(t *testing.T)  {
-	tests := []struct{
-		low int
-		high int
+func TestCountSteppingNumbers(t *testing.T) {
+	tests := []struct {
+		low    int
+		high   int
 		output []int
 	}{
-		{0,21,[]int{0,1,2,3,4,5,6,7,8,9,10,12,21}},
+		{0, 21, []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21}},
 	}
 
 	for _, test := range tests {

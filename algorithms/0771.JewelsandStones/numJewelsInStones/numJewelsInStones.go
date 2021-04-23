@@ -9,7 +9,7 @@ func NumJewelsInStones(J string, S string) int {
 			break
 		}
 		temp := ""
-		for _, s :=  range S {
+		for _, s := range S {
 			if j == s {
 				sum++
 				temp = string(j)

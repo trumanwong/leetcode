@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestIsLongPressedName(t *testing.T)  {
-	tests := []struct{
-		name string
-		typed string
+func TestIsLongPressedName(t *testing.T) {
+	tests := []struct {
+		name   string
+		typed  string
 		output bool
 	}{
 		{"alex", "aaleex", true},

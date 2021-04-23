@@ -8,12 +8,12 @@ func RemoveOuterParentheses(S string) string {
 		} else {
 			innerRight++
 		}
-		if i + 1 < len(S) && S[i] ^ S[i + 1] == 0 {
+		if i+1 < len(S) && S[i]^S[i+1] == 0 {
 			if !left && string(S[i]) == "(" {
 				left = true
 			} else if left && string(S[i]) == ")" {
 				res += string(S[i])
-				if innerLeft == innerRight + 1 {
+				if innerLeft == innerRight+1 {
 					left, innerRight, innerLeft = false, 0, 0
 					i++
 				}

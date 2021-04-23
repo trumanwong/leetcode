@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestQueensAttacktheKing(t *testing.T)  {
-	tests := []struct{
+func TestQueensAttacktheKing(t *testing.T) {
+	tests := []struct {
 		queens [][]int
-		king []int
+		king   []int
 		output [][]int
 	}{
-		{[][]int{{0,1},{1,0},{4,0},{0,4},{3,3},{2,4}}, []int{0, 0}, [][]int{{0,1},{1,0},{3,3}}},
-		{[][]int{{0,0},{1,1},{2,2},{3,4},{3,5},{4,4},{4,5}}, []int{3, 3}, [][]int{{2,2},{3,4},{4,4}}},
+		{[][]int{{0, 1}, {1, 0}, {4, 0}, {0, 4}, {3, 3}, {2, 4}}, []int{0, 0}, [][]int{{0, 1}, {1, 0}, {3, 3}}},
+		{[][]int{{0, 0}, {1, 1}, {2, 2}, {3, 4}, {3, 5}, {4, 4}, {4, 5}}, []int{3, 3}, [][]int{{2, 2}, {3, 4}, {4, 4}}},
 	}
 
 	for _, test := range tests {

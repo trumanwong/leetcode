@@ -26,7 +26,7 @@ func InvalidTransactions(transactions []string) []string {
 		time1, _ := strconv.Atoi(v[1])
 		for _, o := range ts {
 			time2, _ := strconv.Atoi(o[1])
-			if v[0] == o[0] && abs(time1 - time2) <= 60 && v[3] != o[3] {
+			if v[0] == o[0] && abs(time1-time2) <= 60 && v[3] != o[3] {
 				m[v[4]]++
 			}
 		}
@@ -42,7 +42,7 @@ func InvalidTransactions(transactions []string) []string {
 
 func abs(a int) int {
 	if a < 0 {
-		return - a
+		return -a
 	}
 	return a
 }

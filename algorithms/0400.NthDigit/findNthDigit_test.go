@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindNthDigit(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestFindNthDigit(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{3, 3},

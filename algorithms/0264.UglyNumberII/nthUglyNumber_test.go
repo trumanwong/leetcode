@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestNthUglyNumber(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestNthUglyNumber(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
 		{1, 1},

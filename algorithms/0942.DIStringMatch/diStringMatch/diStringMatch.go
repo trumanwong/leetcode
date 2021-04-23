@@ -3,7 +3,7 @@ package diStringMatch
 func DiStringMatch(S string) []int {
 	N := len(S)
 	start := 0
-	res := make([]int, N + 1)
+	res := make([]int, N+1)
 	last := 0
 	for i, v := range S {
 		if string(v) == "I" {

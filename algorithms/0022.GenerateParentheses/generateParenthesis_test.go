@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestGenerateParenthesis(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestGenerateParenthesis(t *testing.T) {
+	tests := []struct {
+		n      int
 		output []string
 	}{
 		{3, []string{"((()))",

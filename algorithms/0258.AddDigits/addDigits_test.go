@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestAddDigits(t *testing.T)  {
+func TestAddDigits(t *testing.T) {
 	tests := []struct {
-		input int
+		input  int
 		output int
 	}{
-		{38,2},
+		{38, 2},
 	}
 	for _, test := range tests {
 		ret := addDigits.AddDigits(test.input)

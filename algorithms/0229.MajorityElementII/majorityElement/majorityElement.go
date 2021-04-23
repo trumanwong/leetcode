@@ -1,7 +1,7 @@
 package majorityElement
 
 func MajorityElement(nums []int) []int {
-	m, judge, res := make(map[int]int), len(nums) / 3, []int{}
+	m, judge, res := make(map[int]int), len(nums)/3, []int{}
 	for _, v := range nums {
 		m[v]++
 	}

@@ -18,10 +18,10 @@ func LargestTimeFromDigits(A []int) string {
 					continue
 				}
 				l := 6 - i - j - k
-				hours := 10 * A[i] + A[j]
-				mins := 10 *A[k] + A[l]
+				hours := 10*A[i] + A[j]
+				mins := 10*A[k] + A[l]
 				if hours < 24 && mins < 60 {
-					time = int(math.Max(float64(time), float64(hours * 60 + mins)))
+					time = int(math.Max(float64(time), float64(hours*60+mins)))
 				}
 			}
 		}
@@ -29,15 +29,15 @@ func LargestTimeFromDigits(A []int) string {
 
 	res := ""
 	if time >= 0 {
-		if time /60 >= 10 {
-			res += strconv.Itoa(time / 60) + ":"
+		if time/60 >= 10 {
+			res += strconv.Itoa(time/60) + ":"
 		} else {
-			res += "0" + strconv.Itoa(time / 60) + ":"
+			res += "0" + strconv.Itoa(time/60) + ":"
 		}
 		if time%60 >= 10 {
 			res += strconv.Itoa(time % 60)
 		} else {
-			res += "0" + strconv.Itoa(time % 60)
+			res += "0" + strconv.Itoa(time%60)
 		}
 	}
 	return res

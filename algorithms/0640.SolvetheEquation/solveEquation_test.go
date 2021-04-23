@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSolveEquation(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestSolveEquation(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
 		{"x+5-3+x=6+x-2", "x=2"},

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestToHexspeak(t *testing.T)  {
-	tests := []struct{
-		num string
+func TestToHexspeak(t *testing.T) {
+	tests := []struct {
+		num    string
 		output string
 	}{
 		{"257", "IOI"},

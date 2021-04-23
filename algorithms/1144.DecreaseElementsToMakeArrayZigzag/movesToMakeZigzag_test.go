@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestTribonacci(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestTribonacci(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
-		{[]int{1,2,3}, 2},
-		{[]int{2,7,10,9,8,9}, 4},
+		{[]int{1, 2, 3}, 2},
+		{[]int{2, 7, 10, 9, 8, 9}, 4},
 	}
 
 	for _, test := range tests {

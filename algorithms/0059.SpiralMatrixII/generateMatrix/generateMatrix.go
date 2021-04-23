@@ -10,22 +10,22 @@ func GenerateMatrix(n int) [][]int {
 	temp := n * n
 	c, j := 1, 0
 	for c <= temp {
-		for i := j; i < n - j; i++ {
+		for i := j; i < n-j; i++ {
 			arr[j][i] = c
 			c++
 		}
 
-		for i := j + 1; i < n - j; i++ {
-			arr[i][n - j - 1] = c
+		for i := j + 1; i < n-j; i++ {
+			arr[i][n-j-1] = c
 			c++
 		}
 
 		for i := n - j - 2; i >= j; i-- {
-			arr[n - j - 1][i] = c
+			arr[n-j-1][i] = c
 			c++
 		}
 
-		for i := n -j - 2; i > j; i-- {
+		for i := n - j - 2; i > j; i-- {
 			arr[i][j] = c
 			c++
 		}

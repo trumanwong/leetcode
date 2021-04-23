@@ -22,7 +22,7 @@ func FindWords(words []string) []string {
 
 func inArray(needle byte, stack []byte) bool {
 	for _, v := range stack {
-		if v == needle || v - 32 == needle {
+		if v == needle || v-32 == needle {
 			return true
 		}
 	}

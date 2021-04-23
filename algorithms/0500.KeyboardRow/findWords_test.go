@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindWords(t *testing.T)  {
-	tests := []struct{
-		words []string
+func TestFindWords(t *testing.T) {
+	tests := []struct {
+		words  []string
 		output []string
 	}{
 		{[]string{"Hello", "Alaska", "Dad", "Peace"}, []string{"Alaska", "Dad"}},

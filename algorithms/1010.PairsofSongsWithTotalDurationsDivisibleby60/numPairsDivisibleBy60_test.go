@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumPairsDivisibleBy60(t *testing.T)  {
-	tests := []struct{
-		time []int
+func TestNumPairsDivisibleBy60(t *testing.T) {
+	tests := []struct {
+		time   []int
 		output int
 	}{
-		{[]int{30,20,150,100,40}, 3},
-		{[]int{60,60,60}, 3},
+		{[]int{30, 20, 150, 100, 40}, 3},
+		{[]int{60, 60, 60}, 3},
 	}
 
 	for _, test := range tests {

@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-func TestIsBalanced(t *testing.T)  {
-	tests := []struct{
+func TestIsBalanced(t *testing.T) {
+	tests := []struct {
 		root   isBalanced.TreeNode
 		output bool
 	}{

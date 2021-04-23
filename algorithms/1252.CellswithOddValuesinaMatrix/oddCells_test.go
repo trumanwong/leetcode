@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestOddCells(t *testing.T)  {
-	tests := []struct{
-		n int
-		m int
+func TestOddCells(t *testing.T) {
+	tests := []struct {
+		n       int
+		m       int
 		indices [][]int
-		output int
+		output  int
 	}{
-		{2, 3, [][]int{{0,1},{1,1}}, 6},
-		{2,2,[][]int{{1,1},{0,0}}, 0},
+		{2, 3, [][]int{{0, 1}, {1, 1}}, 6},
+		{2, 2, [][]int{{1, 1}, {0, 0}}, 0},
 	}
 
 	for _, test := range tests {

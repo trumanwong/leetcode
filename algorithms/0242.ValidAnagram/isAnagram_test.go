@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestIsAnagram(t *testing.T)  {
-	tests := []struct{
-		s string
-		t string
+func TestIsAnagram(t *testing.T) {
+	tests := []struct {
+		s      string
+		t      string
 		output bool
 	}{
 		{"anagram", "nagaram", true},

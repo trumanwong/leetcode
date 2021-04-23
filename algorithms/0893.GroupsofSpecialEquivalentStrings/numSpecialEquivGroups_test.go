@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestNumSpecialEquivGroups(t *testing.T)  {
-	tests := []struct{
-		A []string
+func TestNumSpecialEquivGroups(t *testing.T) {
+	tests := []struct {
+		A      []string
 		output int
 	}{
-		{[]string{"a","b","c","a","c","c"}, 3},
+		{[]string{"a", "b", "c", "a", "c", "c"}, 3},
 	}
 
 	for _, test := range tests {

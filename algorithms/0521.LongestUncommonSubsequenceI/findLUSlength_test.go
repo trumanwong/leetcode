@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestFindLUSlength(t *testing.T)  {
-	tests := []struct{
-		a string
-		b string
+func TestFindLUSlength(t *testing.T) {
+	tests := []struct {
+		a      string
+		b      string
 		output int
 	}{
 		{"aba", "cdc", 3},

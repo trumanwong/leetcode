@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSmallestSubsequence(t *testing.T)  {
-	tests := []struct{
-		text string
+func TestSmallestSubsequence(t *testing.T) {
+	tests := []struct {
+		text   string
 		output string
 	}{
 		{"cdadabcc", "adbc"},

@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestIsValide(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestIsValide(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
-		{"()",true},
-		{"()[]{}",true},
-		{"(]",false},
-		{"([)]",false},
-		{"{[]}",true},
+		{"()", true},
+		{"()[]{}", true},
+		{"(]", false},
+		{"([)]", false},
+		{"{[]}", true},
 	}
 
 	for _, test := range tests {

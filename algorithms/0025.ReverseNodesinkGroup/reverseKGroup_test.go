@@ -7,10 +7,10 @@ import (
 	"testing"
 )
 
-func TestReverseKGroup(t *testing.T)  {
-	tests := []struct{
-		head []int
-		k int
+func TestReverseKGroup(t *testing.T) {
+	tests := []struct {
+		head   []int
+		k      int
 		output []int
 	}{
 		{[]int{1, 2, 3, 4, 5}, 2, []int{2, 1, 4, 3, 5}},

@@ -8,7 +8,7 @@ func PermuteUnique(nums []int) [][]int {
 
 	var perm func(arr []int, start int)
 	perm = func(arr []int, start int) {
-		if start == len(arr) - 1 {
+		if start == len(arr)-1 {
 			t := make([]int, len(arr))
 			copy(t, arr)
 			res = append(res, t)
@@ -23,7 +23,7 @@ func PermuteUnique(nums []int) [][]int {
 			}
 
 			temp[start], temp[i] = temp[i], temp[start]
-			perm(temp, start + 1)
+			perm(temp, start+1)
 		}
 	}
 

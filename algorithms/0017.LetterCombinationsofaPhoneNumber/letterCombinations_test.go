@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-func TestLetterCombinations(t *testing.T)  {
-	tests := []struct{
+func TestLetterCombinations(t *testing.T) {
+	tests := []struct {
 		digits string
 		output []string
 	}{

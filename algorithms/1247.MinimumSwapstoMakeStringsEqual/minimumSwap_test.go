@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestMinimumSwap(t *testing.T)  {
-	tests := []struct{
-		s1 string
-		s2 string
+func TestMinimumSwap(t *testing.T) {
+	tests := []struct {
+		s1     string
+		s2     string
 		output int
 	}{
 		{"xx", "yy", 1},

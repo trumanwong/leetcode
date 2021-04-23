@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestTwitter(t *testing.T)  {
-	tests := []struct{
+func TestTwitter(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]int
-		output [][]interface{}
+		values   [][]int
+		output   [][]interface{}
 	}{
-		{[]string{"Twitter","postTweet","getNewsFeed","follow","postTweet","getNewsFeed","unfollow","getNewsFeed"},
-		[][]int{{},{1,5},{1},{1,2},{2,6},{1},{1,2},{1}},
-		[][]interface{}{nil,nil,{5},nil,nil,{6, 5},nil,{5}}},
+		{[]string{"Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"},
+			[][]int{{}, {1, 5}, {1}, {1, 2}, {2, 6}, {1}, {1, 2}, {1}},
+			[][]interface{}{nil, nil, {5}, nil, nil, {6, 5}, nil, {5}}},
 	}
 
 	for _, test := range tests {

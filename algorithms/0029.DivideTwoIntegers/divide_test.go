@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestDivide(t *testing.T)  {
+func TestDivide(t *testing.T) {
 	tests := []struct {
 		dividend int
-		divisor int
-		result int
+		divisor  int
+		result   int
 	}{
 		{10, 3, 3},
 		{7, -3, -2},
 		{1, -1, -1},
-		{-2147483648, -1,2147483647},
+		{-2147483648, -1, 2147483647},
 	}
 
 	for _, test := range tests {

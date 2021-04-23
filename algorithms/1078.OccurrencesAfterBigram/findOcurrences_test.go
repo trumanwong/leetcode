@@ -5,18 +5,18 @@ import (
 	"testing"
 )
 
-func TestFindOcurrences(t *testing.T)  {
-	tests := []struct{
-		text string
-		first string
+func TestFindOcurrences(t *testing.T) {
+	tests := []struct {
+		text   string
+		first  string
 		second string
 		output []string
 	}{
-		{"alice is a good girl she is a good student",  "a",  "good", []string{"girl","student"}},
-		{"we will we will rock you",  "we",   "will", []string{"we","rock"}},
+		{"alice is a good girl she is a good student", "a", "good", []string{"girl", "student"}},
+		{"we will we will rock you", "we", "will", []string{"we", "rock"}},
 		{"alice is a good girl she is a good student",
 			"a",
-			"good", []string{"girl","student"}},
+			"good", []string{"girl", "student"}},
 	}
 
 	for _, test := range tests {

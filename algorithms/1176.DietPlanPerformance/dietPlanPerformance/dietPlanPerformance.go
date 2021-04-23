@@ -11,10 +11,10 @@ func dietPlanPerformance(calories []int, k int, lower int, upper int) int {
 			} else if sum > upper {
 				ret += 1
 			}
-			sum -= calories[i - k + 1]
+			sum -= calories[i-k+1]
 			count--
 
-			if i == len(calories) - 1 {
+			if i == len(calories)-1 {
 				count = 0
 			}
 		}

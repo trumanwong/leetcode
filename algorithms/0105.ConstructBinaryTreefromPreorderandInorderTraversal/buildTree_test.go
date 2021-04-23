@@ -7,13 +7,13 @@ import (
 	"testing"
 )
 
-func TestBuildTree(t *testing.T)  {
-	tests := []struct{
+func TestBuildTree(t *testing.T) {
+	tests := []struct {
 		preorder []int
-		inorder []int
-		output []interface{}
+		inorder  []int
+		output   []interface{}
 	}{
-		{[]int{3,9,20,15,7}, []int{9,3,15,20,7}, []interface{}{3,9,20,nil,nil,15,7}},
+		{[]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}, []interface{}{3, 9, 20, nil, nil, 15, 7}},
 	}
 
 	for _, test := range tests {

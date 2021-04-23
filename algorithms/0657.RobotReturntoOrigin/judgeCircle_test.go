@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestJudgeCircle(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestJudgeCircle(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
-		{"UD",true},
-		{"LL",false},
+		{"UD", true},
+		{"LL", false},
 	}
 
 	for _, test := range tests {

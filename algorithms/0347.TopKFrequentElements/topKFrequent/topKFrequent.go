@@ -13,7 +13,7 @@ func TopKFrequent(nums []int, k int) []int {
 		counts = append(counts, count)
 	}
 	sort.Ints(counts)
-	limit := counts[len(counts) - k]
+	limit := counts[len(counts)-k]
 	for k, v := range m {
 		if v >= limit {
 			ret = append(ret, k)

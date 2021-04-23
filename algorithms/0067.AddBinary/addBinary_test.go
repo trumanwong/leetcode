@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestAddBinary(t *testing.T)  {
-	tests := []struct{
-		a string
-		b string
+func TestAddBinary(t *testing.T) {
+	tests := []struct {
+		a      string
+		b      string
 		output string
 	}{
-		{"11","1","100"},
-		{"1010","1011","10101"},
+		{"11", "1", "100"},
+		{"1010", "1011", "10101"},
 	}
 	for _, test := range tests {
 		ret := addBinary.AddBinary(test.a, test.b)

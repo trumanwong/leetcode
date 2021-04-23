@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestMagicDictionary(t *testing.T)  {
-	tests := []struct{
+func TestMagicDictionary(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]string
-		output []interface{}
+		values   [][]string
+		output   []interface{}
 	}{
 		{[]string{"MagicDictionary", "buildDict", "search", "search", "search", "search"},
-			[][]string{{},{"hello","leetcode"},{"hello"},{"hhllo"},{"hell"},{"leetcoded"}}, []interface{}{nil,nil,false,true,false,false}},
+			[][]string{{}, {"hello", "leetcode"}, {"hello"}, {"hhllo"}, {"hell"}, {"leetcoded"}}, []interface{}{nil, nil, false, true, false, false}},
 	}
 
 	for _, test := range tests {

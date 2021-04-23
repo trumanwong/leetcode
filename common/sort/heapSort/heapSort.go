@@ -4,12 +4,12 @@ package heapSort
 // arr 数组
 // s 需要构成堆的根节点序号
 // n 数组长度
-func heapAdjust(arr []int, s int, n int)  {
+func heapAdjust(arr []int, s int, n int) {
 	// 第s个节点有右子树
-	for 2 * s + 1 < n {
-		j := 2 * s + 1
+	for 2*s+1 < n {
+		j := 2*s + 1
 		// 如果左子树小于右子树，则需要比较右子树
-		if j + 1 < n && arr[j] < arr[j + 1] {
+		if j+1 < n && arr[j] < arr[j+1] {
 			j++
 		}
 		if arr[s] < arr[j] {
@@ -24,8 +24,8 @@ func heapAdjust(arr []int, s int, n int)  {
 	}
 }
 
-func HeapSort(arr[] int, n int)  {
-	for i := n / 2 - 1; i >= 0; i-- {
+func HeapSort(arr []int, n int) {
+	for i := n/2 - 1; i >= 0; i-- {
 		heapAdjust(arr, i, n)
 	}
 	for i := n - 1; i > 0; i-- {

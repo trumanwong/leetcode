@@ -16,16 +16,16 @@ func CountAndSay(n int) string {
 		count = 1
 		temp = ""
 		for idx = 1; idx < length; idx++ {
-			if length >= 2 && cur[idx] == cur[idx - 1] {
+			if length >= 2 && cur[idx] == cur[idx-1] {
 				count++
 			} else {
-					temp += strconv.Itoa(count)
-					temp += string(cur[idx - 1])
-					count = 1
+				temp += strconv.Itoa(count)
+				temp += string(cur[idx-1])
+				count = 1
 			}
 		}
 		temp += strconv.Itoa(count)
-		temp = temp + string(cur[length - 1])
+		temp = temp + string(cur[length-1])
 		cur = temp
 	}
 	return cur

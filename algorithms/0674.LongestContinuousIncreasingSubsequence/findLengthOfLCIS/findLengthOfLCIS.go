@@ -4,7 +4,7 @@ func FindLengthOfLCIS(nums []int) int {
 	if len(nums) <= 1 {
 		return len(nums)
 	}
-	continuous, max, diff := 1, 0, nums[len(nums) - 1] - nums[len(nums) - 2]
+	continuous, max, diff := 1, 0, nums[len(nums)-1]-nums[len(nums)-2]
 	if diff <= 0 {
 		max, continuous = 1, 1
 	} else {
@@ -12,7 +12,7 @@ func FindLengthOfLCIS(nums []int) int {
 		max = continuous
 	}
 	for i := len(nums) - 2; i > 0; i-- {
-		temp := nums[i] - nums[i - 1]
+		temp := nums[i] - nums[i-1]
 		if continuous > max {
 			max = continuous
 		}

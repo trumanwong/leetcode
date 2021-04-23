@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestBitwiseComplement(t *testing.T)  {
-	tests := []struct{
-		N int
+func TestBitwiseComplement(t *testing.T) {
+	tests := []struct {
+		N      int
 		output int
 	}{
-		{5,2},
-		{7,0},
-		{10,5},
+		{5, 2},
+		{7, 0},
+		{10, 5},
 	}
 	for _, test := range tests {
 		ret := bitwiseComplement.BitwiseComplement(test.N)

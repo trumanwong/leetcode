@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindErrorNums(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindErrorNums(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output []int
 	}{
 		{[]int{1, 2, 2, 4}, []int{2, 3}},

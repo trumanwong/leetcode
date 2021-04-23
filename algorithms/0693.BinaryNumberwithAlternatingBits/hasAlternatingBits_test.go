@@ -6,12 +6,12 @@ import (
 )
 
 func TestHasAlternatingBits(t *testing.T) {
-	tests := []struct{
-		input int
+	tests := []struct {
+		input  int
 		output bool
 	}{
-		{5,true},
-		{7,false},
+		{5, true},
+		{7, false},
 	}
 	for _, test := range tests {
 		ret := hasAlternatingBits.HasAlternatingBits(test.input)

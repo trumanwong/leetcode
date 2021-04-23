@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestRotatedDigits(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestRotatedDigits(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{10,4},
+		{10, 4},
 	}
 
 	for _, test := range tests {

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCountAndSay(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestCountAndSay(t *testing.T) {
+	tests := []struct {
+		input  int
 		output string
-	} {
+	}{
 		{1, "1"},
-		{4,"1211"},
+		{4, "1211"},
 	}
 
 	for _, test := range tests {

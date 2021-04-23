@@ -1,4 +1,5 @@
 package largestValues
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -14,8 +15,8 @@ func LargestValues(root *TreeNode) []int {
 		}
 		if len(res) < level {
 			res = append(res, node.Val)
-		} else if res[level - 1] < node.Val {
-			res[level - 1] = node.Val
+		} else if res[level-1] < node.Val {
+			res[level-1] = node.Val
 		}
 		level++
 		recursiveValues(node.Left, level)

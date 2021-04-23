@@ -3,9 +3,9 @@ package binaryGap
 func BinaryGap(N int) int {
 	last, ans := -1, 0
 	for i := 0; i < 32; i++ {
-		if (N >> uint(i)) & 1 > 0 {
+		if (N>>uint(i))&1 > 0 {
 			if last >= 0 {
-				ans = max(ans, i - last)
+				ans = max(ans, i-last)
 			}
 			last = i
 		}

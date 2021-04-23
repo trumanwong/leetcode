@@ -7,14 +7,14 @@ func CalPoints(ops []string) int {
 	nums := make([]int, 0)
 	for _, op := range ops {
 		if op == "C" && len(nums) > 0 {
-			res -= nums[len(nums) - 1]
-			nums = nums[:len(nums) - 1]
+			res -= nums[len(nums)-1]
+			nums = nums[:len(nums)-1]
 		} else if op == "D" && len(nums) > 0 {
-			res += nums[len(nums) - 1] * 2
-			nums = append(nums, nums[len(nums) - 1] * 2)
+			res += nums[len(nums)-1] * 2
+			nums = append(nums, nums[len(nums)-1]*2)
 		} else if op == "+" {
 			temp := 0
-			for i := len(nums) - 1; i >= len(nums) - 2 && i >= 0; i-- {
+			for i := len(nums) - 1; i >= len(nums)-2 && i >= 0; i-- {
 				temp += nums[i]
 			}
 			res += temp

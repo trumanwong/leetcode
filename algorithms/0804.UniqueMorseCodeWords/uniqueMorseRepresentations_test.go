@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestUniqueMorseRepresentations(t *testing.T)  {
-	tests := []struct{
-		input []string
+func TestUniqueMorseRepresentations(t *testing.T) {
+	tests := []struct {
+		input  []string
 		output int
 	}{
 		{[]string{"gin", "zen", "gig", "msg"}, 2},

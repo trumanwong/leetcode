@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestNumTrees(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestNumTrees(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{3, 5},

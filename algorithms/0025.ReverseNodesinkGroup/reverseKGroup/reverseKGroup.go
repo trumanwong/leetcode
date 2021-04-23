@@ -24,9 +24,9 @@ func ReverseKGroup(head *ListNode, k int) *ListNode {
 
 		// 反转操作
 		for len(stack) != 0 {
-			p.Next = stack[len(stack) - 1]
+			p.Next = stack[len(stack)-1]
 			p = p.Next
-			stack = stack[:len(stack) - 1]
+			stack = stack[:len(stack)-1]
 		}
 
 		// 与剩下的链表连接

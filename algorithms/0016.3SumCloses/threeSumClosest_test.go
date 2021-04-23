@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestThreeSumClosest(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestThreeSumClosest(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		target int
 		output int
 	}{

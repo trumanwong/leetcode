@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMaxDistToClosest(t *testing.T)  {
-	tests := []struct{
-		seats []int
+func TestMaxDistToClosest(t *testing.T) {
+	tests := []struct {
+		seats  []int
 		output int
 	}{
 		{[]int{1, 0, 0, 0, 1, 0, 1}, 2},

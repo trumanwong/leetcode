@@ -7,13 +7,13 @@ import (
 	"testing"
 )
 
-func TestAddTwoNumbers(t *testing.T)  {
-	tests := []struct{
-		l1 []int
-		l2 []int
+func TestAddTwoNumbers(t *testing.T) {
+	tests := []struct {
+		l1     []int
+		l2     []int
 		output []int
 	}{
-		{[]int{7,2,4,3}, []int{5,6,4}, []int{7, 8, 0, 7}},
+		{[]int{7, 2, 4, 3}, []int{5, 6, 4}, []int{7, 8, 0, 7}},
 	}
 
 	for _, test := range tests {

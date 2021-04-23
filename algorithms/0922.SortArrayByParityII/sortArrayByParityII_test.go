@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestSortArrayByParityII(t *testing.T)  {
-	tests := []struct{
-		A []int
+func TestSortArrayByParityII(t *testing.T) {
+	tests := []struct {
+		A      []int
 		output []int
 	}{
-		{[]int{4,2,5,7},[]int{4,5,2,7}},
+		{[]int{4, 2, 5, 7}, []int{4, 5, 2, 7}},
 	}
 	for _, test := range tests {
 		A := make([]int, len(test.A))

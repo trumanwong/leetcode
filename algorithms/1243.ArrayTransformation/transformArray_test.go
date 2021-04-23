@@ -6,14 +6,14 @@ import (
 	"testing"
 )
 
-func TestTransformArray(t *testing.T)  {
-	tests := []struct{
-		arr []int
+func TestTransformArray(t *testing.T) {
+	tests := []struct {
+		arr    []int
 		output []int
 	}{
-		{[]int{6,2, 3, 4}, []int{6, 3, 3, 4}},
-		{[]int{1, 6, 3 , 4, 3, 5}, []int{1,4,4,4,4,5}},
-		{[]int{2,1,2,1,1,2,2,1}, []int{2,2,1,1,1,2,2,1}},
+		{[]int{6, 2, 3, 4}, []int{6, 3, 3, 4}},
+		{[]int{1, 6, 3, 4, 3, 5}, []int{1, 4, 4, 4, 4, 5}},
+		{[]int{2, 1, 2, 1, 1, 2, 2, 1}, []int{2, 2, 1, 1, 1, 2, 2, 1}},
 	}
 
 	for _, test := range tests {

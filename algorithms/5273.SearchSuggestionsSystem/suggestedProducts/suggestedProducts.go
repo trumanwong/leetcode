@@ -11,7 +11,7 @@ func SuggestedProducts(products []string, searchWord string) [][]string {
 
 	last := 0
 	for i := 0; i < len(searchWord); i++ {
-		prefix := searchWord[0:i+1]
+		prefix := searchWord[0 : i+1]
 		prefixs := make([]string, 0)
 		for j := last; j < len(products); j++ {
 			if strings.HasPrefix(products[j], prefix) {

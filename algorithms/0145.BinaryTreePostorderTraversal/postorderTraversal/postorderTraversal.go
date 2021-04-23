@@ -17,7 +17,7 @@ func PostorderTraversal(root *TreeNode) []int {
 
 	stack := []*TreeNode{root}
 	for len(stack) > 0 {
-		node := stack[len(stack) - 1]
+		node := stack[len(stack)-1]
 		stack = stack[:len(stack)-1]
 
 		if node.Left != nil {

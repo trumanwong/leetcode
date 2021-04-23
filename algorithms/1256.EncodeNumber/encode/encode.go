@@ -7,7 +7,7 @@ func Encode(num int) string {
 	res := ""
 	for num != 0 {
 		num--
-		if num % 2 != 0 {
+		if num%2 != 0 {
 			res = "1" + res
 		} else {
 			res = "0" + res

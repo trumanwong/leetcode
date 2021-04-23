@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestIsHappy(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestIsHappy(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
-		{19,true},
+		{19, true},
 	}
 
 	for _, test := range tests {

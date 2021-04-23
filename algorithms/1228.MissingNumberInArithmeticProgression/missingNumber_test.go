@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMissingNumber(t *testing.T)  {
-	tests := []struct{
-		arr []int
+func TestMissingNumber(t *testing.T) {
+	tests := []struct {
+		arr    []int
 		output int
 	}{
 		{[]int{5, 7, 11, 13}, 9},

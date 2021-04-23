@@ -14,11 +14,11 @@ func LetterCombinations(digits string) []string {
 			return
 		}
 
-		temp := nums[bDigits[index] - '0' - 2]
+		temp := nums[bDigits[index]-'0'-2]
 		for _, v := range temp {
 			b = append(b, byte(v))
-			recursive(index + 1, b)
-			b = b[0:len(b) - 1]
+			recursive(index+1, b)
+			b = b[0 : len(b)-1]
 		}
 	}
 	recursive(0, []byte{})

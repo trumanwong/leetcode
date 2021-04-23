@@ -10,7 +10,7 @@ func CountPrimes(n int) int {
 		if isComposite[i] {
 			continue
 		}
-		for j := i*i; j < n; j += 2 * i {
+		for j := i * i; j < n; j += 2 * i {
 			if !isComposite[j] {
 				count--
 				isComposite[j] = true

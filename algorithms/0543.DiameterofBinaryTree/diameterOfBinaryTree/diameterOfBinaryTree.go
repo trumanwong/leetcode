@@ -11,8 +11,8 @@ func DiameterOfBinaryTree(root *TreeNode) int {
 		}
 		left := recursive(node.Left)
 		right := recursive(node.Right)
-		res = max(left + right, res)
-		return max(left + 1, right + 1)
+		res = max(left+right, res)
+		return max(left+1, right+1)
 	}
 
 	recursive(root)

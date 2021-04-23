@@ -6,8 +6,8 @@ import (
 )
 
 func TestMinRemoveToMakeValid(t *testing.T) {
-	tests := []struct{
-		s string
+	tests := []struct {
+		s      string
 		output string
 	}{
 		{"lee(t(c)o)de)", "lee(t(c)o)de"},

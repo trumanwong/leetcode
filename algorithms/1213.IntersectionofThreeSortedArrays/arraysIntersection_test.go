@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestArraysIntersection(t *testing.T)  {
+func TestArraysIntersection(t *testing.T) {
 	tests := []struct {
-		arr1 []int
-		arr2 []int
-		arr3 []int
+		arr1   []int
+		arr2   []int
+		arr3   []int
 		output []int
 	}{
-		{[]int{1,2,3,4,5}, []int{1,2,5,7,9}, []int{1,3,4,5,8}, []int{1,5}},
+		{[]int{1, 2, 3, 4, 5}, []int{1, 2, 5, 7, 9}, []int{1, 3, 4, 5, 8}, []int{1, 5}},
 	}
 
 	for _, test := range tests {

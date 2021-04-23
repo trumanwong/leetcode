@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestUniquePaths(t *testing.T)  {
-	tests := []struct{
-		m int
-		n int
+func TestUniquePaths(t *testing.T) {
+	tests := []struct {
+		m      int
+		n      int
 		output int
 	}{
 		{3, 2, 3},

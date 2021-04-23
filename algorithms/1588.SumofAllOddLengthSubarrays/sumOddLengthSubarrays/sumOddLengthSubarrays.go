@@ -8,9 +8,9 @@ func SumOddLengthSubarrays(arr []int) int {
 	//sum:对每个arr[i]求它出现在奇数长度子数组中的次数，乘本身的值，最后求和
 	res := 0
 	for i := 0; i < len(arr); i++ {
-		left, right := i + 1, len(arr) - i
-		leftOdd, rightOdd := left / 2, right / 2
-		leftEven, rightEven := (left + 1) / 2, (right + 1) / 2
+		left, right := i+1, len(arr)-i
+		leftOdd, rightOdd := left/2, right/2
+		leftEven, rightEven := (left+1)/2, (right+1)/2
 		res += arr[i] * (leftOdd*rightOdd + leftEven*rightEven)
 	}
 	return res

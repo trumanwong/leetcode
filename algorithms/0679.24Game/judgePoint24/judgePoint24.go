@@ -13,7 +13,7 @@ func solve(nums []float64) bool {
 		return false
 	}
 	if len(nums) == 1 {
-		return myAbs(nums[0] - 24) < 0.0000000001
+		return myAbs(nums[0]-24) < 0.0000000001
 	}
 
 	for i := 0; i < len(nums); i++ {
@@ -31,14 +31,14 @@ func solve(nums []float64) bool {
 						continue
 					}
 					if k == 0 {
-						nums2 = append(nums2, nums[i] + nums[j])
+						nums2 = append(nums2, nums[i]+nums[j])
 					} else if k == 1 {
-						nums2 = append(nums2, nums[i] * nums[j])
+						nums2 = append(nums2, nums[i]*nums[j])
 					} else if k == 2 {
-						nums2 = append(nums2, nums[i] - nums[j])
+						nums2 = append(nums2, nums[i]-nums[j])
 					} else {
 						if nums[j] != 0 {
-							nums2 = append(nums2, nums[i] / nums[j])
+							nums2 = append(nums2, nums[i]/nums[j])
 						} else {
 							continue
 						}
@@ -46,7 +46,7 @@ func solve(nums []float64) bool {
 					if solve(nums2) {
 						return true
 					}
-					nums2 = nums2[:len(nums2) - 1]
+					nums2 = nums2[:len(nums2)-1]
 				}
 			}
 		}

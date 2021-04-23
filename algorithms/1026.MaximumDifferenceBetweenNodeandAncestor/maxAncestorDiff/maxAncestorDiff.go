@@ -14,7 +14,7 @@ func maxAncestorDiff(root *TreeNode) int {
 		if node == nil {
 			return
 		}
-		diff1, diff2 := abs(maxVal - node.Val), abs(minVal - node.Val)
+		diff1, diff2 := abs(maxVal-node.Val), abs(minVal-node.Val)
 		res = max(res, max(diff1, diff2))
 		maxVal = max(maxVal, node.Val)
 		minVal = min(minVal, node.Val)

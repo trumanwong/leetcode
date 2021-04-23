@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestIntervalIntersection(t *testing.T)  {
-	tests := []struct{
-		A [][]int
-		B [][]int
+func TestIntervalIntersection(t *testing.T) {
+	tests := []struct {
+		A      [][]int
+		B      [][]int
 		output [][]int
 	}{
 		{[][]int{{0, 2}, {5, 10}, {13, 23}, {24, 25}}, [][]int{{1, 5}, {8, 12}, {15, 24}, {25, 26}},

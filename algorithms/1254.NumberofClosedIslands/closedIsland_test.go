@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestClosedIsland(t *testing.T)  {
-	tests := []struct{
-		grid [][]int
+func TestClosedIsland(t *testing.T) {
+	tests := []struct {
+		grid   [][]int
 		output int
 	}{
-		{[][]int{{1,1,1,1,1,1,1,0},{1,0,0,0,0,1,1,0},{1,0,1,0,1,1,1,0},{1,0,0,0,0,1,0,1},{1,1,1,1,1,1,1,0}}, 2},
+		{[][]int{{1, 1, 1, 1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 1, 0}, {1, 0, 1, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 0, 1}, {1, 1, 1, 1, 1, 1, 1, 0}}, 2},
 	}
 
 	for _, test := range tests {

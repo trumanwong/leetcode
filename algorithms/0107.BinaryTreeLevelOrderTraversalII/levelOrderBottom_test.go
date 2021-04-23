@@ -5,17 +5,17 @@ import (
 	"testing"
 )
 
-func TestLevelOrderBottom(t *testing.T)  {
-	tests := []struct{
+func TestLevelOrderBottom(t *testing.T) {
+	tests := []struct {
 		root   levelOrderBottom.TreeNode
 		output [][]int
 	}{
 		{levelOrderBottom.TreeNode{3,
-			&levelOrderBottom.TreeNode{9,nil,nil},
+			&levelOrderBottom.TreeNode{9, nil, nil},
 			&levelOrderBottom.TreeNode{20,
-				&levelOrderBottom.TreeNode{15,nil,nil},
-				&levelOrderBottom.TreeNode{7,nil,nil}}}, [][]int{
-			{15,7},{9,20},{3},
+				&levelOrderBottom.TreeNode{15, nil, nil},
+				&levelOrderBottom.TreeNode{7, nil, nil}}}, [][]int{
+			{15, 7}, {9, 20}, {3},
 		}},
 	}
 

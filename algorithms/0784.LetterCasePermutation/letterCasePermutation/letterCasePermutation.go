@@ -11,17 +11,17 @@ func LetterCasePermutation(S string) []string {
 
 		if sByte[i] >= 'A' && sByte[i] <= 'Z' {
 			sByte[i] += 32
-			DFS(i + 1, sByte)
+			DFS(i+1, sByte)
 			sByte[i] -= 32
-			DFS(i + 1, sByte)
+			DFS(i+1, sByte)
 		} else if sByte[i] >= 'a' && sByte[i] <= 'z' {
 			sByte[i] -= 32
-			DFS(i + 1, sByte)
+			DFS(i+1, sByte)
 			sByte[i] += 32
-			DFS(i + 1, sByte)
+			DFS(i+1, sByte)
 		} else {
 			// 数字跳过
-			DFS(i + 1, sByte)
+			DFS(i+1, sByte)
 		}
 	}
 	DFS(0, []byte(S))

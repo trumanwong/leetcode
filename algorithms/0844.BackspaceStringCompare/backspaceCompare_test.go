@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestBackspaceCompare(t *testing.T)  {
-	tests := []struct{
-		S string
-		T string
+func TestBackspaceCompare(t *testing.T) {
+	tests := []struct {
+		S      string
+		T      string
 		output bool
 	}{
-		{"ab#c",  "ad#c", true},
+		{"ab#c", "ad#c", true},
 		{"ab##", "c#d#", true},
-		{"a##c",  "#a#c", true},
-		{"a#c",  "b", false},
+		{"a##c", "#a#c", true},
+		{"a#c", "b", false},
 	}
 
 	for _, test := range tests {

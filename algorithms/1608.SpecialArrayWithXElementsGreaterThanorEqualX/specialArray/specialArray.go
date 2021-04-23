@@ -9,7 +9,7 @@ func SpecialArray(nums []int) int {
 	}
 
 	for i := 1; i < len(nums); i++ {
-		if nums[len(nums) - i] >= i && nums[len(nums) - i - 1] < i {
+		if nums[len(nums)-i] >= i && nums[len(nums)-i-1] < i {
 			return i
 		}
 	}

@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestCanPlaceFlowers(t *testing.T)  {
-	tests := []struct{
+func TestCanPlaceFlowers(t *testing.T) {
+	tests := []struct {
 		flowerbed []int
-		n int
-		output bool
+		n         int
+		output    bool
 	}{
-		{[]int{1,0,0,0,1}, 1, true},
-		{[]int{1,0,0,0,1}, 2, false},
+		{[]int{1, 0, 0, 0, 1}, 1, true},
+		{[]int{1, 0, 0, 0, 1}, 2, false},
 	}
 
 	for _, test := range tests {

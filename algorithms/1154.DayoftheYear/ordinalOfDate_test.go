@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestOrdinalOfDate(t *testing.T)  {
-	tests := []struct{
-		date string
+func TestOrdinalOfDate(t *testing.T) {
+	tests := []struct {
+		date   string
 		output int
 	}{
 		{"2019-01-09", 9},

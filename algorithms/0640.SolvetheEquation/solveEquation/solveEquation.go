@@ -63,7 +63,7 @@ func SolveEquation(equation string) string {
 	}
 	if x == 0 && val == 0 {
 		return "Infinite solutions"
-	} else if x== 0 {
+	} else if x == 0 {
 		return "No solution"
 	} else {
 		ret := strconv.Itoa(-val / x)

@@ -2,9 +2,9 @@ package main
 
 type LRUCache struct {
 	Capacity int
-	Cache map[int]int
-	Keys []int
-	KMap map[int]int
+	Cache    map[int]int
+	Keys     []int
+	KMap     map[int]int
 }
 
 func Constructor(capacity int) LRUCache {
@@ -18,18 +18,17 @@ func Constructor(capacity int) LRUCache {
 func (this *LRUCache) Get(key int) int {
 	if v, ok := this.Cache[key]; ok {
 		index := this.KMap[key]
-		for i := index; i < this.Capacity - 1; i++ {
-			this.Keys[i] = this.Keys[i + 1]
+		for i := index; i < this.Capacity-1; i++ {
+			this.Keys[i] = this.Keys[i+1]
 			this.KMap[this.Keys[i]] = i
 		}
 		this.KMap[key] = this.Capacity - 1
-		this.Keys[this.Capacity - 1] = key
+		this.Keys[this.Capacity-1] = key
 		return v
 	} else {
 		return -1
 	}
 }
-
 
 func (this *LRUCache) Put(key int, value int) {
 	this.Cache[key] = value
@@ -42,8 +41,8 @@ func (this *LRUCache) Put(key int, value int) {
 		delete(this.KMap, this.Keys[0])
 	}
 	if exists {
-		for i := this.KMap[key]; i < this.Capacity - 1; i++ {
-			this.Keys[i] = this.Keys[i + 1]
+		for i := this.KMap[key]; i < this.Capacity-1; i++ {
+			this.Keys[i] = this.Keys[i+1]
 			this.KMap[this.Keys[i]] = i
 		}
 	} else {
@@ -53,7 +52,7 @@ func (this *LRUCache) Put(key int, value int) {
 		}
 	}
 	this.KMap[key] = this.Capacity - 1
-	this.Keys[this.Capacity - 1] = key
+	this.Keys[this.Capacity-1] = key
 }
 
 //func main() {

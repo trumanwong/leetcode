@@ -6,13 +6,13 @@ import (
 	"testing"
 )
 
-func TestLeafSimilar(t *testing.T)  {
-	tests := []struct{
-		root1 []interface{}
-		root2 []interface{}
+func TestLeafSimilar(t *testing.T) {
+	tests := []struct {
+		root1  []interface{}
+		root2  []interface{}
 		output bool
 	}{
-		{[]interface{}{3,5,1,6,2,9,8,nil,nil,7,4}, []interface{}{3,5,1,6,7,4,2,nil,nil,nil,nil,nil,nil,9,8}, true},
+		{[]interface{}{3, 5, 1, 6, 2, 9, 8, nil, nil, 7, 4}, []interface{}{3, 5, 1, 6, 7, 4, 2, nil, nil, nil, nil, nil, nil, 9, 8}, true},
 	}
 
 	for _, test := range tests {

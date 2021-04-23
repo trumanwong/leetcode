@@ -6,13 +6,13 @@ import (
 )
 
 func TestRemoveElement(t *testing.T) {
-	tests := []struct{
-		nums []int
-		val int
+	tests := []struct {
+		nums   []int
+		val    int
 		output int
-	} {
-		{[]int{3,2,2,3}, 3, 2},
-		{[]int{0,1,2,2,3,0,4,2}, 2, 5},
+	}{
+		{[]int{3, 2, 2, 3}, 3, 2},
+		{[]int{0, 1, 2, 2, 3, 0, 4, 2}, 2, 5},
 	}
 
 	for _, test := range tests {

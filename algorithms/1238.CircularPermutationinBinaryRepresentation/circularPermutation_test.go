@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestCircularPermutation(t *testing.T)  {
-	tests := []struct{
-		n int
-		start int
+func TestCircularPermutation(t *testing.T) {
+	tests := []struct {
+		n      int
+		start  int
 		output []int
 	}{
 		{2, 3, []int{3, 2, 0, 1}},

@@ -1,6 +1,5 @@
 package buildTree
 
-
 import . "leetcode/common/treeNode"
 
 var (
@@ -30,6 +29,6 @@ func helper(left, right int, preorder []int, inorder []int) *TreeNode {
 	index := idx_map[root.Val]
 	pre_idx++
 	root.Left = helper(left, index, preorder, inorder)
-	root.Right = helper(index + 1, right, preorder, inorder)
+	root.Right = helper(index+1, right, preorder, inorder)
 	return &root
 }

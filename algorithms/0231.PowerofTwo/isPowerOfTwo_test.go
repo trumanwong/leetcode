@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestIsPowerOfTwo(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestIsPowerOfTwo(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
-		{8,true},
-		{121,false},
+		{8, true},
+		{121, false},
 	}
 	for _, test := range tests {
 		ret := isPowerOfTwo.IsPowerOfTwo(test.input)

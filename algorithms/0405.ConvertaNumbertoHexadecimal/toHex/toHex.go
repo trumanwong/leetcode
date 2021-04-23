@@ -6,7 +6,7 @@ func ToHex(num int) string {
 	}
 	hex, res := "0123456789abcdef", ""
 	for num != 0 && len(res) < 8 {
-		res = string(hex[num & 0xf]) + res
+		res = string(hex[num&0xf]) + res
 		num >>= 4
 	}
 	return res

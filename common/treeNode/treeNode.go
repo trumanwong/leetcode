@@ -4,8 +4,8 @@ import "fmt"
 
 // Definition for a binary tree node.
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
 
@@ -15,14 +15,14 @@ func Constructor(start int, nums []interface{}) *TreeNode {
 	}
 
 	node := TreeNode{nums[start].(int), nil, nil}
-	l, r := 2 * start + 1, 2 * start + 2
-	if l > len(nums) - 1 {
+	l, r := 2*start+1, 2*start+2
+	if l > len(nums)-1 {
 		node.Left = nil
 	} else {
 		node.Left = Constructor(l, nums)
 	}
 
-	if r > len(nums) - 1 {
+	if r > len(nums)-1 {
 		node.Right = nil
 	} else {
 		node.Right = Constructor(r, nums)
@@ -40,8 +40,8 @@ func (this *TreeNode) PreOrderTraversal() (res []int) {
 			stack = append(stack, pNode)
 			pNode = pNode.Left
 		} else {
-			pNode = stack[len(stack) - 1].Right
-			stack = stack[:len(stack) - 1]
+			pNode = stack[len(stack)-1].Right
+			stack = stack[:len(stack)-1]
 		}
 	}
 	return
@@ -56,20 +56,20 @@ func (this *TreeNode) InOrderTraversal() (res []int) {
 			stack = append(stack, pNode)
 			pNode = pNode.Left
 		} else {
-			res = append(res, stack[len(stack) - 1].Val)
-			pNode = stack[len(stack) - 1].Right
-			stack = stack[:len(stack) - 1]
+			res = append(res, stack[len(stack)-1].Val)
+			pNode = stack[len(stack)-1].Right
+			stack = stack[:len(stack)-1]
 		}
 	}
 	return
 }
 
 // 后序遍历 左子树->右子树->根节点
-func (this *TreeNode)  PostOrderTraversal() (res []int) {
+func (this *TreeNode) PostOrderTraversal() (res []int) {
 	stack := []*TreeNode{this}
 	for len(stack) > 0 {
-		node := stack[len(stack) - 1]
-		stack = stack[:len(stack)- 1]
+		node := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 
 		if node.Left != nil {
 			stack = append(stack, node.Left)
@@ -83,7 +83,7 @@ func (this *TreeNode)  PostOrderTraversal() (res []int) {
 	return
 }
 
-func (this *TreeNode) LevelOrder() (res [][]int)  {
+func (this *TreeNode) LevelOrder() (res [][]int) {
 	nodes := []*TreeNode{this}
 	for len(nodes) > 0 {
 		currLevel := make([]int, 0)

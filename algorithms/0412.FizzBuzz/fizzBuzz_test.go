@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFizzBuzz(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestFizzBuzz(t *testing.T) {
+	tests := []struct {
+		n      int
 		output []string
 	}{
 		{15, []string{"1",
@@ -24,7 +24,7 @@ func TestFizzBuzz(t *testing.T)  {
 			"Fizz",
 			"13",
 			"14",
-			"FizzBuzz",}},
+			"FizzBuzz"}},
 	}
 
 	for _, test := range tests {

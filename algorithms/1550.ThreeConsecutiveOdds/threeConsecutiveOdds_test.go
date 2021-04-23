@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestThreeConsecutiveOdds(t *testing.T)  {
-	tests := []struct{
-		arr []int
+func TestThreeConsecutiveOdds(t *testing.T) {
+	tests := []struct {
+		arr    []int
 		output bool
-	} {
+	}{
 		{[]int{2, 6, 4, 1}, false},
-		{[]int{1,2,34,3,4,5,7,23,12}, true},
+		{[]int{1, 2, 34, 3, 4, 5, 7, 23, 12}, true},
 	}
 
 	for _, test := range tests {

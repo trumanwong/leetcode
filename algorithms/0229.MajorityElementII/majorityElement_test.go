@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMajorityElement(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMajorityElement(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
 	}{
-		{[]int{3,2,3},[]int{3}},
-		{[]int{1,1,1,3,3,2,2,2},[]int{1,2}},
+		{[]int{3, 2, 3}, []int{3}},
+		{[]int{1, 1, 1, 3, 3, 2, 2, 2}, []int{1, 2}},
 	}
 
 	for _, test := range tests {

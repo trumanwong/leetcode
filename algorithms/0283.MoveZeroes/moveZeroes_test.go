@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMoveZeroes(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMoveZeroes(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
 	}{
-		{[]int{0,1,0,3,12},[]int{1,3,12,0,0}},
-		{[]int{0},[]int{0}},
+		{[]int{0, 1, 0, 3, 12}, []int{1, 3, 12, 0, 0}},
+		{[]int{0}, []int{0}},
 	}
 	for _, test := range tests {
 		temp := make([]int, len(test.input))

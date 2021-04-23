@@ -5,7 +5,7 @@ func CanThreePartsEqualSum(A []int) bool {
 	for _, v := range A {
 		sum += v
 	}
-	if sum % 3 != 0 {
+	if sum%3 != 0 {
 		return false
 	}
 	avg := sum / 3

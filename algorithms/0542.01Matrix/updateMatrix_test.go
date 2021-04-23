@@ -5,27 +5,24 @@ import (
 	"testing"
 )
 
-func TestUpdateMatrix(t *testing.T)  {
-	tests := []struct{
-		Input [][]int
+func TestUpdateMatrix(t *testing.T) {
+	tests := []struct {
+		Input  [][]int
 		Output [][]int
 	}{
-		{Input:
-		[][]int{{0, 0, 0},
+		{Input: [][]int{{0, 0, 0},
 			{0, 1, 0},
 			{0, 0, 0}},
-			Output:
-			[][]int{{0, 0, 0},
-		{0, 1, 0},
-		{0, 0, 0}},
+			Output: [][]int{{0, 0, 0},
+				{0, 1, 0},
+				{0, 0, 0}},
 		},
-		{Input: [][]int{{0,0,0},
-		{0,1,0},
-		{1,1,1}},
-			Output:
-		[][]int{{0,0,0},
-		{0,1,0},
-		{1,2,1}}},
+		{Input: [][]int{{0, 0, 0},
+			{0, 1, 0},
+			{1, 1, 1}},
+			Output: [][]int{{0, 0, 0},
+				{0, 1, 0},
+				{1, 2, 1}}},
 	}
 
 	for _, test := range tests {

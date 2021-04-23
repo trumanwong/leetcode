@@ -8,7 +8,7 @@ func DistributeCandies(candies int, num_people int) []int {
 			index = 0
 		}
 
-		if candies - step <= 0 {
+		if candies-step <= 0 {
 			ret[index] += candies
 		} else {
 			ret[index] += step

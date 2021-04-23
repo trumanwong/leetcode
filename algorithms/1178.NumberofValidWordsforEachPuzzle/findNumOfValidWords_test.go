@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestFindNumOfValidWords(t *testing.T)  {
-	tests := []struct{
-		words []string
+func TestFindNumOfValidWords(t *testing.T) {
+	tests := []struct {
+		words   []string
 		puzzles []string
-		output []int
+		output  []int
 	}{
-		{[]string{"aaaa","asas","able","ability","actt","actor","access"},
-			[]string{"aboveyz","abrodyz","abslute","absoryz","actresz","gaswxyz"},
-			[]int{1,1,3,2,4,0}},
+		{[]string{"aaaa", "asas", "able", "ability", "actt", "actor", "access"},
+			[]string{"aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"},
+			[]int{1, 1, 3, 2, 4, 0}},
 	}
 
 	for _, test := range tests {

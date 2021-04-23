@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSortColors(t *testing.T)  {
+func TestSortColors(t *testing.T) {
 	tests := []struct {
-		input []int
+		input  []int
 		output []int
 	}{
 		{[]int{2, 0, 2, 1, 1, 0}, []int{0, 0, 1, 1, 2, 2}},

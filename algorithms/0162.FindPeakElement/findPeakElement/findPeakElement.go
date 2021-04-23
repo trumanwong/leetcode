@@ -9,10 +9,10 @@ func FindPeakElement(nums []int) int {
 	//规律一：如果nums[i] > nums[i+1]，则在i之前一定存在峰值元素
 	//
 	//规律二：如果nums[i] < nums[i+1]，则在i+1之后一定存在峰值元素
-	left, right := 0, len(nums) - 1
+	left, right := 0, len(nums)-1
 	for left < right {
-		mid := left + (right - left) / 2
-		if nums[mid] > nums[mid + 1] {
+		mid := left + (right-left)/2
+		if nums[mid] > nums[mid+1] {
 			right = mid
 		} else {
 			left = mid + 1

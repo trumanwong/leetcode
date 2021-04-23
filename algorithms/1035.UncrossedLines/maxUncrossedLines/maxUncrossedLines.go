@@ -2,12 +2,12 @@ package maxUncrossedLines
 
 func MaxUncrossedLines(A []int, B []int) int {
 	n, m := len(A), len(B)
-	MAXN := 555;
+	MAXN := 555
 	a, b := make([]int, MAXN), make([]int, MAXN)
 	var F [][]int
 	F = make([][]int, MAXN)
 	for i := 0; i < MAXN; i++ {
-		F[i]= make([]int, MAXN)
+		F[i] = make([]int, MAXN)
 	}
 
 	for i := 0; i < n; i++ {
@@ -25,7 +25,7 @@ func MaxUncrossedLines(A []int, B []int) int {
 			}
 		}
 	}
-	return F[n][m];
+	return F[n][m]
 }
 
 func max(a, b int) int {

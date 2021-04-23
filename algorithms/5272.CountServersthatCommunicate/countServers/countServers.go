@@ -7,7 +7,7 @@ func CountServers(grid [][]int) int {
 			if grid[i][j] == 0 {
 				continue
 			}
-			u, d, l, r := i - 1, i + 1, j - 1, j + 1
+			u, d, l, r := i-1, i+1, j-1, j+1
 			judge := false
 			for u >= 0 && !judge {
 				if grid[u][j] == 1 {

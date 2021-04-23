@@ -18,20 +18,20 @@ func Divide(dividend int, divisor int) int {
 
 	if dividend > 0 {
 		if divisor < 0 {
-			if dividend + divisor < 0 {
+			if dividend+divisor < 0 {
 				return 0
 			}
 			sign = false
 			divisor = -divisor
 		}
 	} else if divisor > 0 {
-		if dividend + divisor > 0 {
+		if dividend+divisor > 0 {
 			return 0
 		}
 		sign = false
 		dividend = -dividend
 	} else {
-		if dividend - divisor > 0 {
+		if dividend-divisor > 0 {
 			return 0
 		}
 		sign = true
@@ -40,10 +40,10 @@ func Divide(dividend int, divisor int) int {
 	}
 
 	var x, y int
-	for ; dividend > divisor; {
+	for dividend > divisor {
 		x = divisor
 		y = 1
-		for ; dividend >= x << 1; {
+		for dividend >= x<<1 {
 			x <<= 1
 			y <<= 1
 		}

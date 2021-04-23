@@ -18,11 +18,11 @@ func FindTarget(root *TreeNode, k int) bool {
 	}
 	recursive(root)
 	sort.Ints(arr)
-	l, r := 0, len(arr) - 1
+	l, r := 0, len(arr)-1
 	for l < r {
-		if arr[l] + arr[r] == k {
+		if arr[l]+arr[r] == k {
 			return true
-		} else if arr[l] + arr[r] > k {
+		} else if arr[l]+arr[r] > k {
 			r--
 		} else {
 			l++

@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestMaxCount(t *testing.T)  {
-	tests := []struct{
-		m int
-		n int
-		ops [][]int
+func TestMaxCount(t *testing.T) {
+	tests := []struct {
+		m      int
+		n      int
+		ops    [][]int
 		output int
 	}{
 		{3, 3, [][]int{{2, 2}, {3, 3}}, 4},

@@ -3,7 +3,7 @@ package smallestRepunitDivByK
 import "strconv"
 
 func SmallestRepunitDivByK(K int) int {
-	if K % 2== 0 || K % 5 == 0 {
+	if K%2 == 0 || K%5 == 0 {
 		return -1
 	}
 	kStr := strconv.Itoa(K)
@@ -16,7 +16,7 @@ func SmallestRepunitDivByK(K int) int {
 		res += "1"
 		b, _ = strconv.Atoi(res)
 	}
-	for b % K != 0 {
+	for b%K != 0 {
 		res += "1"
 		b %= K
 		temp := strconv.Itoa(b) + "1"

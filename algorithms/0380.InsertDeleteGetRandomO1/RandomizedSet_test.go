@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestRandomizedSet(t *testing.T)  {
-	tests := []struct{
+func TestRandomizedSet(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]int
-		output []interface{}
+		values   [][]int
+		output   []interface{}
 	}{
-		{[]string{"RandomizedSet","insert","remove","insert","getRandom","remove","insert","getRandom"},
-		[][]int{{},{1},{2},{2},{},{1},{2},{}}, []interface{}{nil,true,false,true,1,true,false,2}},
+		{[]string{"RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"},
+			[][]int{{}, {1}, {2}, {2}, {}, {1}, {2}, {}}, []interface{}{nil, true, false, true, 1, true, false, 2}},
 	}
 
 	for _, test := range tests {

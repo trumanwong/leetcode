@@ -4,12 +4,10 @@ type MajorityChecker struct {
 	Arr []int
 }
 
-
 func Constructor(arr []int) MajorityChecker {
-	checker := MajorityChecker {Arr: arr}
+	checker := MajorityChecker{Arr: arr}
 	return checker
 }
-
 
 func (this *MajorityChecker) Query(left int, right int, threshold int) int {
 	m := make(map[int]int)
@@ -21,7 +19,6 @@ func (this *MajorityChecker) Query(left int, right int, threshold int) int {
 	}
 	return -1
 }
-
 
 /**
  * Your MajorityChecker object will be instantiated and called as such:

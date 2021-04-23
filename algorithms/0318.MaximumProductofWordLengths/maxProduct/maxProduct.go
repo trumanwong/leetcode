@@ -9,10 +9,10 @@ func MaxProduct(words []string) int {
 		}
 	}
 
-	for i := 0; i < len(words) - 1; i++ {
+	for i := 0; i < len(words)-1; i++ {
 		for j := i + 1; j < len(words); j++ {
-			if hash[i] & hash[j] == 0 {
-				ret = max(len(words[i]) * len(words[j]), ret)
+			if hash[i]&hash[j] == 0 {
+				ret = max(len(words[i])*len(words[j]), ret)
 			}
 		}
 	}

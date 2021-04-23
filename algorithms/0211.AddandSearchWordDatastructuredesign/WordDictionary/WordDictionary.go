@@ -4,19 +4,16 @@ type WordDictionary struct {
 	words map[int][]string
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() WordDictionary {
 	words := make(map[int][]string)
 	return WordDictionary{words: words}
 }
 
-
 /** Adds a word into the data structure. */
-func (this *WordDictionary) AddWord(word string)  {
+func (this *WordDictionary) AddWord(word string) {
 	this.words[len(word)] = append(this.words[len(word)], word)
 }
-
 
 /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
 func (this *WordDictionary) Search(word string) bool {
@@ -38,7 +35,6 @@ func (this *WordDictionary) Search(word string) bool {
 	}
 	return false
 }
-
 
 /**
  * Your WordDictionary object will be instantiated and called as such:

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumberOfDays(t *testing.T)  {
-	tests := []struct{
-		Y int
-		M int
+func TestNumberOfDays(t *testing.T) {
+	tests := []struct {
+		Y      int
+		M      int
 		output int
 	}{
-		{2019,7,31},
+		{2019, 7, 31},
 	}
 
 	for _, test := range tests {

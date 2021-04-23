@@ -15,7 +15,7 @@ func FindUnsortedSubarray(nums []int) int {
 		}
 	}
 
-	if end - start >= 0 {
+	if end-start >= 0 {
 		return end - start + 1
 	}
 	return 0

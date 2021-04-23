@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestStrWithout3a3b(t *testing.T)  {
-	tests := []struct{
-		A int
-		B int
+func TestStrWithout3a3b(t *testing.T) {
+	tests := []struct {
+		A      int
+		B      int
 		output string
 	}{
-		{1,2,"bab"},
-		{4,1,"aabaa"},
+		{1, 2, "bab"},
+		{4, 1, "aabaa"},
 	}
 
 	for _, test := range tests {

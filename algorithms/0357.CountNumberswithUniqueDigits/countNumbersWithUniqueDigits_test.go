@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestCountNumbersWithUniqueDigits(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestCountNumbersWithUniqueDigits(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{2,91},
+		{2, 91},
 	}
 
 	for _, test := range tests {

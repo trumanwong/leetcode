@@ -13,12 +13,12 @@ func LongestArithSeqLength(A []int) int {
 			min = v
 		}
 	}
-	diff, res := max - min, 1
+	diff, res := max-min, 1
 	//dp[i][j]表示前i个元素 子序列差值为j的子序列的长度
 	dp := make([][]int, len(A))
 
 	for i, v := range A {
-		dp[i] = make([]int, 2 * diff + 1)
+		dp[i] = make([]int, 2*diff+1)
 		for j := 0; j < i; j++ {
 			temp := v - A[j] + diff
 			dp[i][temp] = dp[j][temp] + 1

@@ -10,14 +10,14 @@ func MinimumSwap(s1 string, s2 string) int {
 		if s1[i] == 'x' {
 			x++
 		} else {
-				y++
+			y++
 		}
 	}
 
-	if (x + y) % 2 == 1 {
+	if (x+y)%2 == 1 {
 		return -1
 	}
-	res := x / 2 + y / 2
+	res := x/2 + y/2
 	x %= 2
 	y %= 2
 	if x != 0 || y != 0 {

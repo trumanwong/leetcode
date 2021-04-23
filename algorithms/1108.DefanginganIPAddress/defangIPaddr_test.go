@@ -5,14 +5,13 @@ import (
 	"testing"
 )
 
-func TestDefangIPaddr(t *testing.T)  {
-	tests := []struct{
+func TestDefangIPaddr(t *testing.T) {
+	tests := []struct {
 		address string
-		output string
+		output  string
 	}{
 		{"1.1.1.1", "1[.]1[.]1[.]1"},
 		{"255.100.50.0", "255[.]100[.]50[.]0"},
-
 	}
 
 	for _, test := range tests {

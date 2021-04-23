@@ -6,16 +6,16 @@ import (
 	"testing"
 )
 
-func TestReconstructMatrix(t *testing.T)  {
-	tests := []struct{
-		upper int
-		lower int
+func TestReconstructMatrix(t *testing.T) {
+	tests := []struct {
+		upper  int
+		lower  int
 		colsum []int
 		output [][]int
-	} {
+	}{
 		{2, 1, []int{1, 1, 1}, [][]int{{0, 1, 1}, {1, 0, 0}}},
-		{2, 3, []int{2,2,1,1}, [][]int{}},
-		{5,5,[]int{2,1,2,0,1,0,1,2,0,1}, [][]int{{1,1,1,0,1,0,0,1,0,0}, {1,0,1,0,0,0,1,1,0,1}}},
+		{2, 3, []int{2, 2, 1, 1}, [][]int{}},
+		{5, 5, []int{2, 1, 2, 0, 1, 0, 1, 2, 0, 1}, [][]int{{1, 1, 1, 0, 1, 0, 0, 1, 0, 0}, {1, 0, 1, 0, 0, 0, 1, 1, 0, 1}}},
 	}
 
 	for _, test := range tests {

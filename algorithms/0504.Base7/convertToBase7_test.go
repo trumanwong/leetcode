@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestConvertToBase7(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestConvertToBase7(t *testing.T) {
+	tests := []struct {
+		input  int
 		output string
 	}{
-		{100,"202"},
-		{-7,"-10"},
+		{100, "202"},
+		{-7, "-10"},
 	}
 
 	for _, test := range tests {

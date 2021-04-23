@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindMin(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindMin(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{3, 4, 5, 1, 2}, 1},

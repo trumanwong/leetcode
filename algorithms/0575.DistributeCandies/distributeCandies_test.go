@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestDistributeCandies(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestDistributeCandies(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{1, 1, 2, 2, 3, 3}, 3},

@@ -1,9 +1,9 @@
 package maxLevelSum
 
 type TreeNode struct {
-	Val int
- 	Left *TreeNode
- 	Right *TreeNode
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
 func maxLevelSum(root *TreeNode) int {
@@ -18,8 +18,8 @@ func maxLevelSum(root *TreeNode) int {
 			maxIndex = index
 		}
 		arr[index] += node.Val
-		recursive(node.Left, index + 1)
-		recursive(node.Right, index + 1)
+		recursive(node.Left, index+1)
+		recursive(node.Right, index+1)
 	}
 	recursive(root, 0)
 	for i := 0; i < maxIndex; i++ {

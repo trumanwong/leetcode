@@ -5,18 +5,18 @@ import (
 	"testing"
 )
 
-func TestSmallestRangeI(t *testing.T)  {
-	tests := []struct{
-		A []int
-		K int
+func TestSmallestRangeI(t *testing.T) {
+	tests := []struct {
+		A      []int
+		K      int
 		output int
-	} {
+	}{
 		{[]int{1}, 0, 0},
 		{[]int{0, 10}, 2, 6},
-		{[]int{1,3,6}, 3,0},
-		{[]int{2,7,2}, 1, 3},
-		{[]int{3,1,10}, 4,1},
-		{[]int{7,8,8}, 5,0},
+		{[]int{1, 3, 6}, 3, 0},
+		{[]int{2, 7, 2}, 1, 3},
+		{[]int{3, 1, 10}, 4, 1},
+		{[]int{7, 8, 8}, 5, 0},
 	}
 
 	for _, test := range tests {

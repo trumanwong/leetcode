@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestMyCircularQueue(t *testing.T)  {
-	tests := []struct{
+func TestMyCircularQueue(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]int
-		output []interface{}
+		values   [][]int
+		output   []interface{}
 	}{
-		{[]string{"MyCircularQueue","enQueue","enQueue","enQueue","enQueue","Rear","isFull","deQueue", "enQueue","Rear"},
-			[][]int{{3},{1},{2},{3},{4},{},{},{},{4},{}},
-			[]interface{}{nil,true,true,true,false,3,true,true,true,4}},
+		{[]string{"MyCircularQueue", "enQueue", "enQueue", "enQueue", "enQueue", "Rear", "isFull", "deQueue", "enQueue", "Rear"},
+			[][]int{{3}, {1}, {2}, {3}, {4}, {}, {}, {}, {4}, {}},
+			[]interface{}{nil, true, true, true, false, 3, true, true, true, 4}},
 	}
 
 	for _, test := range tests {

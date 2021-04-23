@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestReverseVowels(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestReverseVowels(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
 		{"hello", "holle"},
-		{"leetcode","leotcede"},
+		{"leetcode", "leotcede"},
 	}
 
 	for _, test := range tests {

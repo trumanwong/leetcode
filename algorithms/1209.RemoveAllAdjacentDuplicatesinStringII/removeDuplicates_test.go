@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestRemoveDuplicates(t *testing.T)  {
-	tests := []struct{
-		s string
-		k int
+func TestRemoveDuplicates(t *testing.T) {
+	tests := []struct {
+		s      string
+		k      int
 		output string
 	}{
 		{"abcd", 2, "abcd"},

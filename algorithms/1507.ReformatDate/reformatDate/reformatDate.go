@@ -13,6 +13,6 @@ func ReformatDate(date string) string {
 		s2month[months[i]] = i + 1
 	}
 	arr := strings.Split(date, " ")
-	day, _ := strconv.Atoi(arr[0][0:len(arr[0]) - 2])
+	day, _ := strconv.Atoi(arr[0][0 : len(arr[0])-2])
 	return fmt.Sprintf("%s-%02d-%02d", arr[2], s2month[arr[1]], day)
 }

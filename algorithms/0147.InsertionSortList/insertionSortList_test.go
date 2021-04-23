@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestInsertionSortList(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestInsertionSortList(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output []int
 	}{
 		{[]int{4, 2, 1, 3}, []int{1, 2, 3, 4}},

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestLargestNumber(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestLargestNumber(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output string
 	}{
-		{[]int{10,2},"210"},
-		{[]int{3,30,34,5,9}, "9534330"},
+		{[]int{10, 2}, "210"},
+		{[]int{3, 30, 34, 5, 9}, "9534330"},
 	}
 
 	for _, test := range tests {

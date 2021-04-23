@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestRepeatedStringMatch(t *testing.T)  {
-	tests := []struct{
-		A string
-		B string
+func TestRepeatedStringMatch(t *testing.T) {
+	tests := []struct {
+		A      string
+		B      string
 		output int
 	}{
 		{"abcd", "cdabcdab", 3},

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestSubarraySum(t *testing.T)  {
-	tests := []struct{
-		nums []int
-		k int
+func TestSubarraySum(t *testing.T) {
+	tests := []struct {
+		nums   []int
+		k      int
 		output int
 	}{
-		{[]int{1,1,1},2,2},
+		{[]int{1, 1, 1}, 2, 2},
 	}
 
 	for _, test := range tests {

@@ -1,6 +1,7 @@
 package subsets
 
 var res [][]int
+
 func Subsets(nums []int) [][]int {
 	res = [][]int{}
 	dfs(nums, []int{}, 0)
@@ -13,7 +14,7 @@ func dfs(nums []int, temp []int, index int) {
 	res = append(res, t)
 	for i := index; i < len(nums); i++ {
 		temp = append(temp, nums[i])
-		dfs(nums, temp, i + 1)
-		temp = temp[:len(temp) - 1]
+		dfs(nums, temp, i+1)
+		temp = temp[:len(temp)-1]
 	}
 }

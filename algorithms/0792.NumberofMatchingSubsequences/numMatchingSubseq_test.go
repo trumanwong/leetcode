@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumMatchingSubseq(t *testing.T)  {
-	tests := []struct{
-		S string
-		words []string
+func TestNumMatchingSubseq(t *testing.T) {
+	tests := []struct {
+		S      string
+		words  []string
 		output int
 	}{
-		{"abcde",[]string{"a", "bb", "acd", "ace"},3},
+		{"abcde", []string{"a", "bb", "acd", "ace"}, 3},
 	}
 
 	for _, test := range tests {

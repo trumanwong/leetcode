@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCanJump(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestCanJump(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output bool
 	}{
-		{[]int{2,3,1,1,4}, true},
-		{[]int{3,2,1,0,4}, false},
+		{[]int{2, 3, 1, 1, 4}, true},
+		{[]int{3, 2, 1, 0, 4}, false},
 	}
 	for _, test := range tests {
 		ret := canJump.CanJump(test.input)

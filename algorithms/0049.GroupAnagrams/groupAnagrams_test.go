@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-func TestGroupAnagrams(t *testing.T)  {
-	tests := []struct{
-		strs []string
+func TestGroupAnagrams(t *testing.T) {
+	tests := []struct {
+		strs   []string
 		output [][]string
 	}{
 		{[]string{"eat", "tea", "tan", "ate", "nat", "bat"}, [][]string{

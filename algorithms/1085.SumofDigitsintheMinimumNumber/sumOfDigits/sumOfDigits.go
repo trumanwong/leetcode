@@ -9,7 +9,7 @@ func SumOfDigits(A []int) int {
 		sum += temp % 10
 		temp /= 10
 	}
-	if sum % 2 == 0 {
+	if sum%2 == 0 {
 		return 1
 	}
 	return 0

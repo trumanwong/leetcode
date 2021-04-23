@@ -5,7 +5,7 @@ func NumSpecialEquivGroups(A []string) int {
 	for _, s := range A {
 		count := make([]rune, 52)
 		for i, v := range s {
-			count[int(v - 'a') + 26 * (i % 2)]++
+			count[int(v-'a')+26*(i%2)]++
 		}
 		seen[string(count)]++
 	}

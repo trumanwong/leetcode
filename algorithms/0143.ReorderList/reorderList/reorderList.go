@@ -4,7 +4,7 @@ import (
 	. "leetcode/common/list"
 )
 
-func ReorderList(head *ListNode)  {
+func ReorderList(head *ListNode) {
 	queue := make([]*ListNode, 0)
 	cur := head
 	for cur != nil {
@@ -24,8 +24,8 @@ func ReorderList(head *ListNode)  {
 		if len(queue) == 0 {
 			break
 		}
-		cur.Next = queue[len(queue) - 1]
-		queue = queue[:len(queue) - 1]
+		cur.Next = queue[len(queue)-1]
+		queue = queue[:len(queue)-1]
 		cur = cur.Next
 	}
 	if cur != nil {

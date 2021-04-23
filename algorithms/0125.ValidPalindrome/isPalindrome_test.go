@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestIsPalindrome(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestIsPalindrome(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
 		{"A man, a plan, a canal: Panama", true},
-		{"race a car",false},
+		{"race a car", false},
 	}
 	for _, test := range tests {
 		ret := isPalindrome.IsPalindrome(test.input)

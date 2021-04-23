@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestPartitionLabels(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestPartitionLabels(t *testing.T) {
+	tests := []struct {
+		S      string
 		output []int
 	}{
 		{"ababcbacadefegdehijhklij", []int{9, 7, 8}},

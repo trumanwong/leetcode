@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestExist(t *testing.T)  {
-	tests := []struct{
-		board [][]byte
-		word string
+func TestExist(t *testing.T) {
+	tests := []struct {
+		board  [][]byte
+		word   string
 		output bool
 	}{
 		{[][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED", true},

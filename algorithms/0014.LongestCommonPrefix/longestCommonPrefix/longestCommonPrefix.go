@@ -25,18 +25,18 @@ func LongestCommonPrefix(strs []string) string {
 	for i = 0; i < columnMin; i++ {
 		// 每次都得重新初始化
 		dif = 1
-		for j = 0; j < strSize - 1; j++ {
-			if strs[j][i] == strs[j + 1][i] {
+		for j = 0; j < strSize-1; j++ {
+			if strs[j][i] == strs[j+1][i] {
 				continue
 			} else {
 				dif = 0
 				if i == 0 {
 					return ""
 				}
-				break;
+				break
 			}
 		}
-		if j == strSize - 1 || dif == 1 {
+		if j == strSize-1 || dif == 1 {
 			ret = ret + string(strs[0][i])
 		}
 	}

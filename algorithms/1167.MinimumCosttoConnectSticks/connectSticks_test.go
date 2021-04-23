@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestConnectSticks(t *testing.T)  {
-	tests := []struct{
+func TestConnectSticks(t *testing.T) {
+	tests := []struct {
 		sticks []int
 		output int
 	}{
 		{[]int{2, 4, 3}, 14},
-		{[]int{1,8,3,5}, 30},
+		{[]int{1, 8, 3, 5}, 30},
 	}
 
 	for _, test := range tests {

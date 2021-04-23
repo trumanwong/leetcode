@@ -13,7 +13,7 @@ func Merge(intervals [][]int) [][]int {
 	sort.Ints(starts)
 	sort.Ints(ends)
 	for i, j := 0, 0; i < len(intervals); i++ {
-		if i == len(intervals) - 1 || starts[i + 1] > ends[i] {
+		if i == len(intervals)-1 || starts[i+1] > ends[i] {
 			res = append(res, []int{starts[j], ends[i]})
 			j = i + 1
 		}

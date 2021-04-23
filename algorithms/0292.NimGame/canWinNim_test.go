@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCanWinNim(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestCanWinNim(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
 		{4, false},

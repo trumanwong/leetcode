@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestFindMinDifference(t *testing.T)  {
-	tests := []struct{
+func TestFindMinDifference(t *testing.T) {
+	tests := []struct {
 		timePoints []string
-		output int
+		output     int
 	}{
 		{[]string{"23:59", "00:00"}, 1},
 	}

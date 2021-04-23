@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCalPoints(t *testing.T)  {
-	tests := []struct{
-		ops []string
+func TestCalPoints(t *testing.T) {
+	tests := []struct {
+		ops    []string
 		output int
 	}{
 		{[]string{"5", "2", "C", "D", "+"}, 30},
-		{[]string{"5","-2","4","C","D","9","+","+"}, 27},
+		{[]string{"5", "-2", "4", "C", "D", "9", "+", "+"}, 27},
 	}
 
 	for _, test := range tests {

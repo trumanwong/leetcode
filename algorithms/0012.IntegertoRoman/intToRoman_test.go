@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestIntToRoman(t *testing.T)  {
-	tests := []struct{
+func TestIntToRoman(t *testing.T) {
+	tests := []struct {
 		input int
-		ans string
-	} {
+		ans   string
+	}{
 		{1, "I"},
 		{2, "II"},
 		{3, "III"},

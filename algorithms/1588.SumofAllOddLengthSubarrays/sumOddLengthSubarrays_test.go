@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestSumOddLengthSubarrays(t *testing.T)  {
-	tests := []struct{
-		arr []int
+func TestSumOddLengthSubarrays(t *testing.T) {
+	tests := []struct {
+		arr    []int
 		output int
 	}{
-		{[]int{1,4,2,5,3}, 58},
+		{[]int{1, 4, 2, 5, 3}, 58},
 		{[]int{1, 2}, 3},
 	}
 

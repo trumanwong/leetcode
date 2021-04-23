@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestConvert(t *testing.T)  {
+func TestConvert(t *testing.T) {
 	tests := []struct {
-		s string
+		s       string
 		numRows int
-		output string
+		output  string
 	}{
 		{"LEETCODEISHIRING", 3, "LCIRETOESIIGEDHN"},
 		{"LEETCODEISHIRING", 4, "LDREOEIIECIHNTSG"},

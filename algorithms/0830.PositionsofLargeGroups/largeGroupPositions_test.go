@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestLargeGroupPositions(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestLargeGroupPositions(t *testing.T) {
+	tests := []struct {
+		S      string
 		output [][]int
 	}{
-		{"abbxxxxzzy", [][]int{{3,6}}},
+		{"abbxxxxzzy", [][]int{{3, 6}}},
 		{"abc", [][]int{}},
-		{"abcdddeeeeaabbbcd", [][]int{{3,5}, {6, 9}, {12,14}}},
+		{"abcdddeeeeaabbbcd", [][]int{{3, 5}, {6, 9}, {12, 14}}},
 	}
 
 	for _, test := range tests {

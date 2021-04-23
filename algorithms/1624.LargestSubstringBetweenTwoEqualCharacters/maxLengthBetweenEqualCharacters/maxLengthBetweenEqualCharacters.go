@@ -9,7 +9,7 @@ func MaxLengthBetweenEqualCharacters(s string) int {
 		if _, ok := m[v]; !ok {
 			m[v] = i
 		} else {
-			res = int(math.Max(float64(res), float64(i) - float64(m[v]) - 1))
+			res = int(math.Max(float64(res), float64(i)-float64(m[v])-1))
 		}
 	}
 	return res

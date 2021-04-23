@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestConvertToTitle(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestConvertToTitle(t *testing.T) {
+	tests := []struct {
+		input  int
 		output string
 	}{
-		{1,"A"},
-		{28,"AB"},
-		{701,"ZY"},
+		{1, "A"},
+		{28, "AB"},
+		{701, "ZY"},
 	}
 
 	for _, test := range tests {

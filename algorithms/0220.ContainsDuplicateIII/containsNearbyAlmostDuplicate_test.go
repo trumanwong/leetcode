@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestContainsNearbyAlmostDuplicate(t *testing.T)  {
-	tests := []struct{
-		nums []int
-		k int
-		t int
+func TestContainsNearbyAlmostDuplicate(t *testing.T) {
+	tests := []struct {
+		nums   []int
+		k      int
+		t      int
 		output bool
 	}{
-		{[]int{1,2,3,1},3,0,true},
-		{[]int{1,0,1,1},1,2,true},
-		{[]int{1,5,9,1,5,9},2,3,false},
+		{[]int{1, 2, 3, 1}, 3, 0, true},
+		{[]int{1, 0, 1, 1}, 1, 2, true},
+		{[]int{1, 5, 9, 1, 5, 9}, 2, 3, false},
 	}
 
 	for _, test := range tests {

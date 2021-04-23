@@ -13,7 +13,7 @@ func DominantIndex(nums []int) int {
 			second = v
 		}
 	}
-	if first < second * 2 {
+	if first < second*2 {
 		return -1
 	}
 	return index

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestRepeatedSubstringPattern(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestRepeatedSubstringPattern(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
 		{"abab", true},

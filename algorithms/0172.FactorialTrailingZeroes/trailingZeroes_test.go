@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestTrailingZeroes(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestTrailingZeroes(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
-		{3,0},
-		{5,1},
+		{3, 0},
+		{5, 1},
 	}
 	for _, test := range tests {
 		ret := trailingZeroes.TrailingZeroes(test.n)

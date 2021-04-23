@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMaxUncrossedLines(t *testing.T)  {
-	tests := []struct{
-		A []int
-		B []int
+func TestMaxUncrossedLines(t *testing.T) {
+	tests := []struct {
+		A      []int
+		B      []int
 		output int
 	}{
-		{[]int{1,4,2}, []int{1,2,4}, 2},
+		{[]int{1, 4, 2}, []int{1, 2, 4}, 2},
 	}
 
 	for _, test := range tests {

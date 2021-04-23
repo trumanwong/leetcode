@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestInvalidTransactions(t *testing.T)  {
-	tests := []struct{
+func TestInvalidTransactions(t *testing.T) {
+	tests := []struct {
 		transactions []string
-		output []string
+		output       []string
 	}{
-		{[]string{"alice,20,800,mtv","alice,50,100,beijing"},
-			[]string{"alice,20,800,mtv","alice,50,100,beijing"}},
-		{[]string{"alice,20,800,mtv","bob,50,1200,mtv"},
+		{[]string{"alice,20,800,mtv", "alice,50,100,beijing"},
+			[]string{"alice,20,800,mtv", "alice,50,100,beijing"}},
+		{[]string{"alice,20,800,mtv", "bob,50,1200,mtv"},
 			[]string{"bob,50,1200,mtv"}},
 	}
 

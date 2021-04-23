@@ -6,10 +6,10 @@ import (
 	"testing"
 )
 
-func TestIsSubtree(t *testing.T)  {
-	tests := []struct{
-		s []interface{}
-		t []interface{}
+func TestIsSubtree(t *testing.T) {
+	tests := []struct {
+		s      []interface{}
+		t      []interface{}
 		output bool
 	}{
 		{[]interface{}{3, 4, 5, 1, 2}, []interface{}{4, 1, 2}, true},

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestPermuteUnique(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestPermuteUnique(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output [][]int
 	}{
 		{[]int{1, 1, 2}, [][]int{{1, 1, 2}, {1, 2, 1}, {2, 1, 1}}},

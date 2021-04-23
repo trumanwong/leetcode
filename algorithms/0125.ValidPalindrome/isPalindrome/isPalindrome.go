@@ -1,7 +1,7 @@
 package isPalindrome
 
 func IsPalindrome(s string) bool {
-	i, j, sLen := 0, len(s) - 1, len(s)
+	i, j, sLen := 0, len(s)-1, len(s)
 	for i < j {
 		for i < sLen && !((s[i] >= 48 && s[i] <= 57) || (s[i] >= 65 && s[i] <= 90) || (s[i] >= 97 && s[i] <= 122)) {
 			i++
@@ -14,10 +14,10 @@ func IsPalindrome(s string) bool {
 		}
 		iTemp, jTemp := s[i], s[j]
 		if iTemp >= 65 && iTemp <= 90 {
-			iTemp +=32
+			iTemp += 32
 		}
 		if jTemp >= 65 && jTemp <= 90 {
-			jTemp +=32
+			jTemp += 32
 		}
 		if iTemp != jTemp {
 			return false

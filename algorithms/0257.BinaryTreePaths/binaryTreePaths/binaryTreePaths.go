@@ -13,7 +13,7 @@ type TreeNode struct {
 func BinaryTreePaths(root *TreeNode) []string {
 	res := []string{}
 	var recursivePaths func(*TreeNode, string)
-	recursivePaths = func (node *TreeNode, curr string)  {
+	recursivePaths = func(node *TreeNode, curr string) {
 		if node == nil {
 			return
 		}

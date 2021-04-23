@@ -1,6 +1,6 @@
 package shellSort
 
-func ShellSort(arr[] int)  {
+func ShellSort(arr []int) {
 	// 计算第1次的增量
 	d := len(arr) / 2
 	// 循环至增量为1时结束
@@ -12,11 +12,11 @@ func ShellSort(arr[] int)  {
 			j := i - d
 			// 下一个数大于钱一个属
 			for j >= 0 && arr[j] > next {
-				arr[j + d] = arr[j]
+				arr[j+d] = arr[j]
 				j = j - d
 			}
 			// 保存数据
-			arr[j + d] = next
+			arr[j+d] = next
 		}
 		// 缩小增量
 		d /= 2

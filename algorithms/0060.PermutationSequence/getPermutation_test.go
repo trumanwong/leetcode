@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestGetPermutation(t *testing.T)  {
-	tests := []struct{
-		n int
-		k int
+func TestGetPermutation(t *testing.T) {
+	tests := []struct {
+		n      int
+		k      int
 		output string
 	}{
 		{3, 3, "213"},

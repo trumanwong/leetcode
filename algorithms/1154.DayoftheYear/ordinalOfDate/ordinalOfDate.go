@@ -21,12 +21,12 @@ func OrdinalOfDate(date string) int {
 		arr = append(arr, temp)
 	}
 	months := []int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
-	if (arr[0] %4 == 0 && arr[0] % 100 != 0) || arr[0] % 400 == 0 {
+	if (arr[0]%4 == 0 && arr[0]%100 != 0) || arr[0]%400 == 0 {
 		months[1] = 29
 	}
 
 	ret := 0
-	for i := 0; i < arr[1] - 1; i++ {
+	for i := 0; i < arr[1]-1; i++ {
 		ret += months[i]
 	}
 	return ret + arr[2]

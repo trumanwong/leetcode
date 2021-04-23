@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNextGreaterElement(t *testing.T)  {
-	tests := []struct{
-		nums1 []int
-		nums2 []int
+func TestNextGreaterElement(t *testing.T) {
+	tests := []struct {
+		nums1  []int
+		nums2  []int
 		output []int
 	}{
-		{[]int{4,1,2},[]int{1,3,4,2},[]int{-1,3,-1}},
+		{[]int{4, 1, 2}, []int{1, 3, 4, 2}, []int{-1, 3, -1}},
 	}
 
 	for _, test := range tests {

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMakeGood(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestMakeGood(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
 		{"leEeetcode", "leetcode"},

@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestCountPrimeSetBits(t *testing.T)  {
-	tests := []struct{
-		L int
-		R int
+func TestCountPrimeSetBits(t *testing.T) {
+	tests := []struct {
+		L      int
+		R      int
 		output int
 	}{
-		{6,10,4},
-		{10,15,5},
+		{6, 10, 4},
+		{10, 15, 5},
 	}
 
 	for _, test := range tests {

@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestMinSwaps(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMinSwaps(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{1,0,1,0,1}, 1},
-		{[]int{0,0,0,1,0}, 0},
-		{[]int{1,0,1,0,1,0,0,1,1,0,1}, 3},
+		{[]int{1, 0, 1, 0, 1}, 1},
+		{[]int{0, 0, 0, 1, 0}, 0},
+		{[]int{1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1}, 3},
 	}
 
 	for _, test := range tests {

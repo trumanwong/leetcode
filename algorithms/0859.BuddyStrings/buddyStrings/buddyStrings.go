@@ -7,7 +7,7 @@ func BuddyStrings(A string, B string) bool {
 	if A == B {
 		count := make([]int, 26)
 		for _, v := range A {
-			count[int(v) - 'a']++
+			count[int(v)-'a']++
 		}
 		for _, v := range count {
 			if v > 1 {

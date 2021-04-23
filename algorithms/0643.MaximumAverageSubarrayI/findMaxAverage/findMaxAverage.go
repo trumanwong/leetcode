@@ -9,7 +9,7 @@ func FindMaxAverage(nums []int, k int) float64 {
 		count++
 		if count >= k {
 			if count > k {
-				sum -= nums[i - k]
+				sum -= nums[i-k]
 				count--
 			}
 			if float64(sum) > max {

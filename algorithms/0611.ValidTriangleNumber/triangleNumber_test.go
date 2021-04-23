@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestTriangleNumber(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestTriangleNumber(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{2, 2, 3, 4}, 3},

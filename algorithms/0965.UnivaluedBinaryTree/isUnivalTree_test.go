@@ -5,20 +5,20 @@ import (
 	"testing"
 )
 
-func TestIsUnivalTree(t *testing.T)  {
-	tests := []struct{
+func TestIsUnivalTree(t *testing.T) {
+	tests := []struct {
 		root   isUnivalTree.TreeNode
 		output bool
 	}{
 		{isUnivalTree.TreeNode{1,
-			&isUnivalTree.TreeNode{1,&isUnivalTree.TreeNode{1,nil,nil},
-				&isUnivalTree.TreeNode{1,nil,nil}},
-				&isUnivalTree.TreeNode{1,nil,&isUnivalTree.TreeNode{1,nil,nil}}}, true},
+			&isUnivalTree.TreeNode{1, &isUnivalTree.TreeNode{1, nil, nil},
+				&isUnivalTree.TreeNode{1, nil, nil}},
+			&isUnivalTree.TreeNode{1, nil, &isUnivalTree.TreeNode{1, nil, nil}}}, true},
 		{isUnivalTree.TreeNode{2,
 			&isUnivalTree.TreeNode{2,
-				&isUnivalTree.TreeNode{5,nil,nil},
-				&isUnivalTree.TreeNode{2,nil,nil}},
-				&isUnivalTree.TreeNode{2,nil,nil}}, false},
+				&isUnivalTree.TreeNode{5, nil, nil},
+				&isUnivalTree.TreeNode{2, nil, nil}},
+			&isUnivalTree.TreeNode{2, nil, nil}}, false},
 	}
 	for _, test := range tests {
 		ret := isUnivalTree.IsUnivalTree(&test.root)

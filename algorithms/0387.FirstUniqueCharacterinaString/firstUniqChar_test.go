@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestFirstUniqChar(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestFirstUniqChar(t *testing.T) {
+	tests := []struct {
+		input  string
 		output int
 	}{
-		{"leetcode",0},
-		{"loveleetcode",2},
+		{"leetcode", 0},
+		{"loveleetcode", 2},
 	}
 
 	for _, test := range tests {

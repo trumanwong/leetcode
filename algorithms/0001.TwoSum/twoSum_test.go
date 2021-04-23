@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestTwoSum(t *testing.T) {
+	tests := []struct {
+		input  []int
 		target int
 		output []int
 	}{

@@ -50,7 +50,7 @@ func MinAvailableDuration(slots1 [][]int, slots2 [][]int, duration int) []int {
 			end = m2[arr2[j]]
 			large = true
 		}
-		if start + duration <= end {
+		if start+duration <= end {
 			res = append(res, []int{start, start + duration})
 			break
 		}
@@ -81,7 +81,7 @@ func MinAvailableDuration(slots1 [][]int, slots2 [][]int, duration int) []int {
 			end = m1[arr1[j]]
 			large = true
 		}
-		if start + duration <= end {
+		if start+duration <= end {
 			res = append(res, []int{start, start + duration})
 			break
 		}

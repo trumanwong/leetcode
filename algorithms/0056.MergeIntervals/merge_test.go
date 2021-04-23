@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMerge(t *testing.T)  {
-	tests := []struct{
+func TestMerge(t *testing.T) {
+	tests := []struct {
 		intervals [][]int
-		output [][]int
+		output    [][]int
 	}{
-		{[][]int{{1,3},{2,6},{8,10},{15,18}}, [][]int{{1,6},{8,10},{15,18}}},
-		{[][]int{{1,4},{4,5}}, [][]int{{1,5}}},
+		{[][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}, [][]int{{1, 6}, {8, 10}, {15, 18}}},
+		{[][]int{{1, 4}, {4, 5}}, [][]int{{1, 5}}},
 	}
 
 	for _, test := range tests {

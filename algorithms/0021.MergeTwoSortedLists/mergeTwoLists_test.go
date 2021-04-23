@@ -7,10 +7,10 @@ import (
 	"testing"
 )
 
-func TestMergeTwoLists(t *testing.T)  {
-	tests := []struct{
-		l1 []int
-		l2 []int
+func TestMergeTwoLists(t *testing.T) {
+	tests := []struct {
+		l1     []int
+		l2     []int
 		output []int
 	}{
 		{[]int{1, 2, 4}, []int{1, 3, 4}, []int{1, 1, 2, 3, 4, 4}},

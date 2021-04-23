@@ -1,6 +1,6 @@
 package solve
 
-func Solve(board [][]byte)  {
+func Solve(board [][]byte) {
 	if len(board) == 0 {
 		return
 	}
@@ -8,7 +8,7 @@ func Solve(board [][]byte)  {
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[i]); j++ {
 			// 从边缘O开始搜索
-			isEdge := i == 0 || j == 0 || i == len(board) - 1 || j == len(board[i]) - 1
+			isEdge := i == 0 || j == 0 || i == len(board)-1 || j == len(board[i])-1
 			if isEdge && board[i][j] == 'O' {
 				dfs(board, i, j)
 			}
@@ -32,8 +32,8 @@ func dfs(board [][]byte, i, j int) {
 		return
 	}
 	board[i][j] = '#'
-	dfs(board, i - 1, j)
-	dfs(board, i + 1, j)
-	dfs(board, i, j - 1)
-	dfs(board, i, j + 1)
+	dfs(board, i-1, j)
+	dfs(board, i+1, j)
+	dfs(board, i, j-1)
+	dfs(board, i, j+1)
 }

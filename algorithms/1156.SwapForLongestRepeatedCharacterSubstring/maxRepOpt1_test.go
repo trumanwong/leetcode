@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMaxRepOpt1(t *testing.T)  {
-	tests := []struct{
-		date string
+func TestMaxRepOpt1(t *testing.T) {
+	tests := []struct {
+		date   string
 		output int
 	}{
 		{"ababa", 3},

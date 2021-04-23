@@ -6,18 +6,18 @@ import (
 	"testing"
 )
 
-func TestFindElements(t *testing.T)  {
-	tests := []struct{
+func TestFindElements(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]interface{}
-		output []interface{}
+		values   [][]interface{}
+		output   []interface{}
 	}{
-		{[]string{"FindElements","find","find"},
+		{[]string{"FindElements", "find", "find"},
 			[][]interface{}{{-1, nil, -1}, {1}, {2}},
 			[]interface{}{nil, false, true}},
-			{[]string{"FindElements","find","find","find"},
-				[][]interface{}{{-1,-1,-1,-1,-1}, {1}, {3}, {5}},
-				[]interface{}{nil, true, true, false}},
+		{[]string{"FindElements", "find", "find", "find"},
+			[][]interface{}{{-1, -1, -1, -1, -1}, {1}, {3}, {5}},
+			[]interface{}{nil, true, true, false}},
 	}
 
 	for _, test := range tests {

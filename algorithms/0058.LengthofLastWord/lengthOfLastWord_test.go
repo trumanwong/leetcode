@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLengthOfLastWord(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestLengthOfLastWord(t *testing.T) {
+	tests := []struct {
+		input  string
 		output int
 	}{
 		{"Hello World", 5},

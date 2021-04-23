@@ -27,8 +27,8 @@ func LicenseKeyFormatting(S string, K int) string {
 		}
 	}
 	ans := []byte(res)
-	for i := 0; i < len(ans) / 2; i++ {
-		ans[i], ans[len(ans) - 1 -i] = ans[len(ans) - 1 -i], ans[i]
+	for i := 0; i < len(ans)/2; i++ {
+		ans[i], ans[len(ans)-1-i] = ans[len(ans)-1-i], ans[i]
 	}
 	return string(ans)
 }

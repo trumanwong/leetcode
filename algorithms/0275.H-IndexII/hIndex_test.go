@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestHIndex(t *testing.T)  {
-	tests := []struct{
+func TestHIndex(t *testing.T) {
+	tests := []struct {
 		citations []int
-		output int
+		output    int
 	}{
-		{[]int{3,0,6,1,5}, 3},
+		{[]int{3, 0, 6, 1, 5}, 3},
 	}
 
 	for _, test := range tests {

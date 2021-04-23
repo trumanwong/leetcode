@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLetterCasePermutation(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestLetterCasePermutation(t *testing.T) {
+	tests := []struct {
+		S      string
 		output []string
 	}{
 		{"a1b2", []string{"A1B2", "A1b2", "a1B2", "a1b2"}},

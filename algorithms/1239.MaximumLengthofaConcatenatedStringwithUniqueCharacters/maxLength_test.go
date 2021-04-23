@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMaxLength(t *testing.T)  {
-	tests := []struct{
-		arr []string
+func TestMaxLength(t *testing.T) {
+	tests := []struct {
+		arr    []string
 		output int
 	}{
-		{[]string{"un","iq","ue"}, 4},
-		{[]string{"cha","r","act","ers"}, 6},
+		{[]string{"un", "iq", "ue"}, 4},
+		{[]string{"cha", "r", "act", "ers"}, 6},
 		{[]string{"abcdefghijklmnopqrstuvwxyz"}, 26},
 	}
 

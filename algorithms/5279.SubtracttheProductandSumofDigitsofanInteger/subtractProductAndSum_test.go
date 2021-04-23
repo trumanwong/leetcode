@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSubtractProductAndSum(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestSubtractProductAndSum(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{234, 15},

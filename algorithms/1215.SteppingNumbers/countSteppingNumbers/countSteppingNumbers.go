@@ -18,11 +18,11 @@ func CountSteppingNumbers(low int, high int) []int {
 			return
 		}
 		last := curr % 10
-		if last + 1 <= 9 {
-			helper(curr * 10 + last + 1, n - 1)
+		if last+1 <= 9 {
+			helper(curr*10+last+1, n-1)
 		}
-		if last - 1 >= 0 {
-			helper(curr * 10 + last - 1, n - 1)
+		if last-1 >= 0 {
+			helper(curr*10+last-1, n-1)
 		}
 	}
 	for i := len(ls); i <= len(hs); i++ {
@@ -31,7 +31,7 @@ func CountSteppingNumbers(low int, high int) []int {
 			start = 1
 		}
 		for j := start; j <= 9; j++ {
-			helper(j, i - 1)
+			helper(j, i-1)
 		}
 	}
 	sort.Ints(res)

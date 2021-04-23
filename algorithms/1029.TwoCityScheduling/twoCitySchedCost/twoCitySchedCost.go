@@ -10,7 +10,7 @@ func TwoCitySchedCost(costs [][]int) int {
 	}
 
 	sort.Ints(diff)
-	for i := 0; i < len(costs) / 2; i++ {
+	for i := 0; i < len(costs)/2; i++ {
 		res += diff[i]
 	}
 	return res

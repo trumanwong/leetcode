@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestToHex(t *testing.T)  {
-	tests := []struct{
-		num int
+func TestToHex(t *testing.T) {
+	tests := []struct {
+		num    int
 		output string
 	}{
-		{26,"1a"},
-		{-1,"ffffffff"},
+		{26, "1a"},
+		{-1, "ffffffff"},
 	}
 
 	for _, test := range tests {

@@ -9,13 +9,13 @@ func SimplifyPath(path string) string {
 		if v != "" && v != "." && v != ".." {
 			bytes = append(bytes, []byte(v))
 		} else if v == ".." && len(bytes) > 0 {
-			bytes = bytes[:len(bytes) - 1]
+			bytes = bytes[:len(bytes)-1]
 		}
 	}
 
 	res := "/"
 	for i, v := range bytes {
-		if i == len(bytes) - 1 {
+		if i == len(bytes)-1 {
 			res += string(v)
 			continue
 		}

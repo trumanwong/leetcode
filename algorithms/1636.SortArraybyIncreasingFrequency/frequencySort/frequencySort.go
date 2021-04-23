@@ -3,7 +3,7 @@ package frequencySort
 import "sort"
 
 type NumFreq struct {
-	num int
+	num  int
 	freq int
 }
 

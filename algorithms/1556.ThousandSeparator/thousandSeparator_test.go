@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestThousandSeparator(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestThousandSeparator(t *testing.T) {
+	tests := []struct {
+		input  int
 		output string
 	}{
 		{987, "987"},

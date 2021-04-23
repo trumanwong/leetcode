@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestCoinChange(t *testing.T)  {
-	tests := []struct{
-		coins []int
+func TestCoinChange(t *testing.T) {
+	tests := []struct {
+		coins  []int
 		amount int
 		output int
 	}{
-		{[]int{1,2,5},11,3},
-		{[]int{2},3,-1},
-		{[]int{2,5,10,1},27,4},
-		{[]int{186,419,83,408}, 6249,20},
+		{[]int{1, 2, 5}, 11, 3},
+		{[]int{2}, 3, -1},
+		{[]int{2, 5, 10, 1}, 27, 4},
+		{[]int{186, 419, 83, 408}, 6249, 20},
 	}
 	for _, test := range tests {
 		ret := coinChange.CoinChange(test.coins, test.amount)

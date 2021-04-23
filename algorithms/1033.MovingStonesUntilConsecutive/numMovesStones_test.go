@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestNumMovesStones(t *testing.T)  {
-	tests := []struct{
-		a int
-		b int
-		c int
+func TestNumMovesStones(t *testing.T) {
+	tests := []struct {
+		a      int
+		b      int
+		c      int
 		output []int
-	} {
-		{1,2,5,[]int{1,2}},
-		{4,3,2,[]int{0,0}},
+	}{
+		{1, 2, 5, []int{1, 2}},
+		{4, 3, 2, []int{0, 0}},
 	}
 
 	for _, test := range tests {

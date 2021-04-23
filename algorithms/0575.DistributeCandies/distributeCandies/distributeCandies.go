@@ -6,7 +6,7 @@ func DistributeCandies(candies []int) int {
 		m[v]++
 	}
 
-	if len(candies) / 2 < len(m) {
+	if len(candies)/2 < len(m) {
 		return len(candies) / 2
 	}
 	return len(m)

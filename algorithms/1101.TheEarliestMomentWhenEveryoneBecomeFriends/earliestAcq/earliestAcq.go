@@ -11,7 +11,7 @@ func EarliestAcq(logs [][]int, N int) int {
 
 	arr := [][]int{}
 
-	for i := 0; i< len(logs); i++ {
+	for i := 0; i < len(logs); i++ {
 		v1, v2 := logs[i][1], logs[i][2]
 		if len(arr) == 0 {
 			arr = append(arr, []int{v1, v2})
@@ -33,7 +33,7 @@ func EarliestAcq(logs [][]int, N int) int {
 			}
 		}
 
-		for j := 0; j< len(arr); j++ {
+		for j := 0; j < len(arr); j++ {
 			has, n := false, -1
 			for k := j + 1; k < len(arr); k++ {
 				if array_intersect(arr[k], arr[j]) {

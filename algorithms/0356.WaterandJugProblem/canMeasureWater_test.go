@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestCanMeasureWater(t *testing.T)  {
-	tests := []struct{
-		x int
-		y int
-		z int
+func TestCanMeasureWater(t *testing.T) {
+	tests := []struct {
+		x      int
+		y      int
+		z      int
 		output bool
 	}{
 		{3, 5, 4, true},

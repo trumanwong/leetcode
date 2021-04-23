@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestNumberOfLines(t *testing.T)  {
-	tests := []struct{
+func TestNumberOfLines(t *testing.T) {
+	tests := []struct {
 		widths []int
-		S string
+		S      string
 		output []int
 	}{
 		{[]int{10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10},

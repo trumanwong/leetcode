@@ -27,25 +27,25 @@ func Reverse(x int) int {
 	result := 0
 	temp := 0
 	mul := -1
-	if x / mul < 0 {
+	if x/mul < 0 {
 		mul = 1
 	} else {
 		x = x / mul
 	}
 	xLen := len(strconv.Itoa(x))
-	for ; xLen > 0; {
+	for xLen > 0 {
 		temp = x % 10
-		result = result + temp * int(math.Pow(float64(10), float64(xLen - 1)))
+		result = result + temp*int(math.Pow(float64(10), float64(xLen-1)))
 		x = x / 10
 		if xLen == 1 {
 			temp = x / 10
-			result = result + temp * int(math.Pow(float64(10), float64(0)))
+			result = result + temp*int(math.Pow(float64(10), float64(0)))
 			xLen--
 		}
 		xLen--
 	}
 	result = result * mul
-	if result < int(math.Pow(-2, 31)) || result > int(math.Pow(2, 31) - 1) {
+	if result < int(math.Pow(-2, 31)) || result > int(math.Pow(2, 31)-1) {
 		return 0
 	}
 	return result

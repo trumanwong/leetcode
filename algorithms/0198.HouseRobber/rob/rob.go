@@ -5,7 +5,7 @@ func Rob(nums []int) int {
 	for _, v := range nums {
 		temp := last
 		last = res
-		if res < temp + v {
+		if res < temp+v {
 			res = temp + v
 		}
 	}

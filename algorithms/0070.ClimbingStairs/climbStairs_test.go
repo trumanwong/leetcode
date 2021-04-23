@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestClimbStairs(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestClimbStairs(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{1,1,},
-		{2,2},
-		{3,3},
-		{4,5},
+		{1, 1},
+		{2, 2},
+		{3, 3},
+		{4, 5},
 	}
 	for _, test := range tests {
 		ret := climbStairs.ClimbStairs(test.input)

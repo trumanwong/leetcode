@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestValidPalindrome(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestValidPalindrome(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
 		{"aba", true},
 		{"abca", true},
-		{"acbba",true},
-		{"acda",true},
-		{"acdza",false},
+		{"acbba", true},
+		{"acda", true},
+		{"acdza", false},
 		{"aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga", true},
 		{"eeccccbebaeeabebccceea", false},
 		{"eccer", true},

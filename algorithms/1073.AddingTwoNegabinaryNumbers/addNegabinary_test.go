@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestAddNegabinary(t *testing.T)  {
-	tests := []struct{
-		arr1 []int
-		arr2 []int
+func TestAddNegabinary(t *testing.T) {
+	tests := []struct {
+		arr1   []int
+		arr2   []int
 		output []int
 	}{
-		{[]int{1,1,1,1,1}, []int{1, 0, 1}, []int{1, 0, 0, 0, 0}},
+		{[]int{1, 1, 1, 1, 1}, []int{1, 0, 1}, []int{1, 0, 0, 0, 0}},
 	}
 
 	for _, test := range tests {

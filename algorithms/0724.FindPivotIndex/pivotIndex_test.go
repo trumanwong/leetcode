@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestPivotIndex(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestPivotIndex(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{1, 7, 3, 6, 5, 6}, 3},
-		{[]int{1,2,3}, -1},
+		{[]int{1, 2, 3}, -1},
 	}
 
 	for _, test := range tests {

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestRemoveDuplicateLetters(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestRemoveDuplicateLetters(t *testing.T) {
+	tests := []struct {
+		s      string
 		output string
 	}{
 		{"bcabc", "abc"},

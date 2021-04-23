@@ -6,7 +6,7 @@ func SpiralOrder(matrix [][]int) []int {
 		return res
 	}
 
-	rowRight, rowLeft, colRight, colLeft := 0, len(matrix) - 1, 0, len(matrix[0]) - 1
+	rowRight, rowLeft, colRight, colLeft := 0, len(matrix)-1, 0, len(matrix[0])-1
 	for rowRight <= rowLeft && colRight <= colLeft {
 		for i := colRight; i <= colLeft; i++ {
 			res = append(res, matrix[rowRight][i])

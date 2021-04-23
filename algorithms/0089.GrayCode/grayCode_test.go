@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestGrayCode(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestGrayCode(t *testing.T) {
+	tests := []struct {
+		n      int
 		output []int
 	}{
 		{2, []int{0, 1, 3, 2}},

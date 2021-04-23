@@ -8,13 +8,13 @@ func AddToArrayForm(A []int, K int) []int {
 		if i >= 0 {
 			cur += A[i]
 		}
-		res = append(res, cur % 10)
+		res = append(res, cur%10)
 		cur = cur / 10
 	}
 	len_res := len(res)
 	loop := len_res / 2
 	for i := 0; i < loop; i++ {
-		res[i], res[len_res - i - 1] = res[len_res - i - 1], res[i]
+		res[i], res[len_res-i-1] = res[len_res-i-1], res[i]
 	}
 	return res
 }

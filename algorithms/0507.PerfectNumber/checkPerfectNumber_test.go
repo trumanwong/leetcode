@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCheckPerfectNumber(t *testing.T)  {
-	tests := []struct{
-		num int
+func TestCheckPerfectNumber(t *testing.T) {
+	tests := []struct {
+		num    int
 		output bool
 	}{
 		{28, true},

@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestNumSubarrayProductLessThanK(t *testing.T)  {
-	tests := []struct{
-		nums []int
-		k int
+func TestNumSubarrayProductLessThanK(t *testing.T) {
+	tests := []struct {
+		nums   []int
+		k      int
 		output int
 	}{
 		{[]int{10, 5, 2, 6}, 100, 8},

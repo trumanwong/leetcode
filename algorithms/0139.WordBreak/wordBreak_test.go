@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestWordBreak(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestWordBreak(t *testing.T) {
+	tests := []struct {
+		s        string
 		wordDict []string
-		output bool
+		output   bool
 	}{
 		{"leetcode", []string{"leet", "code"}, true},
 		{"applepenapple", []string{"apple", "pen"}, true},

@@ -6,13 +6,13 @@ import (
 	"testing"
 )
 
-func TestPathSum(t *testing.T)  {
-	tests := []struct{
-		root []interface{}
-		sum int
+func TestPathSum(t *testing.T) {
+	tests := []struct {
+		root   []interface{}
+		sum    int
 		output int
 	}{
-		{[]interface{}{10,5,-3,3,2,nil,11,3,-2,nil,1}, 8, 3},
+		{[]interface{}{10, 5, -3, 3, 2, nil, 11, 3, -2, nil, 1}, 8, 3},
 	}
 
 	for _, test := range tests {

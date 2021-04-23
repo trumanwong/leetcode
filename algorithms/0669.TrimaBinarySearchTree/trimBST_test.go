@@ -7,11 +7,11 @@ import (
 	"testing"
 )
 
-func TestTrimBST(t *testing.T)  {
-	tests := []struct{
-		root *TreeNode
-		L int
-		R int
+func TestTrimBST(t *testing.T) {
+	tests := []struct {
+		root   *TreeNode
+		L      int
+		R      int
 		output *TreeNode
 	}{
 		{Constructor(0, []interface{}{1, 0, 2}), 1, 2, Constructor(0, []interface{}{1, nil, 2})},

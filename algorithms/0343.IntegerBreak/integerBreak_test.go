@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestIntegerBreak(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestIntegerBreak(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{2, 1},

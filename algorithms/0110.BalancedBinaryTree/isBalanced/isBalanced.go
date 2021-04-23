@@ -22,7 +22,7 @@ func IsBalanced(root *TreeNode) bool {
 	left_height := height2(root.Left)
 	right_height := height2(root.Right)
 	balance := true
-	if left_height - right_height > 1 || left_height - right_height < -1 {
+	if left_height-right_height > 1 || left_height-right_height < -1 {
 		balance = false
 	}
 	return balance && IsBalanced(root.Left) && IsBalanced(root.Right)
@@ -46,7 +46,7 @@ func height(root *TreeNode, balance *bool) int {
 	}
 	left_height := height(root.Left, balance)
 	right_height := height(root.Right, balance)
-	if left_height - right_height > 1 || left_height - right_height < -1 {
+	if left_height-right_height > 1 || left_height-right_height < -1 {
 		*balance = false
 		return -1
 	}

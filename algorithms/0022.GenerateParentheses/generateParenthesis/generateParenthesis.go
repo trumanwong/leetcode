@@ -10,11 +10,11 @@ func GenerateParenthesis(n int) []string {
 		}
 
 		if o < max {
-			backtrack(cur + "(", o + 1, c, max)
+			backtrack(cur+"(", o+1, c, max)
 		}
 
 		if c < o {
-			backtrack(cur + ")", o, c + 1, max)
+			backtrack(cur+")", o, c+1, max)
 		}
 	}
 	backtrack("", 0, 0, n)

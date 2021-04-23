@@ -13,7 +13,7 @@ func SumNumbers(root *TreeNode) int {
 		if node == nil {
 			return
 		}
-		sum = sum * 10 + node.Val
+		sum = sum*10 + node.Val
 		if node.Left == nil && node.Right == nil {
 			res += sum
 			return

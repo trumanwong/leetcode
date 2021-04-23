@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestSortList(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestSortList(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output []int
 	}{
 		{[]int{4, 2, 1, 3}, []int{1, 2, 3, 4}},

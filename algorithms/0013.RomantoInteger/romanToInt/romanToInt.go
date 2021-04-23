@@ -1,6 +1,7 @@
 package romanToInt
 
 import "strings"
+
 //Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 //
 //Symbol       Value
@@ -59,10 +60,10 @@ func RomanToInt(s string) int {
 	myMap["D"] = 500
 	myMap["M"] = 1000
 
-	for i := 0;i < len(myArr); i++ {
-		if (i < len(myArr) - 1) && myMap[myArr[i]] < myMap[myArr[i + 1]] {
+	for i := 0; i < len(myArr); i++ {
+		if (i < len(myArr)-1) && myMap[myArr[i]] < myMap[myArr[i+1]] {
 			res -= myMap[myArr[i]]
-		}else{
+		} else {
 			res += myMap[myArr[i]]
 		}
 	}

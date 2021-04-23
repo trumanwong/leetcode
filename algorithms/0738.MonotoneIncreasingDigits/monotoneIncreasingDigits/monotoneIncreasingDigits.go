@@ -9,9 +9,9 @@ func MonotoneIncreasingDigits(N int) int {
 	str := []byte(strconv.Itoa(N))
 	flag := len(str)
 	for i := len(str) - 1; i >= 1; i-- {
-		if str[i] < str[i - 1] {
+		if str[i] < str[i-1] {
 			flag = i
-			str[i - 1]--
+			str[i-1]--
 		}
 	}
 

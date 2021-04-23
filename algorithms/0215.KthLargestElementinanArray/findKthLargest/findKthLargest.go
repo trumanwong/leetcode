@@ -8,5 +8,5 @@ func FindKthLargest(nums []int, k int) int {
 			}
 		}
 	}
-	return nums[k - 1]
+	return nums[k-1]
 }

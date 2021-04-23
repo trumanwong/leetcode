@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestTwoSumLessThanK(t *testing.T)  {
-	tests := []struct{
-		A []int
-		K int
+func TestTwoSumLessThanK(t *testing.T) {
+	tests := []struct {
+		A      []int
+		K      int
 		Output int
 	}{
-		{[]int{34,23,1,24,75,33,54,8}, 60, 58},
-		{[]int{10,20,30}, 15,-1},
+		{[]int{34, 23, 1, 24, 75, 33, 54, 8}, 60, 58},
+		{[]int{10, 20, 30}, 15, -1},
 	}
 
 	for _, test := range tests {

@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestCountServers(t *testing.T)  {
-	tests := []struct{
-		grid [][]int
+func TestCountServers(t *testing.T) {
+	tests := []struct {
+		grid   [][]int
 		output int
 	}{
 		{[][]int{{1, 0}, {0, 1}}, 0},
 		{[][]int{{1, 0}, {1, 1}}, 3},
-		{[][]int{{1,1,0,0},{0,0,1,0},{0,0,1,0},{0,0,0,1}}, 4},
-		{[][]int{{1,0,0,1,0},{0,0,0,0,0},{0,0,0,1,0}}, 3},
+		{[][]int{{1, 1, 0, 0}, {0, 0, 1, 0}, {0, 0, 1, 0}, {0, 0, 0, 1}}, 4},
+		{[][]int{{1, 0, 0, 1, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 1, 0}}, 3},
 	}
 
 	for _, test := range tests {

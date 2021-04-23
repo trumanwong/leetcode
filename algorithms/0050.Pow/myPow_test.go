@@ -6,12 +6,12 @@ import (
 	"testing"
 )
 
-func TestMyPow(t *testing.T)  {
-	tests := []struct{
+func TestMyPow(t *testing.T) {
+	tests := []struct {
 		input1 float64
 		input2 int
-		ans float64
-	} {
+		ans    float64
+	}{
 		{2.10000, 3, 9.261000},
 		{2.00000, -2, 0.250000},
 		{2.00000, 10, 1024.000000},

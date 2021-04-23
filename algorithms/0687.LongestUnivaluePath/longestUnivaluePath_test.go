@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-func TestArrowLength(t *testing.T)  {
-	tests := []struct{
+func TestArrowLength(t *testing.T) {
+	tests := []struct {
 		root   longestUnivaluePath.TreeNode
 		output int
 	}{

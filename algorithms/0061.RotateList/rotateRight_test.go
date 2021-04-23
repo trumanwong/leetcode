@@ -7,10 +7,10 @@ import (
 	"testing"
 )
 
-func TestRotateRight(t *testing.T)  {
-	tests := []struct{
-		head []int
-		k int
+func TestRotateRight(t *testing.T) {
+	tests := []struct {
+		head   []int
+		k      int
 		output []int
 	}{
 		{[]int{1, 2, 3, 4, 5}, 2, []int{4, 5, 1, 2, 3}},

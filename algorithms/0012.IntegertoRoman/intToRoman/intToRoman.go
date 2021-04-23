@@ -42,13 +42,13 @@ package intToRoman
 //Output: "MCMXCIV"
 //Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 func IntToRoman(num int) string {
-	maps := map[int]string {
-		1: "I",
-		5: "V",
-		10: "X",
-		50: "L",
-		100: "C",
-		500: "D",
+	maps := map[int]string{
+		1:    "I",
+		5:    "V",
+		10:   "X",
+		50:   "L",
+		100:  "C",
+		500:  "D",
 		1000: "M",
 	}
 	result := ""
@@ -75,7 +75,7 @@ func IntToRoman(num int) string {
 		}
 	} else if num < 10 {
 		result += maps[5]
-		for i := 0; i < num - 5; i++ {
+		for i := 0; i < num-5; i++ {
 			result += maps[1]
 		}
 	} else if num < 50 {
@@ -104,7 +104,7 @@ func IntToRoman(num int) string {
 			result += "CD"
 			mod = num - 400
 		} else {
-			for i := 0; i < num / 100; i++ {
+			for i := 0; i < num/100; i++ {
 				result += maps[100]
 			}
 		}
@@ -119,7 +119,7 @@ func IntToRoman(num int) string {
 		}
 		result += IntToRoman(sub)
 	} else {
-		for i := 0; i < num / 1000; i++ {
+		for i := 0; i < num/1000; i++ {
 			result += maps[1000]
 		}
 		mod := num % 1000

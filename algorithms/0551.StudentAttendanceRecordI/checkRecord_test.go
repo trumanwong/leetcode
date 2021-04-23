@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCheckRecord(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestCheckRecord(t *testing.T) {
+	tests := []struct {
+		input  string
 		output bool
 	}{
 		{"PPALLP", true},

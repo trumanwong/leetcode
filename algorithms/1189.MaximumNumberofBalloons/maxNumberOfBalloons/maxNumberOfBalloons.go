@@ -17,12 +17,12 @@ func maxNumberOfBalloons(text string) int {
 			n++
 		}
 	}
-	l, o = l / 2, o /2
+	l, o = l/2, o/2
 	ret = min(ret, min(b, min(a, min(l, min(o, n)))))
 	return ret
 }
 
-func min (x, y int) int {
+func min(x, y int) int {
 	if x < y {
 		return x
 	}

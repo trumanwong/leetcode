@@ -1,6 +1,6 @@
 package moveZeroes
 
-func MoveZeroes(nums []int)  {
+func MoveZeroes(nums []int) {
 	mov := 0
 	for _, v := range nums {
 		if v != 0 {

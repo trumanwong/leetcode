@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestFlipAndInvertImage(t *testing.T)  {
-	tests := []struct{
-		A [][]int
+func TestFlipAndInvertImage(t *testing.T) {
+	tests := []struct {
+		A      [][]int
 		output [][]int
 	}{
 		{[][]int{{1, 1, 0}, {1, 0, 1}, {0, 0, 0}}, [][]int{{1, 0, 0}, {0, 1, 0}, {1, 1, 1}}},
-		{[][]int{{1,1,0,0},{1,0,0,1},{0,1,1,1},{1,0,1,0}},
-			[][]int{{1,1,0,0}, {0,1,1,0}, {0,0,0,1}, {1,0,1,0}}},
+		{[][]int{{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}},
+			[][]int{{1, 1, 0, 0}, {0, 1, 1, 0}, {0, 0, 0, 1}, {1, 0, 1, 0}}},
 	}
 
 	for _, test := range tests {

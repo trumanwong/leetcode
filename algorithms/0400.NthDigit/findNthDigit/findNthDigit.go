@@ -12,17 +12,17 @@ func FindNthDigit(n int) int {
 	   3、在得到区间中确定的数字，将其变为string，然后得到确定的数字
 	*/
 	i := 1
-	for n > i * int(math.Pow10(i - 1)) * 9 {
-		n -= i * int(math.Pow10(i - 1) * 9) // 小于区间的值要减去，直到得到确定的区间
-		i++ // 标志位++
+	for n > i*int(math.Pow10(i-1))*9 {
+		n -= i * int(math.Pow10(i-1)*9) // 小于区间的值要减去，直到得到确定的区间
+		i++                             // 标志位++
 	}
 
-	am_num := (n - 1) / i + int(math.Pow10(i - 1)) // 确定区间中数字
+	am_num := (n-1)/i + int(math.Pow10(i-1)) // 确定区间中数字
 	num := strconv.Itoa(am_num)
-	if n % i == 0 {
-		res, _ := strconv.Atoi(string(num[i - 1]))
+	if n%i == 0 {
+		res, _ := strconv.Atoi(string(num[i-1]))
 		return res
 	}
-	res, _ := strconv.Atoi(string(num[n % i - 1]))
+	res, _ := strconv.Atoi(string(num[n%i-1]))
 	return res
 }

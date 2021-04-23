@@ -20,7 +20,7 @@ func PathSum(root *TreeNode, sum int) [][]int {
 				temp := make([]int, len(curr))
 				copy(temp, curr)
 				res = append(res, temp)
-				curr = curr[:len(curr) - 1]
+				curr = curr[:len(curr)-1]
 			}
 			return
 		}
@@ -28,7 +28,7 @@ func PathSum(root *TreeNode, sum int) [][]int {
 		new_sum := s - node.Val
 		recursiveSum(node.Left, new_sum)
 		recursiveSum(node.Right, new_sum)
-		curr = curr[:len(curr) - 1]
+		curr = curr[:len(curr)-1]
 	}
 	recursiveSum(root, sum)
 	return res

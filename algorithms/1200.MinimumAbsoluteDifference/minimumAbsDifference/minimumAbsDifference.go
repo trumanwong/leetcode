@@ -6,12 +6,12 @@ func MinimumAbsDifference(arr []int) [][]int {
 	sort.Ints(arr)
 	m := make(map[int][][]int)
 	min := 10000000
-	for i := 0; i < len(arr) - 1; i++ {
-		diff := abs(arr[i] - arr[i + 1])
+	for i := 0; i < len(arr)-1; i++ {
+		diff := abs(arr[i] - arr[i+1])
 		if diff > min {
 			continue
 		}
-		m[diff] = append(m[diff], [][]int{{arr[i], arr[i + 1]}}...)
+		m[diff] = append(m[diff], [][]int{{arr[i], arr[i+1]}}...)
 		if diff < min {
 			min = diff
 		}

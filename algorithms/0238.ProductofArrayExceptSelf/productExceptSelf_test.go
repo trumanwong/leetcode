@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestProductExceptSelf(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestProductExceptSelf(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
 	}{
-		{[]int{1,2,3,4},[]int{24,12,8,6}},
+		{[]int{1, 2, 3, 4}, []int{24, 12, 8, 6}},
 	}
 
 	for _, test := range tests {

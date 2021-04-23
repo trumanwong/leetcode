@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestRightSideView(t *testing.T)  {
-	tests := []struct{
-		root []interface{}
+func TestRightSideView(t *testing.T) {
+	tests := []struct {
+		root   []interface{}
 		output []int
 	}{
 		{[]interface{}{1, 2, 3, nil, 5, nil, 4}, []int{1, 3, 4}},

@@ -17,11 +17,11 @@ func TestNumMatrix(t *testing.T) {
 	if ret != 8 {
 		t.Errorf("Got %d; expected 8", ret)
 	}
-	ret = matrix.SumRegion(1,1,2,2)
+	ret = matrix.SumRegion(1, 1, 2, 2)
 	if ret != 11 {
 		t.Errorf("Got %d; expected 11", ret)
 	}
-	ret = matrix.SumRegion(1,2,2,4)
+	ret = matrix.SumRegion(1, 2, 2, 4)
 	if ret != 12 {
 		t.Errorf("Got %d; expected 12", ret)
 	}

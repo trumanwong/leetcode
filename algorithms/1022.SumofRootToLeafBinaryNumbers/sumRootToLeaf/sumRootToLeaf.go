@@ -17,10 +17,10 @@ func sumRootToLeaf(root *TreeNode) int {
 			return
 		}
 		if root.Left != nil {
-			dfs(root.Left, (cur * 2 + root.Left.Val) % mod)
+			dfs(root.Left, (cur*2+root.Left.Val)%mod)
 		}
 		if root.Right != nil {
-			dfs(root.Right, (cur * 2 + root.Right.Val) % mod)
+			dfs(root.Right, (cur*2+root.Right.Val)%mod)
 		}
 	}
 	dfs(root, root.Val)

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCountVowelPermutation(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestCountVowelPermutation(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{1, 5},

@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestIsMajorityElement(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestIsMajorityElement(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		target int
 		output bool
 	}{
-		{[]int{2,4,5,5,5,5,5,6,6}, 5, true},
-		{[]int{10,100,101,101}, 101, false},
+		{[]int{2, 4, 5, 5, 5, 5, 5, 6, 6}, 5, true},
+		{[]int{10, 100, 101, 101}, 101, false},
 	}
 
 	for _, test := range tests {

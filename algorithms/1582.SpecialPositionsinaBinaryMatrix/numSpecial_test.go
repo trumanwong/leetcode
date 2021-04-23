@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumSpecial(t *testing.T)  {
-	tests := []struct{
-		mat [][]int
+func TestNumSpecial(t *testing.T) {
+	tests := []struct {
+		mat    [][]int
 		output int
 	}{
-		{[][]int{{1, 0, 0}, {0,0,1},{1,0,0}}, 1},
-		{[][]int{{1,0,0}, {0,1,0}, {0,0,1}}, 3},
+		{[][]int{{1, 0, 0}, {0, 0, 1}, {1, 0, 0}}, 1},
+		{[][]int{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, 3},
 	}
 
 	for _, test := range tests {

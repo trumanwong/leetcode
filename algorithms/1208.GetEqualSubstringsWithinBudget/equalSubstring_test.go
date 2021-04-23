@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestEqualSubstring(t *testing.T)  {
-	tests := []struct{
-		s string
-		t string
+func TestEqualSubstring(t *testing.T) {
+	tests := []struct {
+		s       string
+		t       string
 		maxCost int
-		output int
+		output  int
 	}{
 		{"abcd", "bcdf", 3, 3},
 		{"abcd", "cdef", 3, 1},

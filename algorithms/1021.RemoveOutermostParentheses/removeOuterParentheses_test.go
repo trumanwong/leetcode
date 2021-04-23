@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestRemoveOuterParentheses(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestRemoveOuterParentheses(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
-		{"(()())(())","()()()"},
-		{"(()())(())(()(()))","()()()()(())"},
-		{"()()",""},
-		{"((()())(()()))","(()())(()())"},
+		{"(()())(())", "()()()"},
+		{"(()())(())(()(()))", "()()()()(())"},
+		{"()()", ""},
+		{"((()())(()()))", "(()())(()())"},
 	}
 
 	for _, test := range tests {

@@ -1,20 +1,20 @@
 package mergeSort
 
-func MergeSort(arr []int, left, right int)  {
+func MergeSort(arr []int, left, right int) {
 	if left >= right {
 		return
 	}
 
-	mid := left + (right - left) / 2
+	mid := left + (right-left)/2
 
 	MergeSort(arr, left, mid)
-	MergeSort(arr, mid + 1, right)
+	MergeSort(arr, mid+1, right)
 	merge(arr, left, mid, right)
 }
 
-func merge(arr []int, left, mid, right int)  {
-	nums := make([]int, right - left + 1)
-	p, q := left, mid + 1
+func merge(arr []int, left, mid, right int) {
+	nums := make([]int, right-left+1)
+	p, q := left, mid+1
 
 	index := 0
 	// 比较左右两部分元素，哪个小就将哪个元素复制到nums中
@@ -41,6 +41,6 @@ func merge(arr []int, left, mid, right int)  {
 	}
 	// 将最终排序结果复制给原数组
 	for i := 0; i < len(nums); i++ {
-		arr[left + i] = nums[i]
+		arr[left+i] = nums[i]
 	}
 }

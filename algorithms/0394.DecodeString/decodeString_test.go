@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestDecodeString(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestDecodeString(t *testing.T) {
+	tests := []struct {
+		s      string
 		output string
 	}{
 		{"3[a]2[bc]", "aaabcbc"},

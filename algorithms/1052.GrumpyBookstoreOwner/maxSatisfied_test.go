@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestMaxSatisfied(t *testing.T)  {
-	tests := []struct{
+func TestMaxSatisfied(t *testing.T) {
+	tests := []struct {
 		customers []int
-		grumpy []int
-		X int
-		output int
-	} {
-		{[]int{1,0,1,2,1,1,7,5},  []int{0,1,0,1,0,1,0,1}, 3, 16},
+		grumpy    []int
+		X         int
+		output    int
+	}{
+		{[]int{1, 0, 1, 2, 1, 1, 7, 5}, []int{0, 1, 0, 1, 0, 1, 0, 1}, 3, 16},
 	}
 
 	for _, test := range tests {

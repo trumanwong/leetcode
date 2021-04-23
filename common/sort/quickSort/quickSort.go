@@ -29,8 +29,8 @@ func QuickSort(arr []int, left int, right int) {
 	if left < right {
 		i := division(arr, left, right)
 		// 将基准左侧部分进行递归排序
-		QuickSort(arr, left, i - 1)
+		QuickSort(arr, left, i-1)
 		// 将基准右侧部分进行排序
-		QuickSort(arr, i + 1, right)
+		QuickSort(arr, i+1, right)
 	}
 }

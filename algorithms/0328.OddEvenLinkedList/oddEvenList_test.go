@@ -7,12 +7,12 @@ import (
 	"testing"
 )
 
-func TestOddEvenList(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestOddEvenList(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output []int
 	}{
-		{[]int{1, 2, 3, 4 ,5}, []int{1, 3, 5, 2, 4}},
+		{[]int{1, 2, 3, 4, 5}, []int{1, 3, 5, 2, 4}},
 		{[]int{2, 1, 3, 5, 6, 4, 7}, []int{2, 3, 6, 7, 1, 5, 4}},
 	}
 

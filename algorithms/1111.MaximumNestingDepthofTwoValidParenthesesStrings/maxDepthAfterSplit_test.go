@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMaxDepthAfterSplit(t *testing.T)  {
-	tests := []struct{
-		seq string
+func TestMaxDepthAfterSplit(t *testing.T) {
+	tests := []struct {
+		seq    string
 		output []int
 	}{
 		{"(()())", []int{0, 1, 1, 1, 1, 0}},
-		{"()(())()", []int{0,0,0,1,1,0,0,0}},
+		{"()(())()", []int{0, 0, 0, 1, 1, 0, 0, 0}},
 	}
 
 	for _, test := range tests {

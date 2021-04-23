@@ -21,11 +21,11 @@ func LongestValidParentheses(s string) int {
 		if s[i] == '(' {
 			l++
 		} else {
-				r++
+			r++
 		}
 
 		if l == r {
-			maxLength = max(maxLength, 2 * l)
+			maxLength = max(maxLength, 2*l)
 		} else if l >= r {
 			l, r = 0, 0
 		}

@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestReverseStr(t *testing.T)  {
-	tests := []struct{
-		s string
-		k int
+func TestReverseStr(t *testing.T) {
+	tests := []struct {
+		s      string
+		k      int
 		output string
 	}{
 		{"abcdefg", 2, "bacdfeg"},

@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestFindJudge(t *testing.T)  {
-	tests := []struct{
-		N int
-		trust [][]int
+func TestFindJudge(t *testing.T) {
+	tests := []struct {
+		N      int
+		trust  [][]int
 		output int
 	}{
 		{2, [][]int{{1, 2}}, 2},

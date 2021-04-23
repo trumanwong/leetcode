@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestRearrangeBarcodes(t *testing.T)  {
-	tests := []struct{
+func TestRearrangeBarcodes(t *testing.T) {
+	tests := []struct {
 		barcodes []int
-		output []int
+		output   []int
 	}{
-		{[]int{1,1,1,2,2,2}, []int{1, 2, 1, 2, 1, 2}},
-		{[]int{1,1,1,1,2,2,3,3}, []int{1, 2, 1, 2, 1, 3, 1, 3}},
-		{[]int{2,1,1}, []int{1,2,1}},
-		{[]int{2,1,1,2}, []int{2,1,2,1}},
-		{[]int{1,2,2,2,1},[]int{2,1,2,1,2}},
+		{[]int{1, 1, 1, 2, 2, 2}, []int{1, 2, 1, 2, 1, 2}},
+		{[]int{1, 1, 1, 1, 2, 2, 3, 3}, []int{1, 2, 1, 2, 1, 3, 1, 3}},
+		{[]int{2, 1, 1}, []int{1, 2, 1}},
+		{[]int{2, 1, 1, 2}, []int{2, 1, 2, 1}},
+		{[]int{1, 2, 2, 2, 1}, []int{2, 1, 2, 1, 2}},
 	}
 
 	for _, test := range tests {

@@ -8,7 +8,7 @@ func smallestDivisor(nums []int, threshold int) int {
 		sum := 0
 		for _, v := range nums {
 			sum += v / m
-			if v % m != 0 {
+			if v%m != 0 {
 				sum += 1
 			}
 		}

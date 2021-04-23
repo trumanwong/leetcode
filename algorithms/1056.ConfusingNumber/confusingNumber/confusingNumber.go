@@ -17,7 +17,7 @@ func ConfusingNumber(N int) bool {
 		if _, ok := m[v]; !ok {
 			return false
 		}
-		temp[len(n) - 1 - i] = m[n[i]]
+		temp[len(n)-1-i] = m[n[i]]
 	}
 	if string(temp) != string(n) {
 		return true

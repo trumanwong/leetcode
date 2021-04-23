@@ -2,8 +2,8 @@ package sortedArrayToBST
 
 // Definition for a binary tree node.
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
 
@@ -15,7 +15,7 @@ func sortedArrayToBST(nums []int) *TreeNode {
 	mid := len(nums) / 2
 
 	root := &TreeNode{nums[mid], nil, nil}
-	nums = append(nums[:mid], nums[mid + 1:]...)
+	nums = append(nums[:mid], nums[mid+1:]...)
 	root.Left = sortedArrayToBST(nums[:mid])
 	root.Right = sortedArrayToBST(nums[mid:])
 	return root

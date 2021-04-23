@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestHammingWeight(t *testing.T)  {
-	tests := []struct{
-		input uint32
+func TestHammingWeight(t *testing.T) {
+	tests := []struct {
+		input  uint32
 		output int
 	}{
-		{11,3},
-		{128,1},
+		{11, 3},
+		{128, 1},
 	}
 	for _, test := range tests {
 		ret := hammingWeight.HammingWeight(test.input)

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumKLenSubstrNoRepeats(t *testing.T)  {
-	tests := []struct{
-		S string
-		K int
+func TestNumKLenSubstrNoRepeats(t *testing.T) {
+	tests := []struct {
+		S      string
+		K      int
 		Output int
 	}{
-		{"havefunonleetcode",  5, 6},
+		{"havefunonleetcode", 5, 6},
 		{"home", 5, 0},
 	}
 

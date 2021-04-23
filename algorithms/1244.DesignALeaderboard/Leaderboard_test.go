@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-func TestLeaderboard(t *testing.T)  {
-	tests := []struct{
-		opts []string
+func TestLeaderboard(t *testing.T) {
+	tests := []struct {
+		opts  []string
 		input [][]int
 	}{
 		{[]string{"Leaderboard", "addScore", "addScore", "addScore", "addScore", "addScore", "top",
@@ -20,7 +20,7 @@ func TestLeaderboard(t *testing.T)  {
 	for _, test := range tests {
 		leaderboard := Leaderboard.Leaderboard{}
 		for i := 0; i < len(test.opts); i++ {
-			if (test.opts[i] == "Leaderboard") {
+			if test.opts[i] == "Leaderboard" {
 				leaderboard = Leaderboard.Constructor()
 			} else if test.opts[i] == "addScore" {
 				leaderboard.AddScore(test.input[i][0], test.input[i][1])

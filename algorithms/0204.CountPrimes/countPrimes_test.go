@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCountPrimes(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestCountPrimes(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
 		{10, 4},

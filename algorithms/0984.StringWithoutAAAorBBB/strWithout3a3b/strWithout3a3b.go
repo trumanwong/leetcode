@@ -6,8 +6,8 @@ func StrWithout3a3b(A int, B int) string {
 	for A > 0 || B > 0 {
 		writeA := false
 		L := len(ans)
-		if L >= 2 && ans[L - 1] == ans [L - 2] {
-			if string(ans[L - 1]) == "b" {
+		if L >= 2 && ans[L-1] == ans[L-2] {
+			if string(ans[L-1]) == "b" {
 				writeA = true
 			}
 		} else if A >= B {

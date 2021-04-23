@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestTrie(t *testing.T)  {
+func TestTrie(t *testing.T) {
 	tests := []struct {
 		operates []string
 		values   [][]string
 		output   []interface{}
 	}{
-		{[]string{"Trie","insert","search","search","startsWith","insert","search"},
-		[][]string{{},{"apple"},{"apple"},{"app"},{"app"},{"app"},{"app"}}, []interface{}{nil,nil,true,false,true,nil,true}},
+		{[]string{"Trie", "insert", "search", "search", "startsWith", "insert", "search"},
+			[][]string{{}, {"apple"}, {"apple"}, {"app"}, {"app"}, {"app"}, {"app"}}, []interface{}{nil, nil, true, false, true, nil, true}},
 	}
 
 	for _, test := range tests {

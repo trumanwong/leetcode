@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindUnsortedSubarray(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindUnsortedSubarray(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{2, 6, 4, 8, 10, 9, 15}, 5},

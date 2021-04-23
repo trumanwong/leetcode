@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestIsSubsequence(t *testing.T)  {
-	tests := []struct{
-		s string
-		t string
+func TestIsSubsequence(t *testing.T) {
+	tests := []struct {
+		s      string
+		t      string
 		output bool
 	}{
-		{"abc","ahbgdc",true},
-		{"axc","ahbgdc",false},
+		{"abc", "ahbgdc", true},
+		{"axc", "ahbgdc", false},
 	}
 
 	for _, test := range tests {

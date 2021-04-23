@@ -19,10 +19,10 @@ func SmallestRangeI(A []int, K int) int {
 
 	diff := max - min
 	if diff > K {
-		if diff - 2 * K < 0 {
+		if diff-2*K < 0 {
 			return 0
 		}
-		return diff - 2 * K
+		return diff - 2*K
 	}
 	return 0
 }

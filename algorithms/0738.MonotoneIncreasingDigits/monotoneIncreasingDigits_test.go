@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestMonotoneIncreasingDigits(t *testing.T)  {
-	tests := []struct{
-		N int
+func TestMonotoneIncreasingDigits(t *testing.T) {
+	tests := []struct {
+		N      int
 		output int
 	}{
-		{10,9},
-		{1234,1234},
-		{332,299},
+		{10, 9},
+		{1234, 1234},
+		{332, 299},
 	}
 
 	for _, test := range tests {

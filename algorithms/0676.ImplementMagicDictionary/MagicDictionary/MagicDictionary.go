@@ -4,21 +4,18 @@ type MagicDictionary struct {
 	words map[int][]string
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() MagicDictionary {
 	words := make(map[int][]string)
 	return MagicDictionary{words: words}
 }
 
-
 /** Build a dictionary through a list of words */
-func (this *MagicDictionary) BuildDict(dict []string)  {
+func (this *MagicDictionary) BuildDict(dict []string) {
 	for _, v := range dict {
 		this.words[len(v)] = append(this.words[len(v)], v)
 	}
 }
-
 
 /** Returns if there is any word in the trie that equals to the given word after modifying exactly one character */
 func (this *MagicDictionary) Search(word string) bool {
@@ -43,7 +40,6 @@ func (this *MagicDictionary) Search(word string) bool {
 	}
 	return false
 }
-
 
 /**
  * Your MagicDictionary object will be instantiated and called as such:

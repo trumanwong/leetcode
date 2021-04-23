@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestTopKFrequent(t *testing.T)  {
-	tests := []struct{
-		words []string
-		k int
+func TestTopKFrequent(t *testing.T) {
+	tests := []struct {
+		words  []string
+		k      int
 		output []string
 	}{
 		{[]string{"i", "love", "leetcode", "i", "love", "coding"}, 2,
-		 []string{"i", "love"}},
-		{[]string{"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"},4,
+			[]string{"i", "love"}},
+		{[]string{"the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"}, 4,
 			[]string{"the", "is", "sunny", "day"}},
 	}
 

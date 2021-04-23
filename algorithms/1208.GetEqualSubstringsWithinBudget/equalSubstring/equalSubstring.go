@@ -19,13 +19,13 @@ func EqualSubstring(s string, t string, maxCost int) int {
 		temp[0], count, ret = 0, 0, 0
 	}
 	for i := 1; i < len(diff); i++ {
-		if temp[i - 1] + diff[i] <= maxCost {
-			temp[i] = temp[i - 1] + diff[i]
+		if temp[i-1]+diff[i] <= maxCost {
+			temp[i] = temp[i-1] + diff[i]
 			count++
-		} else if diff[i] <= maxCost  {
-			temp[i] = temp[i - 1] + diff[i]
+		} else if diff[i] <= maxCost {
+			temp[i] = temp[i-1] + diff[i]
 			for temp[i] > maxCost {
-				temp[i] -= diff[i - count]
+				temp[i] -= diff[i-count]
 				count--
 			}
 			count++

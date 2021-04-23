@@ -8,7 +8,7 @@ type TreeNode struct {
 }
 
 func minDiffInBST(root *TreeNode) int {
-	res, pre := 1 << 31 - 1, -1 << 31
+	res, pre := 1<<31-1, -1<<31
 	var recursive func(node *TreeNode)
 	recursive = func(node *TreeNode) {
 		if node == nil {
@@ -17,7 +17,7 @@ func minDiffInBST(root *TreeNode) int {
 		if node.Left != nil {
 			recursive(node.Left)
 		}
-		res = min(res, node.Val - pre)
+		res = min(res, node.Val-pre)
 		pre = node.Val
 		if node.Right != nil {
 			recursive(node.Right)

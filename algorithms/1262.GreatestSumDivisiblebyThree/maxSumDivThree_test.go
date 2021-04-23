@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMaxSumDivThree(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestMaxSumDivThree(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		//{[]int{3, 6, 5, 8, 1}, 18},

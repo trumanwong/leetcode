@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindPeakElement(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindPeakElement(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{1, 2, 3, 1}, 2},

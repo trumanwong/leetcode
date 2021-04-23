@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindMaximumXOR(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestFindMaximumXOR(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
 		{[]int{3, 10, 5, 25, 2, 8}, 28},

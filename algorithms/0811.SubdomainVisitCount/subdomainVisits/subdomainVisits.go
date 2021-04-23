@@ -32,7 +32,7 @@ func SubdomainVisits(cpdomains []string) []string {
 	ret := []string{}
 	for k, v := range m {
 		count := strconv.Itoa(v)
-		ret = append(ret, count + " " + k)
+		ret = append(ret, count+" "+k)
 	}
 	return ret
 }

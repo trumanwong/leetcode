@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestDiagonalSum(t *testing.T)  {
-	tests := []struct{
-		mat [][]int
+func TestDiagonalSum(t *testing.T) {
+	tests := []struct {
+		mat    [][]int
 		output int
 	}{
-		{[][]int{{1,2,3},{4,5,6},{7,8,9}}, 25},
-		{[][]int{{1,1,1,1},{1,1,1,1},{1,1,1,1},{1,1,1,1}}, 8},
+		{[][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, 25},
+		{[][]int{{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}}, 8},
 		{[][]int{{5}}, 5},
 	}
 

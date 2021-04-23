@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMySqrt(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestMySqrt(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
-	} {
-		{4,2},
-		{8,2},
+	}{
+		{4, 2},
+		{8, 2},
 	}
 	for _, test := range tests {
 		ret := mySqrt.MySqrt(test.input)

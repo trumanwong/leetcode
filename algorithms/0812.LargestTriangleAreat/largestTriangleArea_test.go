@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-func TestLargestTriangleArea(t *testing.T)  {
-	tests := []struct{
+func TestLargestTriangleArea(t *testing.T) {
+	tests := []struct {
 		points [][]int
 		output float64
 	}{

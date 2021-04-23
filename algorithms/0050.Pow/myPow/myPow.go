@@ -29,9 +29,9 @@ func fast_pow(x float64, n int) float64 {
 		return x
 	}
 	//计算一半的pow值
-	p := MyPow(x, n / 2)
+	p := MyPow(x, n/2)
 	//如果n是奇数，必然少算了一个x，需要乘以x
-	if n % 2 == 1 {
+	if n%2 == 1 {
 		return p * p * x
 	} else {
 		return p * p

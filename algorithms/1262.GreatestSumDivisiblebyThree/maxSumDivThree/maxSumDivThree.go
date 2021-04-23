@@ -8,13 +8,19 @@ func MaxSumDivThree(nums []int) int {
 	for _, v := range nums {
 		mod := v % 3
 
-		a := dp[(3 + 0 - mod) % 3]
-		b := dp[(3 + 1 - mod) % 3]
-		c := dp[(3 + 2 - mod) % 3]
+		a := dp[(3+0-mod)%3]
+		b := dp[(3+1-mod)%3]
+		c := dp[(3+2-mod)%3]
 
-		if a != 0 || mod == 0 { dp[0] = max(dp[0], a + v)}
-		if b != 0 || mod == 1 { dp[1] = max(dp[1], b + v)}
-		if c != 0 || mod == 2 { dp[2] = max(dp[2], c + v)}
+		if a != 0 || mod == 0 {
+			dp[0] = max(dp[0], a+v)
+		}
+		if b != 0 || mod == 1 {
+			dp[1] = max(dp[1], b+v)
+		}
+		if c != 0 || mod == 2 {
+			dp[2] = max(dp[2], c+v)
+		}
 	}
 	return dp[0]
 }

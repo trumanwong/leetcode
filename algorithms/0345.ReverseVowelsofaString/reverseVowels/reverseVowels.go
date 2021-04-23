@@ -2,7 +2,7 @@ package reverseVowels
 
 func ReverseVowels(s string) string {
 	vowel := []byte("aeiouAEIOU")
-	left, right := 0, len(s) - 1
+	left, right := 0, len(s)-1
 	l, r := -1, -1
 	S := []byte(s)
 	for left < right {

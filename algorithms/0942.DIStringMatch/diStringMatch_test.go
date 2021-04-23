@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestDiStringMatch(t *testing.T)  {
+func TestDiStringMatch(t *testing.T) {
 	tests := []struct {
 		S string
 		N []int
 	}{
-		{"IDID",[]int{0,4,1,3,2}},
-		{"III",[]int{0,1,2,3}},
-		{"DDI",[]int{3,2,0,1}},
+		{"IDID", []int{0, 4, 1, 3, 2}},
+		{"III", []int{0, 1, 2, 3}},
+		{"DDI", []int{3, 2, 0, 1}},
 	}
 
 	for _, test := range tests {

@@ -7,10 +7,10 @@ import (
 	"testing"
 )
 
-func TestRemoveNthFromEnd(t *testing.T)  {
+func TestRemoveNthFromEnd(t *testing.T) {
 	tests := []struct {
-		head []int
-		n int
+		head   []int
+		n      int
 		output []int
 	}{
 		{[]int{1, 2, 3, 4, 5}, 2, []int{1, 2, 3, 5}},

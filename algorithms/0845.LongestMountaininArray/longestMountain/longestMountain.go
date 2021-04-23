@@ -1,14 +1,14 @@
 package longestMountain
 
 func LongestMountain(A []int) int {
-	start, end := 1, len(A) - 2
+	start, end := 1, len(A)-2
 	res := 0
 	for i := start; i <= end; i++ {
 		left, right := 0, 0
 		prev := i
 		for j := i - 1; j >= 0; j-- {
 			if A[prev] > A[j] {
-				left, prev = left + 1, j
+				left, prev = left+1, j
 			} else {
 				break
 			}
@@ -16,7 +16,7 @@ func LongestMountain(A []int) int {
 		prev = i
 		for j := i + 1; j < len(A); j++ {
 			if A[prev] > A[j] {
-				right, prev = right + 1, j
+				right, prev = right+1, j
 			} else {
 				break
 			}

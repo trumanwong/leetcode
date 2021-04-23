@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestTribonacci(t *testing.T)  {
-	tests := []struct{
-		N int
+func TestTribonacci(t *testing.T) {
+	tests := []struct {
+		N      int
 		output int
 	}{
-		{4,4},
+		{4, 4},
 		{25, 1389537},
 	}
 

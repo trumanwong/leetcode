@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestLargestSumAfterKNegations(t *testing.T)  {
-	tests := []struct{
-		A []int
-		K int
+func TestLargestSumAfterKNegations(t *testing.T) {
+	tests := []struct {
+		A      []int
+		K      int
 		output int
 	}{
-		{[]int{4,2,3}, 1, 5},
-		{[]int{3,-1,0,2}, 3, 6},
-		{[]int{2,-3,-1,5,-4}, 2, 13},
+		{[]int{4, 2, 3}, 1, 5},
+		{[]int{3, -1, 0, 2}, 3, 6},
+		{[]int{2, -3, -1, 5, -4}, 2, 13},
 	}
 
 	for _, test := range tests {

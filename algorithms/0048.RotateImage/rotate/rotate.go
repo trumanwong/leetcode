@@ -1,10 +1,10 @@
 package rotate
 
-func Rotate(matrix [][]int)  {
+func Rotate(matrix [][]int) {
 	lenMatrix := len(matrix)
 	// 上下翻转
 	for i := 0; i < lenMatrix/2; i++ {
-		matrix[i], matrix[lenMatrix - i - 1] = matrix[lenMatrix - i - 1], matrix[i]
+		matrix[i], matrix[lenMatrix-i-1] = matrix[lenMatrix-i-1], matrix[i]
 	}
 
 	// 对角线翻转

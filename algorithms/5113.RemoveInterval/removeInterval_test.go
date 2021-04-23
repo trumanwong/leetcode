@@ -6,11 +6,11 @@ import (
 	"testing"
 )
 
-func TestRemoveInterval(t *testing.T)  {
-	tests := []struct{
-		intervals [][]int
+func TestRemoveInterval(t *testing.T) {
+	tests := []struct {
+		intervals   [][]int
 		toBeRemoved []int
-		output [][]int
+		output      [][]int
 	}{
 		{[][]int{{0, 2}, {3, 4}, {5, 7}}, []int{1, 6}, [][]int{{0, 1}, {6, 7}}},
 		{[][]int{{0, 5}}, []int{2, 3}, [][]int{{0, 2}, {3, 5}}},

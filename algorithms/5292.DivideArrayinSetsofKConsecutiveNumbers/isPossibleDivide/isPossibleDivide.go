@@ -1,7 +1,7 @@
 package isPossibleDivide
 
 func IsPossibleDivide(nums []int, k int) bool {
-	if len(nums) % k != 0 {
+	if len(nums)%k != 0 {
 		return false
 	}
 
@@ -25,7 +25,7 @@ func IsPossibleDivide(nums []int, k int) bool {
 		m[arr[index]]--
 		if m[arr[index]] == 0 {
 			delete(m, arr[index])
-			arr = append(arr[:index], arr[index + 1:]...)
+			arr = append(arr[:index], arr[index+1:]...)
 		}
 		index++
 		if k > len(arr) {

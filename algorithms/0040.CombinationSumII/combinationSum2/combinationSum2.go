@@ -18,13 +18,13 @@ func CombinationSum2(candidates []int, target int) [][]int {
 		}
 
 		for j := i; j < len(candidates); j++ {
-			if sum + candidates[j] > target {
+			if sum+candidates[j] > target {
 				break
 			}
-			if j > i && candidates[j] == candidates[j - 1] {
+			if j > i && candidates[j] == candidates[j-1] {
 				continue
 			}
-			backtrack(j + 1, sum + candidates[j], append(tmp, candidates[j]))
+			backtrack(j+1, sum+candidates[j], append(tmp, candidates[j]))
 		}
 	}
 	backtrack(0, 0, []int{})

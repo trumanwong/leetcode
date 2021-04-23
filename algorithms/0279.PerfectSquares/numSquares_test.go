@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestNumSquares(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestNumSquares(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
 		{12, 3},
-		{13,2},
+		{13, 2},
 	}
 
 	for _, test := range tests {

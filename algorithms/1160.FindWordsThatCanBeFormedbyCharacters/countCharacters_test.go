@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestCountCharacters(t *testing.T)  {
-	tests := []struct{
-		words []string
-		chars string
+func TestCountCharacters(t *testing.T) {
+	tests := []struct {
+		words  []string
+		chars  string
 		output int
 	}{
-		{[]string{"cat","bt","hat","tree"}, "atach", 6},
-		{[]string{"hello","world","leetcode"}, "welldonehoneyr", 10},
+		{[]string{"cat", "bt", "hat", "tree"}, "atach", 6},
+		{[]string{"hello", "world", "leetcode"}, "welldonehoneyr", 10},
 	}
 
 	for _, test := range tests {

@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestConvertBST(t *testing.T)  {
-	tests := []struct{
-		root []interface{}
+func TestConvertBST(t *testing.T) {
+	tests := []struct {
+		root   []interface{}
 		output []interface{}
 	}{
 		{[]interface{}{5, 2, 13}, []interface{}{18, 20, 13}},

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMinDeletionSize(t *testing.T)  {
-	tests := []struct{
-		A []string
+func TestMinDeletionSize(t *testing.T) {
+	tests := []struct {
+		A      []string
 		output int
 	}{
 		{[]string{"cba", "daf", "ghi"}, 1},

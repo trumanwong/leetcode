@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestToGoatLatin(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestToGoatLatin(t *testing.T) {
+	tests := []struct {
+		S      string
 		output string
 	}{
-		{"I speak Goat Latin","Imaa peaksmaaa oatGmaaaa atinLmaaaaa"},
+		{"I speak Goat Latin", "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"},
 		{"The quick brown fox jumped over the lazy dog",
 			"heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"},
 	}

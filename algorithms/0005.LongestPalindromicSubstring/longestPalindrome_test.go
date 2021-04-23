@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestLongestPalindrome(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestLongestPalindrome(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
-	} {
+	}{
 		{"babad", "aba"},
 		{"cbbd", "bb"},
 		{"bb", "bb"},

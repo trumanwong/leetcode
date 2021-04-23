@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestIsPowerOfFour(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestIsPowerOfFour(t *testing.T) {
+	tests := []struct {
+		n      int
 		output bool
 	}{
-		{4,true},
-		{5,false},
+		{4, true},
+		{5, false},
 		{7, false},
 	}
 	for _, test := range tests {

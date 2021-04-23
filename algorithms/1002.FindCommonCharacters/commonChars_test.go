@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCommonChars(t *testing.T)  {
-	tests := []struct{
-		input []string
+func TestCommonChars(t *testing.T) {
+	tests := []struct {
+		input  []string
 		output []string
 	}{
-		{[]string{"bella","label","roller"},[]string{"e","l","l"}},
-		{[]string{"cool","lock","cook"},[]string{"c","o"}},
+		{[]string{"bella", "label", "roller"}, []string{"e", "l", "l"}},
+		{[]string{"cool", "lock", "cook"}, []string{"c", "o"}},
 	}
 
 	for _, test := range tests {

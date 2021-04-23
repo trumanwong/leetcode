@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestQueryString(t *testing.T)  {
-	tests := []struct{
-		S string
-		N int
+func TestQueryString(t *testing.T) {
+	tests := []struct {
+		S      string
+		N      int
 		output bool
 	}{
-		{"0110",3,true},
-		{"0110",4,false},
+		{"0110", 3, true},
+		{"0110", 4, false},
 	}
 	for _, test := range tests {
 		ret := queryString.QueryString(test.S, test.N)

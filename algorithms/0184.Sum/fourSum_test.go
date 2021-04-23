@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFourSum(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFourSum(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		target int
 		output [][]int
 	}{
@@ -17,7 +17,7 @@ func TestFourSum(t *testing.T)  {
 	for _, test := range tests {
 		ret := fourSum.FourSum(test.nums, test.target)
 		if len(ret) != len(test.output) {
-			t.Errorf("Got %v for input %v, target = %d; expected %v", ret, test.nums, test.target,test.output)
+			t.Errorf("Got %v for input %v, target = %d; expected %v", ret, test.nums, test.target, test.output)
 		}
 		for i, arr := range ret {
 			judge := true

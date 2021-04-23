@@ -11,8 +11,8 @@ func Convert(s string, numRows int) string {
 		j := i
 		res += string(s[j])
 		// 两段跳
-		for ; j < length; {
-			p := 2 * (numRows - i -1)
+		for j < length {
+			p := 2 * (numRows - i - 1)
 			q := 2 * i
 
 			j += p

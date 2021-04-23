@@ -9,7 +9,7 @@ func LongestPalindrome(s string) int {
 	res := 0
 	for _, v := range count {
 		res += v / 2 * 2
-		if v % 2 == 1 && res % 2 == 0 {
+		if v%2 == 1 && res%2 == 0 {
 			res++
 		}
 	}

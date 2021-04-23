@@ -17,7 +17,7 @@ func OddCells(n int, m int, indices [][]int) int {
 	res := 0
 	for _, varr := range arr {
 		for _, v := range varr {
-			if v % 2 != 0 {
+			if v%2 != 0 {
 				res++
 			}
 		}

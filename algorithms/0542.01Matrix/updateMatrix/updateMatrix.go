@@ -9,21 +9,21 @@ func UpdateMatrix(matrix [][]int) [][]int {
 			}
 
 			if i > 0 {
-				matrix[i][j] = min(matrix[i][j], matrix[i - 1][j] + 1)
+				matrix[i][j] = min(matrix[i][j], matrix[i-1][j]+1)
 			}
 			if j > 0 {
-				matrix[i][j] = min(matrix[i][j], matrix[i][j - 1] + 1)
+				matrix[i][j] = min(matrix[i][j], matrix[i][j-1]+1)
 			}
 		}
 	}
 
 	for i := row - 1; i >= 0; i-- {
 		for j := col - 1; j >= 0; j-- {
-			if i < row - 1 {
-				matrix[i][j] = min(matrix[i][j], matrix[i + 1][j] + 1)
+			if i < row-1 {
+				matrix[i][j] = min(matrix[i][j], matrix[i+1][j]+1)
 			}
-			if j < col - 1 {
-				matrix[i][j] = min(matrix[i][j], matrix[i][j + 1] + 1)
+			if j < col-1 {
+				matrix[i][j] = min(matrix[i][j], matrix[i][j+1]+1)
 			}
 		}
 	}

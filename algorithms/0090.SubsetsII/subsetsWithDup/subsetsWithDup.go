@@ -11,12 +11,12 @@ func SubsetsWithDup(nums []int) [][]int {
 		copy(t, temp)
 		res = append(res, t)
 		for i := index; i < len(nums); i++ {
-			if i != index && nums[i] == nums[i - 1] {
+			if i != index && nums[i] == nums[i-1] {
 				continue
 			}
 			temp = append(temp, nums[i])
-			dfs(temp, i + 1)
-			temp = temp[:len(temp) - 1]
+			dfs(temp, i+1)
+			temp = temp[:len(temp)-1]
 		}
 	}
 	dfs([]int{}, 0)

@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestIsMatch(t *testing.T)  {
-	tests := []struct{
-		s string
-		p string
+func TestIsMatch(t *testing.T) {
+	tests := []struct {
+		s      string
+		p      string
 		output bool
 	}{
 		{"aa", "a", false},

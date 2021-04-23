@@ -28,6 +28,6 @@ func backtrack(putStr []string, s string, result *[]string) {
 
 		putStr = append(putStr, str)
 		backtrack(putStr, s[i:], result)
-		putStr = putStr[:len(putStr) - 1]
+		putStr = putStr[:len(putStr)-1]
 	}
 }

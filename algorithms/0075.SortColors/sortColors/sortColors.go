@@ -21,13 +21,13 @@ func swap(arr []int, x int, y int) {
 //A rather straight forward solution is a two-pass algorithm using counting sort.
 //First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
 //Could you come up with a one-pass algorithm using only constant space?
-func SortColors(nums []int)  {
+func SortColors(nums []int) {
 	L := -1
 	R := len(nums)
 	current := 0
 	mid := 1
 	// 将1作为中间值， 小的放前面， 大的放后面
-	for ; current < R; {
+	for current < R {
 		if nums[current] < mid {
 			L = L + 1
 			swap(nums, L, current)

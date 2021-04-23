@@ -5,17 +5,17 @@ import (
 	"testing"
 )
 
-func TestFindRestaurant(t *testing.T)  {
-	tests := []struct{
-		list1 []string
-		list2 []string
+func TestFindRestaurant(t *testing.T) {
+	tests := []struct {
+		list1  []string
+		list2  []string
 		output []string
 	}{
 		{[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"},
 			[]string{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"},
 			[]string{"Shogun"}},
 		{[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"},
-		[]string{"KFC", "Shogun", "Burger King"},[]string{"Shogun"}},
+			[]string{"KFC", "Shogun", "Burger King"}, []string{"Shogun"}},
 	}
 
 	for _, test := range tests {

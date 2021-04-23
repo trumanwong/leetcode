@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestMyLinkedList(t *testing.T)  {
-	tests := []struct{
+func TestMyLinkedList(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]int
-		output []interface{}
+		values   [][]int
+		output   []interface{}
 	}{
-		{[]string{"MyLinkedList","addAtHead","addAtTail","addAtIndex","get","deleteAtIndex","get"},
-		[][]int{{},{1},{3},{1,2},{1},{1},{1}},
-		[]interface{}{nil,nil,nil,nil,2,nil,3}},
+		{[]string{"MyLinkedList", "addAtHead", "addAtTail", "addAtIndex", "get", "deleteAtIndex", "get"},
+			[][]int{{}, {1}, {3}, {1, 2}, {1}, {1}, {1}},
+			[]interface{}{nil, nil, nil, nil, 2, nil, 3}},
 	}
 
 	for _, test := range tests {

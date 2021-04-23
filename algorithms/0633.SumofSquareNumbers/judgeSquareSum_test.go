@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestJudgeSquareSum(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestJudgeSquareSum(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
-		{5,true},
-		{3,false},
+		{5, true},
+		{3, false},
 	}
 	for _, test := range tests {
 		ret := judgeSquareSum.JudgeSquareSum(test.input)

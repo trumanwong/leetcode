@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLengthOfLIS(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestLengthOfLIS(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{10, 9, 2, 5, 3, 7, 101, 18}, 4},

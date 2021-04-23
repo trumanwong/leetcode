@@ -10,8 +10,8 @@ func FindLHS(nums []int) int {
 
 	res := 0
 	for k, v := range m {
-		if cur, ok := m[k + 1]; ok {
-			res = int(math.Max(float64(cur + v), float64(res)))
+		if cur, ok := m[k+1]; ok {
+			res = int(math.Max(float64(cur+v), float64(res)))
 		}
 	}
 	return res

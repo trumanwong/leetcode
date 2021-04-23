@@ -1,16 +1,18 @@
 package isValidBST
+
 //Definition for a binary tree node.
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
+
 func IsValidBST(root *TreeNode) bool {
-	var last int          // 用来存储中序遍历时的上一个点
-	isFirst := true// 用来表示是否为中序遍历获取到的第一个点
+	var last int    // 用来存储中序遍历时的上一个点
+	isFirst := true // 用来表示是否为中序遍历获取到的第一个点
 
 	//中序遍历二叉树，看其是否递增
-	return inorderTraversal(root, &last, &isFirst);
+	return inorderTraversal(root, &last, &isFirst)
 }
 
 /**

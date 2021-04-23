@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestFindTheDifference(t *testing.T)  {
-	tests := []struct{
-		s string
-		t string
+func TestFindTheDifference(t *testing.T) {
+	tests := []struct {
+		s      string
+		t      string
 		output string
 	}{
-		{"abcd", "abcde","e"},
+		{"abcd", "abcde", "e"},
 	}
 	for _, test := range tests {
 		ret := findTheDifference.FindTheDifference(test.s, test.t)

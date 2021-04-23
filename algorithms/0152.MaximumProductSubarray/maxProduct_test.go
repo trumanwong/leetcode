@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMaxProduct(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMaxProduct(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{2,3,-2,4},6},
-		{[]int{-2,0,-1},0},
+		{[]int{2, 3, -2, 4}, 6},
+		{[]int{-2, 0, -1}, 0},
 	}
 
 	for _, test := range tests {

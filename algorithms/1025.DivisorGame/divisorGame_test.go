@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestDivisorGame(t *testing.T)  {
-	tests := []struct{
-		N int
+func TestDivisorGame(t *testing.T) {
+	tests := []struct {
+		N      int
 		output bool
 	}{
-		{2,true},
-		{3,false},
+		{2, true},
+		{3, false},
 	}
 
 	for _, test := range tests {

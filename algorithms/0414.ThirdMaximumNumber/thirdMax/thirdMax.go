@@ -23,7 +23,7 @@ func ThirdMax(nums []int) int {
 			third = num
 		}
 	}
-	if (!hasMin && third == math.MinInt32) || (hasMin && third == second ){
+	if (!hasMin && third == math.MinInt32) || (hasMin && third == second) {
 		return first
 	}
 	return third

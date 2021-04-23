@@ -8,10 +8,10 @@ import (
 	"testing"
 )
 
-func TestAddTwoNumbers(t *testing.T)  {
-	tests := []struct{
-		l1 []int
-		l2 []int
+func TestAddTwoNumbers(t *testing.T) {
+	tests := []struct {
+		l1     []int
+		l2     []int
 		output []int
 	}{
 		{[]int{2, 4, 3}, []int{5, 6, 4}, []int{7, 0, 8}},

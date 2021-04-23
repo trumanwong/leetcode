@@ -1,7 +1,7 @@
 package checkPossibility
 
 func CheckPossibility(nums []int) bool {
-	count, end := 0, len(nums) - 1
+	count, end := 0, len(nums)-1
 	if end < 2 {
 		return true
 	}
@@ -10,15 +10,15 @@ func CheckPossibility(nums []int) bool {
 		count++
 	}
 	for i := 1; i < end; i++ {
-		right := nums[i + 1]
+		right := nums[i+1]
 		if nums[i] > right {
 			count++
 			if count > 1 {
 				return false
 			}
-			left := nums[i - 1]
+			left := nums[i-1]
 			if left > right {
-				nums[i + 1] = nums[i]
+				nums[i+1] = nums[i]
 			} else {
 				nums[i] = left
 			}

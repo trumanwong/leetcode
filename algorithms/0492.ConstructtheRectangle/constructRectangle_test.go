@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestConstructRectangle(t *testing.T)  {
-	tests := []struct{
-		area int
+func TestConstructRectangle(t *testing.T) {
+	tests := []struct {
+		area   int
 		output []int
 	}{
 		{4, []int{2, 2}},

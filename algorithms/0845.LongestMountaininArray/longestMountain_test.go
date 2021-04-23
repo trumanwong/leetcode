@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestLongestMountain(t *testing.T)  {
-	tests := []struct{
-		A []int
+func TestLongestMountain(t *testing.T) {
+	tests := []struct {
+		A      []int
 		output int
 	}{
-		{[]int{2,1,4,7,3,2,5}, 5},
-		{[]int{2,2,2},0},
+		{[]int{2, 1, 4, 7, 3, 2, 5}, 5},
+		{[]int{2, 2, 2}, 0},
 	}
 
 	for _, test := range tests {

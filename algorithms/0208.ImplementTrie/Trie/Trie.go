@@ -6,19 +6,16 @@ type Trie struct {
 	words map[int][]string
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() Trie {
 	words := make(map[int][]string)
 	return Trie{words: words}
 }
 
-
 /** Inserts a word into the trie. */
-func (this *Trie) Insert(word string)  {
+func (this *Trie) Insert(word string) {
 	this.words[len(word)] = append(this.words[len(word)], word)
 }
-
 
 /** Returns if the word is in the trie. */
 func (this *Trie) Search(word string) bool {
@@ -32,7 +29,6 @@ func (this *Trie) Search(word string) bool {
 	}
 	return false
 }
-
 
 /** Returns if there is any word in the trie that starts with the given prefix. */
 func (this *Trie) StartsWith(prefix string) bool {
@@ -48,7 +44,6 @@ func (this *Trie) StartsWith(prefix string) bool {
 	}
 	return false
 }
-
 
 /**
  * Your Trie object will be instantiated and called as such:

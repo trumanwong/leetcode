@@ -1,4 +1,5 @@
 package invertTree
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

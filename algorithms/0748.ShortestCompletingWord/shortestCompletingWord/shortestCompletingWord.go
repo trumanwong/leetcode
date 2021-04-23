@@ -3,8 +3,8 @@ package shortestCompletingWord
 func ShortestCompletingWord(licensePlate string, words []string) string {
 	needle := make(map[rune]int)
 	for _, v := range licensePlate {
-		if v >= 'A' && v <='Z' {
-			needle[v + 32]++
+		if v >= 'A' && v <= 'Z' {
+			needle[v+32]++
 		} else if v >= 'a' && v <= 'z' {
 			needle[v]++
 		}
@@ -20,7 +20,7 @@ func ShortestCompletingWord(licensePlate string, words []string) string {
 		}
 
 		if len(m) < len(needle) {
-			continue;
+			continue
 		}
 		judge := true
 		for k, v := range m {

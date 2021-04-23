@@ -4,19 +4,16 @@ type MyQueue struct {
 	queue []int
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() MyQueue {
 	res := MyQueue{[]int{}}
 	return res
 }
 
-
 /** Push element x to the back of queue. */
-func (this *MyQueue) Push(x int)  {
+func (this *MyQueue) Push(x int) {
 	this.queue = append(this.queue, x)
 }
-
 
 /** Removes the element from in front of queue and returns that element. */
 func (this *MyQueue) Pop() int {
@@ -25,19 +22,16 @@ func (this *MyQueue) Pop() int {
 	return res
 }
 
-
 /** Get the front element. */
 func (this *MyQueue) Peek() int {
 	res := this.queue[0]
 	return res
 }
 
-
 /** Returns whether the queue is empty. */
 func (this *MyQueue) Empty() bool {
 	return len(this.queue) == 0
 }
-
 
 /**
  * Your MyQueue object will be instantiated and called as such:

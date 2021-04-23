@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestNumTilePossibilities(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestNumTilePossibilities(t *testing.T) {
+	tests := []struct {
+		input  string
 		output int
 	}{
 		{"AAB", 8},

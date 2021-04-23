@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestPostorderTraversal(t *testing.T)  {
-	tests := []struct{
+func TestPostorderTraversal(t *testing.T) {
+	tests := []struct {
 		root   postorderTraversal.TreeNode
 		output []int
 	}{
-		{postorderTraversal.TreeNode{1,nil,&postorderTraversal.TreeNode{
-			2,&postorderTraversal.TreeNode{3,nil,nil},nil}}, []int{3,2,1}},
+		{postorderTraversal.TreeNode{1, nil, &postorderTraversal.TreeNode{
+			2, &postorderTraversal.TreeNode{3, nil, nil}, nil}}, []int{3, 2, 1}},
 	}
 
 	for _, test := range tests {

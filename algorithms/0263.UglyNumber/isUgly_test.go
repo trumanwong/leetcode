@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestIsUgly(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestIsUgly(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
 		{1, true},
 		{6, true},
-		{8,true},
-		{14,false},
+		{8, true},
+		{14, false},
 	}
 	for _, test := range tests {
 		ret := isUgly.IsUgly(test.input)

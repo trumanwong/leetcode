@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLongestPalindrome(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestLongestPalindrome(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"abccccdd", 7},

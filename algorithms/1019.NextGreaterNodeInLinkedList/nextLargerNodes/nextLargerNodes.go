@@ -8,9 +8,9 @@ func NextLargerNodes(head *ListNode) []int {
 	i := 0
 
 	for head != nil {
-		for len(stack) > 0 && head.Val > res[stack[len(stack) - 1]] {
-			res[stack[len(stack) - 1]] = head.Val
-			stack = stack[:len(stack) - 1]
+		for len(stack) > 0 && head.Val > res[stack[len(stack)-1]] {
+			res[stack[len(stack)-1]] = head.Val
+			stack = stack[:len(stack)-1]
 		}
 
 		res = append(res, head.Val)

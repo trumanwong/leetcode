@@ -9,8 +9,8 @@ func LastStoneWeight(stones []int) int {
 	sort.Ints(stones)
 	res := 0
 	for len(stones) > 1 {
-		res = stones[len(stones) - 1] - stones[len(stones) - 2]
-		stones = append(stones[0:len(stones) - 2], res)
+		res = stones[len(stones)-1] - stones[len(stones)-2]
+		stones = append(stones[0:len(stones)-2], res)
 		sort.Ints(stones)
 	}
 	return res

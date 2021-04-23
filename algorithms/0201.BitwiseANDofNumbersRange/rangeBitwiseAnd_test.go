@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestRangeBitwiseAnd(t *testing.T)  {
-	tests := []struct{
-		m int
-		n int
+func TestRangeBitwiseAnd(t *testing.T) {
+	tests := []struct {
+		m      int
+		n      int
 		output int
 	}{
-		{5,7,4},
-		{0,1,0},
+		{5, 7, 4},
+		{0, 1, 0},
 	}
 
 	for _, test := range tests {

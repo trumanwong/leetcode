@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestIsGoodArray(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestIsGoodArray(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output bool
 	}{
 		{[]int{12, 5, 7, 23}, true},

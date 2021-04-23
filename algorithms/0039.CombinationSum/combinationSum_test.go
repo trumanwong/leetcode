@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCombinationSum(t *testing.T)  {
-	tests := []struct{
+func TestCombinationSum(t *testing.T) {
+	tests := []struct {
 		candidates []int
-		target int
-		output [][]int
+		target     int
+		output     [][]int
 	}{
-		{[]int{2,3,6,7}, 7, [][]int{{2, 2, 3}, {7}}},
+		{[]int{2, 3, 6, 7}, 7, [][]int{{2, 2, 3}, {7}}},
 	}
 
 	for _, test := range tests {

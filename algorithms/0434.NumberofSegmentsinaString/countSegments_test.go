@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCountSegments(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestCountSegments(t *testing.T) {
+	tests := []struct {
+		input  string
 		output int
 	}{
 		{"Hello, my name is John", 5},

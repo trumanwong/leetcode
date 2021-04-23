@@ -16,14 +16,14 @@ func MaxSumAfterPartitioning(A []int, K int) int {
 
 			for t := start; t <= i; t++ {
 				pre := 0
-				if t - 1 >= 0 {
-					pre = res[t - 1]
+				if t-1 >= 0 {
+					pre = res[t-1]
 				}
-				res[j] = max(res[j], pre + A[i] * (j - t + 1))
+				res[j] = max(res[j], pre+A[i]*(j-t+1))
 			}
 		}
 	}
-	return res[len(A) - 1]
+	return res[len(A)-1]
 }
 
 func max(a, b int) int {

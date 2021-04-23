@@ -6,12 +6,12 @@ import (
 	"testing"
 )
 
-func TestPreOrderTraversal(t *testing.T)  {
-	tests := []struct{
-		nums []interface{}
+func TestPreOrderTraversal(t *testing.T) {
+	tests := []struct {
+		nums   []interface{}
 		output []int
 	}{
-		{[]interface{}{5,3,6,2,4,nil,7}, []int{5, 3, 2, 4, 6, 7}},
+		{[]interface{}{5, 3, 6, 2, 4, nil, 7}, []int{5, 3, 2, 4, 6, 7}},
 	}
 
 	for _, test := range tests {
@@ -23,12 +23,12 @@ func TestPreOrderTraversal(t *testing.T)  {
 	}
 }
 
-func TestInOrderTraversal(t *testing.T)  {
-	tests := []struct{
-		nums []interface{}
+func TestInOrderTraversal(t *testing.T) {
+	tests := []struct {
+		nums   []interface{}
 		output []int
 	}{
-		{[]interface{}{5,3,6,2,4,nil,7}, []int{2, 3, 4, 5, 6, 7}},
+		{[]interface{}{5, 3, 6, 2, 4, nil, 7}, []int{2, 3, 4, 5, 6, 7}},
 	}
 
 	for _, test := range tests {
@@ -40,12 +40,12 @@ func TestInOrderTraversal(t *testing.T)  {
 	}
 }
 
-func TestLevelOrder(t *testing.T)  {
-	tests := []struct{
-		nums []interface{}
+func TestLevelOrder(t *testing.T) {
+	tests := []struct {
+		nums   []interface{}
 		output [][]int
 	}{
-		{[]interface{}{5,3,6,2,4,nil,7}, [][]int{{5}, {3, 6}, {2, 4, 7}}},
+		{[]interface{}{5, 3, 6, 2, 4, nil, 7}, [][]int{{5}, {3, 6}, {2, 4, 7}}},
 	}
 
 	for _, test := range tests {
@@ -57,12 +57,12 @@ func TestLevelOrder(t *testing.T)  {
 	}
 }
 
-func TestPostOrderTraversal(t *testing.T)  {
-	tests := []struct{
-		nums []interface{}
+func TestPostOrderTraversal(t *testing.T) {
+	tests := []struct {
+		nums   []interface{}
 		output []int
 	}{
-		{[]interface{}{5,3,6,2,4,nil,7}, []int{2, 4, 3, 7, 6, 5}},
+		{[]interface{}{5, 3, 6, 2, 4, nil, 7}, []int{2, 4, 3, 7, 6, 5}},
 	}
 
 	for _, test := range tests {

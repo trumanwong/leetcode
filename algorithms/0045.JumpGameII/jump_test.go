@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestJump(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestJump(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{2,3,1,1,4}, 2},
+		{[]int{2, 3, 1, 1, 4}, 2},
 	}
 	for _, test := range tests {
 		ret := jump.Jump(test.input)

@@ -30,8 +30,8 @@ func LevelOrderBottom(root *TreeNode) [][]int {
 		stack = nodes
 		res = append(res, temp)
 	}
-	for i := 0; i < len(res) / 2; i++ {
-		res[i], res[len(res) - 1 - i] = res[len(res) - 1 - i],res[i]
+	for i := 0; i < len(res)/2; i++ {
+		res[i], res[len(res)-1-i] = res[len(res)-1-i], res[i]
 	}
 	return res
 }

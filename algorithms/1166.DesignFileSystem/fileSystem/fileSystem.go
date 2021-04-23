@@ -6,19 +6,17 @@ type FileSystem struct {
 	Path map[string]int
 }
 
-
 func Constructor() FileSystem {
 	path := make(map[string]int)
-	fileSystem := FileSystem{Path:path}
+	fileSystem := FileSystem{Path: path}
 	return fileSystem
 }
-
 
 func (this *FileSystem) Create(path string, value int) bool {
 	seps := strings.Split(path, "/")
 	if len(seps) > 2 {
 		temp := ""
-		for i := 1; i < len(seps) - 1; i++ {
+		for i := 1; i < len(seps)-1; i++ {
 			if len(seps[i]) == 0 {
 				continue
 			}
@@ -35,7 +33,6 @@ func (this *FileSystem) Create(path string, value int) bool {
 	return true
 }
 
-
 func (this *FileSystem) Get(path string) int {
 	v, ok := this.Path[path]
 	if !ok {
@@ -43,7 +40,6 @@ func (this *FileSystem) Get(path string) int {
 	}
 	return v
 }
-
 
 /**
  * Your FileSystem object will be instantiated and called as such:

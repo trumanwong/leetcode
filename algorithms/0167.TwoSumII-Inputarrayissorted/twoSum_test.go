@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T)  {
-	tests := []struct{
+func TestTwoSum(t *testing.T) {
+	tests := []struct {
 		numbers []int
-		target int
-		output []int
+		target  int
+		output  []int
 	}{
-		{[]int{2,7,11,15},9,[]int{1,2}},
+		{[]int{2, 7, 11, 15}, 9, []int{1, 2}},
 	}
 
 	for _, test := range tests {

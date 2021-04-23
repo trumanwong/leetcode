@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestInorderTraversal(t *testing.T)  {
-	tests := []struct{
+func TestInorderTraversal(t *testing.T) {
+	tests := []struct {
 		root   inorderTraversal.TreeNode
 		output []int
 	}{
-		{inorderTraversal.TreeNode{1,nil,&inorderTraversal.TreeNode{
-			2,&inorderTraversal.TreeNode{3,nil,nil},nil}}, []int{1,3,2}},
+		{inorderTraversal.TreeNode{1, nil, &inorderTraversal.TreeNode{
+			2, &inorderTraversal.TreeNode{3, nil, nil}, nil}}, []int{1, 3, 2}},
 	}
 
 	for _, test := range tests {

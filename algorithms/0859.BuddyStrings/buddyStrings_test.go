@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestBuddyStrings(t *testing.T)  {
-	tests := []struct{
-		A string
-		B string
+func TestBuddyStrings(t *testing.T) {
+	tests := []struct {
+		A      string
+		B      string
 		output bool
 	}{
 		{"ab", "ba", true},
 		{"ab", "ab", false},
 		{"aaaaaaabc", "aaaaaaacb", true},
-		{"","aa",false},
+		{"", "aa", false},
 	}
 
 	for _, test := range tests {

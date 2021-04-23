@@ -10,8 +10,8 @@ func ProbabilityOfHeads(prob []float64, target int) float64 {
 			if j != 0 {
 				dp[i][j] += dp[i-1][j-1] * prob[i-1]
 			}
-			dp[i][j] += dp[i-1][j] * (1-prob[i-1])
+			dp[i][j] += dp[i-1][j] * (1 - prob[i-1])
 		}
 	}
-	return dp[len(prob)][target];
+	return dp[len(prob)][target]
 }

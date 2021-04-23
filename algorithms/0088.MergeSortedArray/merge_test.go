@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestMerge(t *testing.T)  {
-	tests := []struct{
-		nums1 []int
-		m int
-		nums2 []int
-		n int
+func TestMerge(t *testing.T) {
+	tests := []struct {
+		nums1  []int
+		m      int
+		nums2  []int
+		n      int
 		output []int
 	}{
-		{[]int{1,2,3,0,0,0},3,[]int{2,5,6},3, []int{1,2,2,3,5,6}},
+		{[]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3, []int{1, 2, 2, 3, 5, 6}},
 	}
 	for _, test := range tests {
 		merge.Merge(test.nums1, test.m, test.nums2, test.n)

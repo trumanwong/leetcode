@@ -6,14 +6,14 @@ import (
 	"testing"
 )
 
-func TestNumSmallerByFrequency(t *testing.T)  {
-	tests := []struct{
+func TestNumSmallerByFrequency(t *testing.T) {
+	tests := []struct {
 		queries []string
-		words []string
-		output []int
+		words   []string
+		output  []int
 	}{
 		{[]string{"cbd"}, []string{"zaaaz"}, []int{1}},
-		{[]string{"bbb","cc"}, []string{"a","aa","aaa","aaaa"}, []int{1, 2}},
+		{[]string{"bbb", "cc"}, []string{"a", "aa", "aaa", "aaaa"}, []int{1, 2}},
 	}
 
 	for _, test := range tests {

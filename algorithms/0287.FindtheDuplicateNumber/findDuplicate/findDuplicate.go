@@ -1,7 +1,7 @@
 package findDuplicate
 
 func FindDuplicate(nums []int) int {
-	slow , fast, t := 0, 0, 0
+	slow, fast, t := 0, 0, 0
 	for {
 		slow = nums[slow]
 		fast = nums[nums[fast]]

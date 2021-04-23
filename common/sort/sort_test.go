@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-func TestQuickSort(t *testing.T)  {
+func TestQuickSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {
@@ -45,7 +45,7 @@ func TestSelectionSort(t *testing.T) {
 	}
 }
 
-func TestHeapSort(t *testing.T)  {
+func TestHeapSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {
@@ -60,7 +60,7 @@ func TestHeapSort(t *testing.T)  {
 	}
 }
 
-func TestInsertSort(t *testing.T)  {
+func TestInsertSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {
@@ -75,7 +75,7 @@ func TestInsertSort(t *testing.T)  {
 	}
 }
 
-func TestShellSort(t *testing.T)  {
+func TestShellSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {
@@ -90,7 +90,7 @@ func TestShellSort(t *testing.T)  {
 	}
 }
 
-func TestMergeSort(t *testing.T)  {
+func TestMergeSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {
@@ -99,13 +99,13 @@ func TestMergeSort(t *testing.T)  {
 	}
 	originSort, origin := append([]int{}, arr...), append([]int{}, arr...)
 	sort.Ints(originSort)
-	mergeSort.MergeSort(arr, 0, len(arr) - 1)
+	mergeSort.MergeSort(arr, 0, len(arr)-1)
 	if !reflect.DeepEqual(originSort, arr) {
 		t.Errorf("Got %v for input %v; expected %v", arr, origin, originSort)
 	}
 }
 
-func TestCountSort(t *testing.T)  {
+func TestCountSort(t *testing.T) {
 	rand.Seed(time.Now().Unix())
 	var arr []int
 	for i := 0; i < 10; i++ {

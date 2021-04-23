@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestRob(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestRob(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{1,2,3,1},4},
-		{[]int{2,7,9,3,1},12},
-		{[]int{1,8,1,1,6},14},
+		{[]int{1, 2, 3, 1}, 4},
+		{[]int{2, 7, 9, 3, 1}, 12},
+		{[]int{1, 8, 1, 1, 6}, 14},
 	}
 
 	for _, test := range tests {

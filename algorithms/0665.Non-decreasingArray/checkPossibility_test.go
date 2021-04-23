@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCheckPossibility(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestCheckPossibility(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output bool
 	}{
-		{[]int{4,2,3}, true},
-		{[]int{4,2,1}, false},
+		{[]int{4, 2, 3}, true},
+		{[]int{4, 2, 1}, false},
 	}
 
 	for _, test := range tests {

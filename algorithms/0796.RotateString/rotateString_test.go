@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestRotateString(t *testing.T)  {
-	tests := []struct{
-		A string
-		B string
+func TestRotateString(t *testing.T) {
+	tests := []struct {
+		A      string
+		B      string
 		output bool
 	}{
-		{"abcde", "cdeab",true},
-		{"abcde", "abced",false},
+		{"abcde", "cdeab", true},
+		{"abcde", "abced", false},
 	}
 
 	for _, test := range tests {

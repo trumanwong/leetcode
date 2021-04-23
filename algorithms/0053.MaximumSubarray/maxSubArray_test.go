@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestMaxSubArray(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMaxSubArray(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{-2,1,-3,4,-1,2,1,-5,4}, 6},
+		{[]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}, 6},
 	}
 
 	for _, test := range tests {

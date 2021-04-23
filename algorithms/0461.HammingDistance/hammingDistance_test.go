@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestHammingDistance(t *testing.T)  {
-	tests := []struct{
-		x int
-		y int
+func TestHammingDistance(t *testing.T) {
+	tests := []struct {
+		x      int
+		y      int
 		output int
 	}{
-		{1,4,2},
+		{1, 4, 2},
 	}
 
 	for _, test := range tests {

@@ -11,7 +11,7 @@ func RemoveDuplicates(s string, k int) string {
 		last = string(b)
 		end := len(b) - k
 		for i := 0; i <= end; i++ {
-			l, r := i, i + k - 1
+			l, r := i, i+k-1
 			canSub := true
 			for l < r {
 				if b[l] != b[i] || b[r] != b[i] {
@@ -23,7 +23,7 @@ func RemoveDuplicates(s string, k int) string {
 			}
 
 			if canSub {
-				b = append(b[0:i], b[i + k:]...)
+				b = append(b[0:i], b[i+k:]...)
 				break
 			}
 		}

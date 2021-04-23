@@ -17,7 +17,7 @@ func LargestSumAfterKNegations(A []int, K int) int {
 	}
 
 	sort.Ints(A)
-	if K % 2 != 0 {
+	if K%2 != 0 {
 		res -= A[0] * 2
 	}
 	for _, v := range A {

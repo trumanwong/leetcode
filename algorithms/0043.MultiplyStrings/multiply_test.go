@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestMultiply(t *testing.T)  {
-	tests := []struct{
-		num1 string
-		num2 string
+func TestMultiply(t *testing.T) {
+	tests := []struct {
+		num1   string
+		num2   string
 		output string
 	}{
 		{"2", "3", "6"},

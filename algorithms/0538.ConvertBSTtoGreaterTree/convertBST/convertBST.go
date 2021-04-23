@@ -5,6 +5,7 @@ import (
 )
 
 var sum int
+
 func ConvertBST(root *TreeNode) *TreeNode {
 	sum = 0
 	//recursive(root)
@@ -16,8 +17,8 @@ func ConvertBST(root *TreeNode) *TreeNode {
 			stack = append(stack, node)
 			node = node.Right
 		}
-		node = stack[len(stack) - 1]
-		stack = stack[:len(stack) - 1]
+		node = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		sum += node.Val
 		node.Val = sum
 
@@ -26,7 +27,7 @@ func ConvertBST(root *TreeNode) *TreeNode {
 	return root
 }
 
-func recursive(root *TreeNode)  {
+func recursive(root *TreeNode) {
 	if root == nil {
 		return
 	}

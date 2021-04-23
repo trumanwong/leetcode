@@ -7,7 +7,7 @@ import (
 
 func TestRomanToInt(t *testing.T) {
 	tests := []struct {
-		input string
+		input  string
 		result int
 	}{
 		{"I", 1},

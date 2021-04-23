@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestMaxProduct(t *testing.T)  {
-	tests := []struct{
-		words []string
+func TestMaxProduct(t *testing.T) {
+	tests := []struct {
+		words  []string
 		output int
 	}{
-		{[]string{"abcw","baz","foo","bar","xtfn","abcdef"}, 16},
-		{[]string{"a","ab","abc","d","cd","bcd","abcd"}, 4},
-		{[]string{"a","aa","aaa","aaaa"},0},
+		{[]string{"abcw", "baz", "foo", "bar", "xtfn", "abcdef"}, 16},
+		{[]string{"a", "ab", "abc", "d", "cd", "bcd", "abcd"}, 4},
+		{[]string{"a", "aa", "aaa", "aaaa"}, 0},
 	}
 
 	for _, test := range tests {

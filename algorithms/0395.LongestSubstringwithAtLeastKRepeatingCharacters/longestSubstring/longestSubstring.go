@@ -13,11 +13,11 @@ func LongestSubstring(s string, k int) int {
 
 	hash := make([]int, 26)
 	for _, v := range s {
-		hash[int(v - 'a')]++
+		hash[int(v-'a')]++
 	}
 
 	i := 0
-	for i < len(s) && hash[int(s[i] - 'a')] >= k {
+	for i < len(s) && hash[int(s[i]-'a')] >= k {
 		i++
 	}
 
@@ -26,7 +26,7 @@ func LongestSubstring(s string, k int) int {
 	}
 
 	l := LongestSubstring(s[0:i], k)
-	for i < len(s) && hash[int(s[i] - 'a')] < k {
+	for i < len(s) && hash[int(s[i]-'a')] < k {
 		i++
 	}
 	r := LongestSubstring(s[i:], k)

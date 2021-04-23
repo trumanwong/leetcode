@@ -12,7 +12,7 @@ func LeafSimilar(root1 *TreeNode, root2 *TreeNode) bool {
 	return reflect.DeepEqual(leaves1, leaves2)
 }
 
-func dfs(node *TreeNode, leaves *[]int)  {
+func dfs(node *TreeNode, leaves *[]int) {
 	if node == nil {
 		return
 	}

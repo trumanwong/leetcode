@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSimplifyPath(t *testing.T)  {
-	tests := []struct{
-		path string
+func TestSimplifyPath(t *testing.T) {
+	tests := []struct {
+		path   string
 		output string
 	}{
 		{"/home/", "/home"},

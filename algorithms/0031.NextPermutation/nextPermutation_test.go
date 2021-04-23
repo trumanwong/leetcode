@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestNextPermutation(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestNextPermutation(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output []int
 	}{
 		{[]int{1, 2, 3}, []int{1, 3, 2}},

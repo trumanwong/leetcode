@@ -19,7 +19,7 @@ func MaxSatisfied(customers []int, grumpy []int, X int) int {
 		if i < X {
 			num += customers[i]
 		} else {
-			num += customers[i] - customers[i - X]
+			num += customers[i] - customers[i-X]
 		}
 		maxVal = max(maxVal, num)
 	}

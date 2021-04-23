@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestIsIsomorphic(t *testing.T)  {
-	tests := []struct{
-		s string
-		t string
+func TestIsIsomorphic(t *testing.T) {
+	tests := []struct {
+		s      string
+		t      string
 		output bool
 	}{
-		{"egg","add",true},
-		{"foo","bar",false},
-		{"ab", "aa",false},
+		{"egg", "add", true},
+		{"foo", "bar", false},
+		{"ab", "aa", false},
 	}
 	for _, test := range tests {
 		ret := isIsomorphic.IsIsomorphic(test.s, test.t)

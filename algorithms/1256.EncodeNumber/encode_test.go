@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestEncode(t *testing.T)  {
-	tests := []struct{
-		num int
+func TestEncode(t *testing.T) {
+	tests := []struct {
+		num    int
 		output string
 	}{
 		{3, "00"},

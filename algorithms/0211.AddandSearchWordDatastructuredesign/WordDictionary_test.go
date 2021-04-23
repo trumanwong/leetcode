@@ -11,9 +11,9 @@ func TestBSTIterator(t *testing.T) {
 		values   [][]interface{}
 		output   []interface{}
 	}{
-		{[]string{"WordDictionary","addWord","addWord","addWord","search","search","search","search"},
-			[][]interface{}{{nil}, {"bad"},{"dad"},{"mad"},{"pad"},{"bad"},{".ad"},{"b.."}},
-			[]interface{}{nil,nil,nil,nil,false,true,true,true},
+		{[]string{"WordDictionary", "addWord", "addWord", "addWord", "search", "search", "search", "search"},
+			[][]interface{}{{nil}, {"bad"}, {"dad"}, {"mad"}, {"pad"}, {"bad"}, {".ad"}, {"b.."}},
+			[]interface{}{nil, nil, nil, nil, false, true, true, true},
 		},
 	}
 

@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestBinaryGap(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestBinaryGap(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{22,2},
-		{5,2},
-		{6,1},
-		{8,0},
+		{22, 2},
+		{5, 2},
+		{6, 1},
+		{8, 0},
 	}
 
 	for _, test := range tests {

@@ -6,12 +6,12 @@ import (
 	"testing"
 )
 
-func TestDiameterOfBinaryTree(t *testing.T)  {
-	tests := []struct{
-		root []interface{}
+func TestDiameterOfBinaryTree(t *testing.T) {
+	tests := []struct {
+		root   []interface{}
 		output int
 	}{
-		{[]interface{}{1,2,3,4,5}, 3},
+		{[]interface{}{1, 2, 3, 4, 5}, 3},
 	}
 
 	for _, test := range tests {

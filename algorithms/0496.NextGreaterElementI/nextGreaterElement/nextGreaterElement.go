@@ -19,7 +19,7 @@ func NextGreaterElement(nums1 []int, nums2 []int) []int {
 			}
 		}
 		if !temp {
-			res = append(res, - 1)
+			res = append(res, -1)
 		}
 	}
 	return res

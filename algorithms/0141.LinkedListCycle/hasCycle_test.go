@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-func TestHasCycle(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestHasCycle(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output bool
 	}{
 		{[]int{3, 2, 0, -4}, true},

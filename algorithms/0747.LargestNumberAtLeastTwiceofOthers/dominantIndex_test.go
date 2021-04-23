@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestDominantIndex(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestDominantIndex(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{3, 6, 1, 0}, 1},

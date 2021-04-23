@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestPlushOne(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestPlushOne(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
-	} {
-		{[]int{1,2,3}, []int{1,2,4}},
-		{[]int{4,3,2,1}, []int{4,3,2,2}},
-		{[]int{9,9,9,9}, []int{1,0,0,0,0}},
+	}{
+		{[]int{1, 2, 3}, []int{1, 2, 4}},
+		{[]int{4, 3, 2, 1}, []int{4, 3, 2, 2}},
+		{[]int{9, 9, 9, 9}, []int{1, 0, 0, 0, 0}},
 	}
 
 	for _, test := range tests {

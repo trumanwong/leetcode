@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestShortestCompletingWord(t *testing.T)  {
-	tests := []struct{
+func TestShortestCompletingWord(t *testing.T) {
+	tests := []struct {
 		licensePlate string
-		words []string
-		output string
+		words        []string
+		output       string
 	}{
-		{"1s3 PSt", []string{"step", "steps", "stripe", "stepple"},"steps"},
-		{"1s3 PSt", []string{"step", "steps", "stripe", "stepple"},"steps"},
+		{"1s3 PSt", []string{"step", "steps", "stripe", "stepple"}, "steps"},
+		{"1s3 PSt", []string{"step", "steps", "stripe", "stepple"}, "steps"},
 	}
 
 	for _, test := range tests {

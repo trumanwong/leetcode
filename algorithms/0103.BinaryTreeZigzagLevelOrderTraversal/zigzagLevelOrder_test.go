@@ -7,12 +7,12 @@ import (
 	"testing"
 )
 
-func TestZigzagLevelOrder(t *testing.T)  {
-	tests := []struct{
-		root []interface{}
+func TestZigzagLevelOrder(t *testing.T) {
+	tests := []struct {
+		root   []interface{}
 		output [][]int
 	}{
-		{[]interface{}{3,9,20,nil,nil,15,7}, [][]int{{3}, {20, 9}, {15, 7}}},
+		{[]interface{}{3, 9, 20, nil, nil, 15, 7}, [][]int{{3}, {20, 9}, {15, 7}}},
 	}
 
 	for _, test := range tests {

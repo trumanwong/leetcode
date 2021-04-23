@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMinCostToMoveChips(t *testing.T)  {
-	tests := []struct{
-		chips []int
+func TestMinCostToMoveChips(t *testing.T) {
+	tests := []struct {
+		chips  []int
 		output int
 	}{
 		{[]int{1, 2, 3}, 1},

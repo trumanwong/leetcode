@@ -17,13 +17,13 @@ func IsValidSudoku(board [][]byte) bool {
 			}
 			temp := board[i][j] - 1
 			num, _ := strconv.Atoi(string(temp))
-			blockIndex := i / 3 * 3 + j / 3
-			if (row[i][num] || col[j][num] || block[blockIndex][num]) {
-				return false;
+			blockIndex := i/3*3 + j/3
+			if row[i][num] || col[j][num] || block[blockIndex][num] {
+				return false
 			} else {
-				row[i][num] = true;
-				col[j][num] = true;
-				block[blockIndex][num] = true;
+				row[i][num] = true
+				col[j][num] = true
+				block[blockIndex][num] = true
 			}
 		}
 	}

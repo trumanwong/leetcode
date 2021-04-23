@@ -12,7 +12,7 @@ func ToGoatLatin(S string) string {
 		if v == ' ' && start != -1 {
 			temp := []byte{}
 			if !inArray(s[start], vowel) {
-				temp = append(temp, s[start + 1:i]...)
+				temp = append(temp, s[start+1:i]...)
 				temp = append(temp, s[start])
 			} else {
 				temp = append(temp, s[start:i]...)
@@ -30,7 +30,7 @@ func ToGoatLatin(S string) string {
 	if start != -1 {
 		temp := []byte{}
 		if !inArray(s[start], vowel) {
-			temp = append(temp, s[start + 1:len(s)]...)
+			temp = append(temp, s[start+1:len(s)]...)
 			temp = append(temp, s[start])
 		} else {
 			temp = append(temp, s[start:len(s)]...)

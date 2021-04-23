@@ -6,11 +6,11 @@ import (
 	"testing"
 )
 
-func TestBSTIterator(t *testing.T)  {
-	tests := []struct{
+func TestBSTIterator(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]interface{}
-		output []interface{}
+		values   [][]interface{}
+		output   []interface{}
 	}{
 		{[]string{"BSTIterator", "next", "next", "hasNext", "next", "hasNext", "next", "hasNext", "next", "hasNext"},
 			[][]interface{}{{7, 3, 15, nil, nil, 9, 20}, {nil}, {nil}, {nil}, {nil}, {nil}, {nil}, {nil}, {nil}, {nil}},
@@ -28,7 +28,7 @@ func TestBSTIterator(t *testing.T)  {
 				if ret != test.output[i] {
 					t.Errorf("Got %d for Next(); expected %d", ret, test.output[i])
 				}
-			} else if (operate == "hasNext") {
+			} else if operate == "hasNext" {
 				ret := iterator.HasNext()
 				if ret != test.output[i] {
 					t.Errorf("Got %t for HasNext(); expected %t", ret, test.output[i])

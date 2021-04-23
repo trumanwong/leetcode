@@ -1,6 +1,6 @@
 package merge
 
-func Merge(nums1 []int, m int, nums2 []int, n int)  {
+func Merge(nums1 []int, m int, nums2 []int, n int) {
 	p := m + n - 1
 	m--
 	n--
@@ -9,8 +9,8 @@ func Merge(nums1 []int, m int, nums2 []int, n int)  {
 			nums1[p] = nums1[m]
 			m--
 		} else {
-				nums1[p] = nums2[n]
-				n--
+			nums1[p] = nums2[n]
+			n--
 		}
 	}
 	for ; n >= 0; n-- {

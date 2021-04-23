@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFib(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestFib(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
 		{2, 1},

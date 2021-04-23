@@ -1,7 +1,7 @@
 package wordPattern
 
 func WordPattern(pattern string, str string) bool {
-	start ,strs := -1, []string{}
+	start, strs := -1, []string{}
 	p, b := []byte(pattern), []byte(str)
 	for i, v := range b {
 		if v == ' ' && start != -1 {

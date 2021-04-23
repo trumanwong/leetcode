@@ -1,15 +1,14 @@
 package CombinationIterator
 
 type CombinationIterator struct {
-	characters []byte
-	indexes []int
-	cursor int
-	pointer int
-	start int
-	end int
+	characters        []byte
+	indexes           []int
+	cursor            int
+	pointer           int
+	start             int
+	end               int
 	combinationLength int
 }
-
 
 func Constructor(characters string, combinationLength int) CombinationIterator {
 	indexes := make([]int, 0)
@@ -17,16 +16,15 @@ func Constructor(characters string, combinationLength int) CombinationIterator {
 		indexes = append(indexes, i)
 	}
 	return CombinationIterator{
-		characters: []byte(characters),
-		indexes: indexes,
-		start: 0,
-		cursor: 1,
-		end: combinationLength - 1,
-		pointer: combinationLength - 1,
+		characters:        []byte(characters),
+		indexes:           indexes,
+		start:             0,
+		cursor:            1,
+		end:               combinationLength - 1,
+		pointer:           combinationLength - 1,
 		combinationLength: combinationLength,
 	}
 }
-
 
 func (this *CombinationIterator) Next() string {
 	res := make([]byte, 0)
@@ -63,7 +61,7 @@ func (this *CombinationIterator) Next() string {
 
 		this.pointer = this.end
 	} else if this.pointer < len(this.characters) {
-		this.indexes = this.indexes[:len(this.indexes) - 1]
+		this.indexes = this.indexes[:len(this.indexes)-1]
 		this.indexes = append(this.indexes, this.pointer)
 	} else {
 		this.indexes = make([]int, 0)
@@ -71,14 +69,12 @@ func (this *CombinationIterator) Next() string {
 	return string(res)
 }
 
-
 func (this *CombinationIterator) HasNext() bool {
 	if len(this.indexes) < this.combinationLength {
 		return false
 	}
 	return true
 }
-
 
 /**
  * Your CombinationIterator object will be instantiated and called as such:

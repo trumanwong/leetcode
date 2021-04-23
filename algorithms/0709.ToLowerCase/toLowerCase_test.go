@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestToLowerCase(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestToLowerCase(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
-		{"Hello","hello"},
-		{"here","here"},
-		{"LOVELY","lovely"},
+		{"Hello", "hello"},
+		{"here", "here"},
+		{"LOVELY", "lovely"},
 	}
 
 	for _, test := range tests {

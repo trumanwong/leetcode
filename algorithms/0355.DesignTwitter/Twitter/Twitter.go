@@ -4,10 +4,9 @@ import "sort"
 
 type Twitter struct {
 	follows map[int][]int
-	times map[int][]int
-	tweets []int
+	times   map[int][]int
+	tweets  []int
 }
-
 
 /** Initialize your data structure here. */
 func Constructor() Twitter {
@@ -16,13 +15,11 @@ func Constructor() Twitter {
 	return Twitter{follows: follows, times: times, tweets: tweets}
 }
 
-
 /** Compose a new tweet. */
-func (this *Twitter) PostTweet(userId int, tweetId int)  {
+func (this *Twitter) PostTweet(userId int, tweetId int) {
 	this.tweets = append(this.tweets, tweetId)
-	this.times[userId] = append(this.times[userId], len(this.tweets) - 1)
+	this.times[userId] = append(this.times[userId], len(this.tweets)-1)
 }
-
 
 /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
 func (this *Twitter) GetNewsFeed(userId int) []int {
@@ -47,9 +44,8 @@ func (this *Twitter) GetNewsFeed(userId int) []int {
 	return res
 }
 
-
 /** Follower follows a followee. If the operation is invalid, it should be a no-op. */
-func (this *Twitter) Follow(followerId int, followeeId int)  {
+func (this *Twitter) Follow(followerId int, followeeId int) {
 	if followerId != followeeId && !inArray(followeeId, this.follows[followerId]) {
 		this.follows[followerId] = append(this.follows[followerId], followeeId)
 	}
@@ -64,9 +60,8 @@ func inArray(needle int, hayStack []int) bool {
 	return false
 }
 
-
 /** Follower unfollows a followee. If the operation is invalid, it should be a no-op. */
-func (this *Twitter) Unfollow(followerId int, followeeId int)  {
+func (this *Twitter) Unfollow(followerId int, followeeId int) {
 	index := -1
 	for i, v := range this.follows[followerId] {
 		if v == followeeId {
@@ -75,10 +70,9 @@ func (this *Twitter) Unfollow(followerId int, followeeId int)  {
 		}
 	}
 	if index >= 0 {
-		this.follows[followerId] = append(this.follows[followerId][:index], this.follows[followerId][index + 1:]...)
+		this.follows[followerId] = append(this.follows[followerId][:index], this.follows[followerId][index+1:]...)
 	}
 }
-
 
 /**
  * Your Twitter object will be instantiated and called as such:

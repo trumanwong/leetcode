@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestSumEvenAfterQueries(t *testing.T)  {
-	tests := []struct{
-		A []int
+func TestSumEvenAfterQueries(t *testing.T) {
+	tests := []struct {
+		A       []int
 		queries [][]int
-		output []int
+		output  []int
 	}{
-		{[]int{1,2,3,4}, [][]int{{1,0},{-3,1},{-4,0},{2,3}}, []int{8,6,2,4}},
+		{[]int{1, 2, 3, 4}, [][]int{{1, 0}, {-3, 1}, {-4, 0}, {2, 3}}, []int{8, 6, 2, 4}},
 	}
 
 	for _, test := range tests {

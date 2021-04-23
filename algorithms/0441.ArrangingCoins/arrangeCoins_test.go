@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestArrangeCoins(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestArrangeCoins(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{5,2},
-		{8,3},
+		{5, 2},
+		{8, 3},
 	}
 
 	for _, test := range tests {

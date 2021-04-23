@@ -18,7 +18,7 @@ func NumberOfDays(Y int, M int) int {
 
 func isLeapYear(year int) bool {
 	//判断是否为闰年
-	if year % 4 == 0 && year % 100 != 0 || year % 400 == 0 {
+	if year%4 == 0 && year%100 != 0 || year%400 == 0 {
 		return true
 	}
 	return false

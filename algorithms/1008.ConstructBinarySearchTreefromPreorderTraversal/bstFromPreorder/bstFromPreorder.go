@@ -6,6 +6,7 @@ import (
 )
 
 var idx int
+
 func BstFromPreorder(preorder []int) *TreeNode {
 	idx = 0
 	return helper(math.MinInt32, math.MaxInt32, preorder)

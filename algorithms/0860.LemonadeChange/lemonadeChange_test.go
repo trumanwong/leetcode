@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestLemonadeChange(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestLemonadeChange(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output bool
-	} {
+	}{
 		{[]int{5, 5, 5, 10, 20}, true},
 		{[]int{5, 5, 10}, true},
 		{[]int{10, 10}, false},
-		{[]int{5,5,10,10,20}, false},
+		{[]int{5, 5, 10, 10, 20}, false},
 	}
 
 	for _, test := range tests {

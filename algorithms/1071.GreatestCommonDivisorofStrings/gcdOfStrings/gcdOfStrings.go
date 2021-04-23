@@ -24,8 +24,8 @@ func GcdOfStrings(str1 string, str2 string) string {
 			break
 		}
 		temp = append(temp, v)
-		if len(S) % len(temp) == 0 && len(T) % len(temp) == 0 {
-			if strings.Repeat(string(temp), len(S)/ len(temp)) == S && strings.Repeat(string(temp), len(T)/ len(temp)) == T {
+		if len(S)%len(temp) == 0 && len(T)%len(temp) == 0 {
+			if strings.Repeat(string(temp), len(S)/len(temp)) == S && strings.Repeat(string(temp), len(T)/len(temp)) == T {
 				res = string(temp)
 			}
 		}

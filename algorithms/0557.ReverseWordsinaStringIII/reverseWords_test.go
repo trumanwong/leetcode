@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestReverseWords(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestReverseWords(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
 		{"Let's take LeetCode contest", "s'teL ekat edoCteeL tsetnoc"},

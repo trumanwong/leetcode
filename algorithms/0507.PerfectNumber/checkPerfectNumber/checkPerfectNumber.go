@@ -6,9 +6,9 @@ func CheckPerfectNumber(num int) bool {
 	}
 
 	sum := 1
-	for i := 2; i * i <= num; i++ {
-		if num % i == 0 {
-			sum = sum + i + num / i
+	for i := 2; i*i <= num; i++ {
+		if num%i == 0 {
+			sum = sum + i + num/i
 		}
 	}
 

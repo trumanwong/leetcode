@@ -14,7 +14,7 @@ func ValidPalindrome(s string) bool {
 				start++
 			} else if times == 1 {
 				times++
-				start, end = i, j - 1
+				start, end = i, j-1
 			} else {
 				return false
 			}

@@ -14,11 +14,11 @@ func FindWords(board [][]byte, words []string) []string {
 
 		board[row][col] = '#'
 		start++
-		if dfs(word, row + 1, col, start) || dfs(word, row - 1, col, start) || dfs(word, row, col + 1, start) || dfs(word, row, col - 1, start) {
-			board[row][col] = word[start - 1]
+		if dfs(word, row+1, col, start) || dfs(word, row-1, col, start) || dfs(word, row, col+1, start) || dfs(word, row, col-1, start) {
+			board[row][col] = word[start-1]
 			return true
 		}
-		board[row][col] = word[start - 1]
+		board[row][col] = word[start-1]
 		return false
 	}
 	for i := 0; i < len(words); i++ {

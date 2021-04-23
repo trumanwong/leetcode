@@ -20,11 +20,11 @@ func Permute(nums []int) [][]int {
 				continue
 			}
 
-			visited[i] = 1;
+			visited[i] = 1
 			tmp = append(tmp, nums[i])
 			backtrack(tmp)
 			visited[i] = 0
-			tmp = tmp[:len(tmp) - 1]
+			tmp = tmp[:len(tmp)-1]
 		}
 	}
 	backtrack([]int{})

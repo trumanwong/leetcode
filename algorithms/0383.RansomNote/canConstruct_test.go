@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestCanConstruct(t *testing.T)  {
-	tests := []struct{
+func TestCanConstruct(t *testing.T) {
+	tests := []struct {
 		ransomNote string
-		magazine string
-		output bool
+		magazine   string
+		output     bool
 	}{
-		{"a", "b",false},
-		{"aa", "ab",false},
-		{"aa", "aab",true},
+		{"a", "b", false},
+		{"aa", "ab", false},
+		{"aa", "aab", true},
 	}
 
 	for _, test := range tests {

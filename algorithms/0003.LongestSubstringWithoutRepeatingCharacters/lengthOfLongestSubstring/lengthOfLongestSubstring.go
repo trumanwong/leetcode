@@ -11,7 +11,7 @@ func LengthOfLongestSubstring(s string) int {
 			start = lastOccurred[ch] + 1
 		}
 
-		if i - start + 1 > maxLength {
+		if i-start+1 > maxLength {
 			maxLength = i - start + 1
 		}
 		lastOccurred[ch] = i

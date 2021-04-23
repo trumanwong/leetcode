@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestRemoveVowels(t *testing.T)  {
-	tests := []struct{
-		S string
+func TestRemoveVowels(t *testing.T) {
+	tests := []struct {
+		S      string
 		output string
 	}{
 		{"aaabbbiiiwww", "bbbwww"},

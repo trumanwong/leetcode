@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestSingleNumber(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestSingleNumber(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
 	}{
-		{[]int{1,2,1,3,2,5}, []int{5,3}},
+		{[]int{1, 2, 1, 3, 2, 5}, []int{5, 3}},
 	}
 
 	for _, test := range tests {

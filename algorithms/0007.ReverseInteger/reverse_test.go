@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestReverse(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestReverse(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
 		{123, 321},
 		{-123, -321},
-		{120,21},
+		{120, 21},
 	}
 	for _, test := range tests {
 		ret := reverse.Reverse(test.input)

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLongestValidParentheses(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestLongestValidParentheses(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"(()", 2},

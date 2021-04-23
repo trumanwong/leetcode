@@ -2,9 +2,9 @@ package canMakeArithmeticProgression
 
 import "testing"
 
-func TestCanMakeArithmeticProgression(t *testing.T)  {
-	tests := []struct{
-		arr []int
+func TestCanMakeArithmeticProgression(t *testing.T) {
+	tests := []struct {
+		arr    []int
 		output bool
 	}{
 		{[]int{3, 5, 1}, true},

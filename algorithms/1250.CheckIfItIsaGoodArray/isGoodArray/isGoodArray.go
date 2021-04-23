@@ -4,7 +4,7 @@ func gcd(a, b int) int {
 	if b == 0 {
 		return a
 	}
-	return gcd(b, a % b)
+	return gcd(b, a%b)
 }
 
 // 给你一个正整数数组 nums，你需要从中任选一些子集，然后将子集中每一个数乘以一个 任意整数，并求出他们的和。

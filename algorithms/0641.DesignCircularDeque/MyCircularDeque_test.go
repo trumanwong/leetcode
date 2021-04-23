@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestMyCircularDeque(t *testing.T)  {
-	tests := []struct{
+func TestMyCircularDeque(t *testing.T) {
+	tests := []struct {
 		operates []string
-		values [][]int
-		output []interface{}
+		values   [][]int
+		output   []interface{}
 	}{
-		{[]string{"MyCircularDeque","insertLast","insertLast","insertFront","insertFront","getRear","isFull","deleteLast","insertFront","getFront"},
-		[][]int{{3},{1},{2},{3},{4},{},{},{},{4},{}},
-		[]interface{}{nil,true,true,true,false,2,true,true,true,4}},
+		{[]string{"MyCircularDeque", "insertLast", "insertLast", "insertFront", "insertFront", "getRear", "isFull", "deleteLast", "insertFront", "getFront"},
+			[][]int{{3}, {1}, {2}, {3}, {4}, {}, {}, {}, {4}, {}},
+			[]interface{}{nil, true, true, true, false, 2, true, true, true, 4}},
 	}
 
 	for _, test := range tests {

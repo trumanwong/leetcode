@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestFindAnagrams(t *testing.T)  {
-	tests := []struct{
-		s string
-		p string
+func TestFindAnagrams(t *testing.T) {
+	tests := []struct {
+		s      string
+		p      string
 		output []int
 	}{
 		{s: "cbaebabacd", p: "abc", output: []int{0, 6}},

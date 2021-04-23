@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCorpFlightBookings(t *testing.T)  {
-	tests := []struct{
+func TestCorpFlightBookings(t *testing.T) {
+	tests := []struct {
 		bookings [][]int
-		n int
-		output []int
+		n        int
+		output   []int
 	}{
-		{[][]int{{1,2,10},{2,3,20},{2,5,25}}, 5, []int{10,55,45,25,25}},
+		{[][]int{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}}, 5, []int{10, 55, 45, 25, 25}},
 	}
 
 	for _, test := range tests {

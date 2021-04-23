@@ -4,9 +4,8 @@ import "math/rand"
 
 type RandomizedSet struct {
 	numsMap map[int]int
-	nums []int
+	nums    []int
 }
-
 
 /** Initialize your data structure here. */
 func Constructor() RandomizedSet {
@@ -14,7 +13,6 @@ func Constructor() RandomizedSet {
 	numsMap := make(map[int]int)
 	return RandomizedSet{nums: nums, numsMap: numsMap}
 }
-
 
 /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
 func (this *RandomizedSet) Insert(val int) bool {
@@ -26,7 +24,6 @@ func (this *RandomizedSet) Insert(val int) bool {
 	return true
 }
 
-
 /** Removes a value from the set. Returns true if the set contained the specified element. */
 func (this *RandomizedSet) Remove(val int) bool {
 	if _, ok := this.numsMap[val]; !ok {
@@ -37,10 +34,9 @@ func (this *RandomizedSet) Remove(val int) bool {
 	for this.nums[i] != val {
 		i++
 	}
-	this.nums = append(this.nums[0:i], this.nums[i + 1:]...)
+	this.nums = append(this.nums[0:i], this.nums[i+1:]...)
 	return true
 }
-
 
 /** Get a random element from the set. */
 func (this *RandomizedSet) GetRandom() int {
@@ -50,7 +46,6 @@ func (this *RandomizedSet) GetRandom() int {
 	index := rand.Int() % len(this.nums)
 	return this.nums[index]
 }
-
 
 /**
  * Your RandomizedSet object will be instantiated and called as such:

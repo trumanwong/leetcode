@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestLastStoneWeightII(t *testing.T)  {
-	tests := []struct{
+func TestLastStoneWeightII(t *testing.T) {
+	tests := []struct {
 		stones []int
 		output int
 	}{
-		{[]int{2,7,4,1,8,1}, 1},
+		{[]int{2, 7, 4, 1, 8, 1}, 1},
 	}
 
 	for _, test := range tests {

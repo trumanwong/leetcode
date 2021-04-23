@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestLongestCommonPrefix(t *testing.T)  {
+func TestLongestCommonPrefix(t *testing.T) {
 	tests := []struct {
-		input []string
+		input  []string
 		output string
 	}{
-		{[]string{"flower","flow","flight"}, "fl"},
-		{[]string{"dog","racecar","car"}, ""},
+		{[]string{"flower", "flow", "flight"}, "fl"},
+		{[]string{"dog", "racecar", "car"}, ""},
 	}
 	for _, test := range tests {
 		ret := longestCommonPrefix.LongestCommonPrefix(test.input)

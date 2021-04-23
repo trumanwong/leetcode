@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestMinTimeToVisitAllPoints(t *testing.T)  {
-	tests := []struct{
+func TestMinTimeToVisitAllPoints(t *testing.T) {
+	tests := []struct {
 		points [][]int
 		output int
 	}{
-		{[][]int{{1,1},{3,4},{-1,0}}, 7},
+		{[][]int{{1, 1}, {3, 4}, {-1, 0}}, 7},
 	}
 
 	for _, test := range tests {

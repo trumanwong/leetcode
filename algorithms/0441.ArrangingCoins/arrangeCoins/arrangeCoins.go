@@ -10,7 +10,7 @@ func ArrangeCoins(n int) int {
 		n -= temp
 		temp++
 	}
-	if n < 0{
+	if n < 0 {
 		return start - 1
 	}
 	return start

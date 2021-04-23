@@ -12,13 +12,13 @@ func NumTilePossibilities(tiles string) int {
 			if inArray(i, indexs) {
 				continue
 			}
-			m[s + string(v)]++
+			m[s+string(v)]++
 			indexs = append(indexs, i)
-			recursive(indexs, s + string(v))
-			indexs = indexs[:len(indexs) - 1]
+			recursive(indexs, s+string(v))
+			indexs = indexs[:len(indexs)-1]
 		}
 	}
-	recursive([]int{},"")
+	recursive([]int{}, "")
 	return len(m)
 }
 

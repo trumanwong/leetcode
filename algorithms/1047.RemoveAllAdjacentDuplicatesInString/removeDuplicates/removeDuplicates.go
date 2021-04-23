@@ -15,15 +15,15 @@ func RemoveDuplicates(S string) string {
 		if len(old_str) <= 1 {
 			break
 		}
-		if old_str[i] != old_str[i - 1] {
-			new_str += string(old_str[i - 1])
-			if i == len(old_str) - 1 {
+		if old_str[i] != old_str[i-1] {
+			new_str += string(old_str[i-1])
+			if i == len(old_str)-1 {
 				new_str += string(old_str[i])
 			}
 			i++
 		} else {
-			if i == len(old_str) - 2 {
-				new_str += string(old_str[i + 1])
+			if i == len(old_str)-2 {
+				new_str += string(old_str[i+1])
 			}
 			i += 2
 		}

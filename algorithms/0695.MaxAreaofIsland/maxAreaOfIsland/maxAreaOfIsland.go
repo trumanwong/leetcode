@@ -26,9 +26,9 @@ func dfs(grid [][]int, r, c int) int {
 	}
 	grid[r][c] = 0
 	area := 1
-	area += dfs(grid, r, c - 1)
-	area += dfs(grid, r, c + 1)
-	area += dfs(grid, r + 1, c)
-	area += dfs(grid, r - 1, c)
+	area += dfs(grid, r, c-1)
+	area += dfs(grid, r, c+1)
+	area += dfs(grid, r+1, c)
+	area += dfs(grid, r-1, c)
 	return area
 }

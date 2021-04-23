@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMaxSumAfterPartitioning(t *testing.T)  {
-	tests := []struct{
-		A []int
-		K int
+func TestMaxSumAfterPartitioning(t *testing.T) {
+	tests := []struct {
+		A      []int
+		K      int
 		output int
 	}{
-		{[]int{1,15,7,9,2,5,10}, 3, 84},
+		{[]int{1, 15, 7, 9, 2, 5, 10}, 3, 84},
 	}
 
 	for _, test := range tests {

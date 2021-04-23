@@ -15,7 +15,7 @@ func IsLongPressedName(name string, typed string) bool {
 
 	if len(t) > len(n) {
 		for i = len(n); i < len(t); i++ {
-			if t[i] != n[len(n) - 1] {
+			if t[i] != n[len(n)-1] {
 				return false
 			}
 		}

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestRemoveDuplicates(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestRemoveDuplicates(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{1,1,2}, 2},
-		{[]int{0,0,1,1,1,2,2,3,3,4}, 5},
+		{[]int{1, 1, 2}, 2},
+		{[]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}, 5},
 	}
 	for _, test := range tests {
 		ret := removeDuplicates.RemoveDuplicates(test.input)

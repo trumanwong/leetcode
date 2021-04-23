@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestCountOdds(t *testing.T)  {
-	tests := []struct{
-		low int
-		high int
+func TestCountOdds(t *testing.T) {
+	tests := []struct {
+		low    int
+		high   int
 		output int
 	}{
 		{3, 7, 3},

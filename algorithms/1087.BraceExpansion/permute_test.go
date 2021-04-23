@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestPermute(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestPermute(t *testing.T) {
+	tests := []struct {
+		input  string
 		output []string
 	}{
-		{"{a,b}c{d,e}f", []string{"acdf","acef","bcdf","bcef"}},
+		{"{a,b}c{d,e}f", []string{"acdf", "acef", "bcdf", "bcef"}},
 		{"abcd", []string{"abcd"}},
-		{"{a,b}{z,x,y}", []string{"ax","ay","az","bx","by","bz"}},
+		{"{a,b}{z,x,y}", []string{"ax", "ay", "az", "bx", "by", "bz"}},
 	}
 
 	for _, test := range tests {

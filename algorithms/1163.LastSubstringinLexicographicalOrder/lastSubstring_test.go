@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLastSubstring(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestLastSubstring(t *testing.T) {
+	tests := []struct {
+		s      string
 		output string
 	}{
 		{"leetcode", "tcode"},

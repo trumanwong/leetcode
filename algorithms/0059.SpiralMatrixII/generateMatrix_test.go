@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestGenerateMatrix(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestGenerateMatrix(t *testing.T) {
+	tests := []struct {
+		n      int
 		output [][]int
 	}{
 		{3, [][]int{{1, 2, 3}, {8, 9, 4}, {7, 6, 5}}},

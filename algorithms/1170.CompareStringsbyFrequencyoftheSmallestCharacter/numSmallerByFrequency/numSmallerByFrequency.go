@@ -28,13 +28,13 @@ func NumSmallerByFrequency(queries []string, words []string) []int {
 	}
 
 	for i := 9; i >= 0; i-- {
-		count[i] += count[i + 1]
+		count[i] += count[i+1]
 	}
 
 	for _, v := range queries {
 		temp := ByteSlice([]byte(v))
 		sort.Sort(temp)
-		res = append(res, count[f(temp) + 1])
+		res = append(res, count[f(temp)+1])
 	}
 	return res
 }
@@ -43,7 +43,7 @@ func f(s ByteSlice) int {
 	res := 0
 	sort.Sort(s)
 	for i := 1; i < len(s); i++ {
-		if s[i] != s[i - 1] {
+		if s[i] != s[i-1] {
 			break
 		}
 		res++

@@ -7,12 +7,12 @@ func TransformArray(arr []int) []int {
 	copy(temp, arr)
 	for {
 		copy(t, temp)
-		for i := 1; i < len(arr) - 1; i++ {
-			if temp[i] > arr[i - 1] && temp[i] > arr[i + 1] {
+		for i := 1; i < len(arr)-1; i++ {
+			if temp[i] > arr[i-1] && temp[i] > arr[i+1] {
 				temp[i]--
 			}
 
-			if temp[i] < arr[i - 1] && temp[i] < arr[i + 1] {
+			if temp[i] < arr[i-1] && temp[i] < arr[i+1] {
 				temp[i]++
 			}
 		}

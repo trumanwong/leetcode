@@ -19,8 +19,8 @@ func generateTree(start, end int) []*TreeNode {
 	}
 
 	for i := start; i <= end; i++ {
-		left_trees := generateTree(start, i - 1)
-		right_trees := generateTree(i + 1, end)
+		left_trees := generateTree(start, i-1)
+		right_trees := generateTree(i+1, end)
 
 		for _, l := range left_trees {
 			for _, r := range right_trees {

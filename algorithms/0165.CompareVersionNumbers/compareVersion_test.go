@@ -5,17 +5,17 @@ import (
 	"testing"
 )
 
-func TestCompareVersion(t *testing.T)  {
-	tests := []struct{
+func TestCompareVersion(t *testing.T) {
+	tests := []struct {
 		version1 string
 		version2 string
-		output int
+		output   int
 	}{
-		{"0.1", "1.1",-1},
+		{"0.1", "1.1", -1},
 		{"1.0.1", "1", 1},
 		{"7.5.2.4", "7.5.3", -1},
-		{"1.01",  "1.001", 0},
-		{"1.0",  "1.0.0", 0},
+		{"1.01", "1.001", 0},
+		{"1.0", "1.0.0", 0},
 	}
 
 	for _, test := range tests {

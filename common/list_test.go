@@ -6,8 +6,8 @@ import (
 	"testing"
 )
 
-func TestList(t *testing.T)  {
-	tests := []struct{
+func TestList(t *testing.T) {
+	tests := []struct {
 		nums []int
 	}{
 		{[]int{1, 2, 3, 4, 5}},

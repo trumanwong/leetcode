@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestFrequencySort(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestFrequencySort(t *testing.T) {
+	tests := []struct {
+		s      string
 		output string
 	}{
 		{"tree", "eert"},
-		{"cccaaa","cccaaa"},
+		{"cccaaa", "cccaaa"},
 		{"Aabb", "bbaA"},
 	}
 

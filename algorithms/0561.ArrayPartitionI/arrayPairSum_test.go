@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestArrayPairSum(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestArrayPairSum(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
-		{[]int{1,4,3,2},4},
+		{[]int{1, 4, 3, 2}, 4},
 	}
 
 	for _, test := range tests {

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestRestoreIpAddresses(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestRestoreIpAddresses(t *testing.T) {
+	tests := []struct {
+		s      string
 		output []string
 	}{
 		{"25525511135", []string{"255.255.11.135", "255.255.111.35"}},

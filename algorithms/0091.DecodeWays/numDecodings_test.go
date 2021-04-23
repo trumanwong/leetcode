@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestNumDecodings(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestNumDecodings(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"12", 2},

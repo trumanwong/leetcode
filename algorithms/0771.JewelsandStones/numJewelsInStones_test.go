@@ -6,9 +6,9 @@ import (
 )
 
 func TestNumJewelsInStones(t *testing.T) {
-	tests := []struct{
-		J string
-		S string
+	tests := []struct {
+		J      string
+		S      string
 		output int
 	}{
 		{"aA", "aAAbbbb", 3},

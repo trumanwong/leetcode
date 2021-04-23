@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestMostCommonWord(t *testing.T)  {
-	tests := []struct{
+func TestMostCommonWord(t *testing.T) {
+	tests := []struct {
 		paragraph string
-		banned []string
-		output string
+		banned    []string
+		output    string
 	}{
-		{"Bob hit a ball, the hit BALL flew far after it was hit.", []string{"hit"},"ball"},
+		{"Bob hit a ball, the hit BALL flew far after it was hit.", []string{"hit"}, "ball"},
 	}
 
 	for _, test := range tests {

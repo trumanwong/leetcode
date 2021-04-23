@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestCountBits(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestCountBits(t *testing.T) {
+	tests := []struct {
+		input  int
 		output []int
 	}{
-		{2,[]int{0,1,1}},
-		{5,[]int{0,1,1,2,1,2}},
+		{2, []int{0, 1, 1}},
+		{5, []int{0, 1, 1, 2, 1, 2}},
 	}
 
 	for _, test := range tests {

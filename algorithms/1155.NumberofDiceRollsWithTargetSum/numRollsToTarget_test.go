@@ -5,18 +5,18 @@ import (
 	"testing"
 )
 
-func TestNumRollsToTarget(t *testing.T)  {
-	tests := []struct{
-		d int
-		f int
+func TestNumRollsToTarget(t *testing.T) {
+	tests := []struct {
+		d      int
+		f      int
 		target int
 		output int
 	}{
-		{1,6,3,1},
-		{2,6,7,6},
-		{2,5,10,1},
-		{1,2,3,0},
-		{30,30,500,222616187},
+		{1, 6, 3, 1},
+		{2, 6, 7, 6},
+		{2, 5, 10, 1},
+		{1, 2, 3, 0},
+		{30, 30, 500, 222616187},
 	}
 
 	for _, test := range tests {

@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-func TestIsPalindrome(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestIsPalindrome(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output bool
 	}{
 		{[]int{1, 2}, false},

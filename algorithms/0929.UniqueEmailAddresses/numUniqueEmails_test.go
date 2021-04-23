@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestNumUniqueEmails(t *testing.T)  {
-	tests := []struct{
-		input []string
+func TestNumUniqueEmails(t *testing.T) {
+	tests := []struct {
+		input  []string
 		output int
 	}{
-		{[]string{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"},2},
+		{[]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}, 2},
 	}
 
 	for _, test := range tests {

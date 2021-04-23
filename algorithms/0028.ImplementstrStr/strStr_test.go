@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestStrStr(t *testing.T)  {
-	tests := []struct{
+func TestStrStr(t *testing.T) {
+	tests := []struct {
 		haystack string
-		needle string
-		output int
-	} {
-		{"hello","ll", 2},
+		needle   string
+		output   int
+	}{
+		{"hello", "ll", 2},
 		{"aaaaa", "bba", -1},
 	}
 

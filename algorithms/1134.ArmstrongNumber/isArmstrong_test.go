@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestIsArmstrong(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestIsArmstrong(t *testing.T) {
+	tests := []struct {
+		input  int
 		output bool
 	}{
 		{153, true},

@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestProbabilityOfHeads(t *testing.T)  {
-	tests := []struct{
-		prob []float64
+func TestProbabilityOfHeads(t *testing.T) {
+	tests := []struct {
+		prob   []float64
 		target int
 		output float64
 	}{
 		{[]float64{0.4}, 1, 0.4000},
-		{[]float64{0.5,0.5,0.5,0.5,0.5}, 0, 0.03125},
+		{[]float64{0.5, 0.5, 0.5, 0.5, 0.5}, 0, 0.03125},
 	}
 
 	for _, test := range tests {

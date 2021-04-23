@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestFindMaxConsecutiveOnes(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindMaxConsecutiveOnes(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{1, 1, 0, 1, 1, 1}, 3},

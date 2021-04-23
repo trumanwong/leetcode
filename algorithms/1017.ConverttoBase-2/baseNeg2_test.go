@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestBaseNeg2(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestBaseNeg2(t *testing.T) {
+	tests := []struct {
+		input  int
 		output string
 	}{
-		{2,"110"},
-		{3,"111"},
-		{4,"100"},
+		{2, "110"},
+		{3, "111"},
+		{4, "100"},
 	}
 
 	for _, test := range tests {

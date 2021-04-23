@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestLargestTimeFromDigits(t *testing.T)  {
-	tests := []struct{
-		A []int
+func TestLargestTimeFromDigits(t *testing.T) {
+	tests := []struct {
+		A      []int
 		output string
 	}{
 		{[]int{1, 2, 3, 4}, "23:41"},

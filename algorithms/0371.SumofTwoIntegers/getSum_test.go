@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestGetSum(t *testing.T)  {
-	tests := []struct{
-		a int
-		b int
+func TestGetSum(t *testing.T) {
+	tests := []struct {
+		a      int
+		b      int
 		output int
 	}{
-		{1,2,3},
-		{-2,3,1},
+		{1, 2, 3},
+		{-2, 3, 1},
 	}
 
 	for _, test := range tests {

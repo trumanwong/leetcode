@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestJudgePoint24(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestJudgePoint24(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output bool
 	}{
-		{[]int{4,1,8,7},true},
-		{[]int{1,2,1,2},false},
-		{[]int{3,3,8,8},false},
+		{[]int{4, 1, 8, 7}, true},
+		{[]int{1, 2, 1, 2}, false},
+		{[]int{3, 3, 8, 8}, false},
 	}
 	for _, test := range tests {
 		ret := judgePoint24.JudgePoint24(test.input)

@@ -5,20 +5,19 @@ import (
 	"testing"
 )
 
-func TestLevelOrder(t *testing.T)  {
-	tests := []struct{
+func TestLevelOrder(t *testing.T) {
+	tests := []struct {
 		root   levelOrder.TreeNode
 		output [][]int
 	}{
 		{levelOrder.TreeNode{3,
-			&levelOrder.TreeNode{9,nil,nil},
+			&levelOrder.TreeNode{9, nil, nil},
 			&levelOrder.TreeNode{20,
-				&levelOrder.TreeNode{15,nil,nil},
-				&levelOrder.TreeNode{7,nil,nil}}}, [][]int{
-					{3},{9,20},{15,7},
+				&levelOrder.TreeNode{15, nil, nil},
+				&levelOrder.TreeNode{7, nil, nil}}}, [][]int{
+			{3}, {9, 20}, {15, 7},
 		}},
 	}
-
 
 	for _, test := range tests {
 		ret := levelOrder.LevelOrder(&test.root)

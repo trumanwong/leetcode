@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestLastRemaining(t *testing.T)  {
-	tests := []struct{
-		n int
+func TestLastRemaining(t *testing.T) {
+	tests := []struct {
+		n      int
 		output int
 	}{
-		{9,6},
+		{9, 6},
 	}
 
 	for _, test := range tests {

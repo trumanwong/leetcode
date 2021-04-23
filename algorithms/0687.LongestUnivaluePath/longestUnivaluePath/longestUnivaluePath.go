@@ -7,6 +7,7 @@ type TreeNode struct {
 }
 
 var ans int
+
 func LongestUnivaluePath(root *TreeNode) int {
 	ans = 0
 	arrowLength(root)
@@ -26,7 +27,7 @@ func arrowLength(root *TreeNode) int {
 	if root.Right != nil && root.Val == root.Right.Val {
 		arrowRight += right + 1
 	}
-	ans = max(ans, arrowLeft + arrowRight)
+	ans = max(ans, arrowLeft+arrowRight)
 	return max(arrowLeft, arrowRight)
 }
 

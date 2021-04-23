@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMinMoves(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestMinMoves(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{3, 2, 1}, 3},

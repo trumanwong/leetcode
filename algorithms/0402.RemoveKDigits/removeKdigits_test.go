@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestRemoveKdigits(t *testing.T)  {
-	tests := []struct{
-		nums string
-		k int
+func TestRemoveKdigits(t *testing.T) {
+	tests := []struct {
+		nums   string
+		k      int
 		output string
 	}{
 		{"1432219", 3, "1219"},

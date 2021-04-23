@@ -14,15 +14,13 @@ func Constructor(nums []int) NumArray {
 	return numArray
 }
 
-
 func (this *NumArray) SumRange(i int, j int) int {
 	if i == 0 {
 		return this.Result[j]
 	} else {
-		return this.Result[j] - this.Result[i - 1]
+		return this.Result[j] - this.Result[i-1]
 	}
 }
-
 
 /**
  * Your NumArray object will be instantiated and called as such:

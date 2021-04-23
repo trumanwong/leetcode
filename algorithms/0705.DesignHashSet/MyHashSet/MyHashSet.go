@@ -4,7 +4,6 @@ type MyHashSet struct {
 	HashSet []int
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() MyHashSet {
 	hashSet := make([]int, 1000000)
@@ -15,16 +14,13 @@ func Constructor() MyHashSet {
 	return MyHashSet{HashSet: hashSet}
 }
 
-
-func (this *MyHashSet) Add(key int)  {
+func (this *MyHashSet) Add(key int) {
 	this.HashSet[key] = 1
 }
 
-
-func (this *MyHashSet) Remove(key int)  {
+func (this *MyHashSet) Remove(key int) {
 	this.HashSet[key] = -1
 }
-
 
 /** Returns true if this set contains the specified element */
 func (this *MyHashSet) Contains(key int) bool {
@@ -33,7 +29,6 @@ func (this *MyHashSet) Contains(key int) bool {
 	}
 	return true
 }
-
 
 /**
  * Your MyHashSet object will be instantiated and called as such:

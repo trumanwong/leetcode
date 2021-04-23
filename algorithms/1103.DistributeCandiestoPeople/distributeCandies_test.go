@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestDistributeCandies(t *testing.T)  {
-	tests := []struct{
-		candies int
+func TestDistributeCandies(t *testing.T) {
+	tests := []struct {
+		candies    int
 		num_people int
-		output []int
+		output     []int
 	}{
-		{7,4,[]int{1,2,3,1}},
-		{10,3,[]int{5,2,3}},
+		{7, 4, []int{1, 2, 3, 1}},
+		{10, 3, []int{5, 2, 3}},
 	}
 
 	for _, test := range tests {

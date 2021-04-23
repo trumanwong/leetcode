@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestFindDuplicates(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestFindDuplicates(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output []int
 	}{
-		{[]int{4,3,2,7,8,2,3,1}, []int{2, 3}},
+		{[]int{4, 3, 2, 7, 8, 2, 3, 1}, []int{2, 3}},
 	}
 
 	for _, test := range tests {

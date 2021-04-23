@@ -7,12 +7,12 @@ import (
 	"testing"
 )
 
-func TestRemoveElements(t *testing.T)  {
-	tests := []struct{
-		head []int
-		val int
+func TestRemoveElements(t *testing.T) {
+	tests := []struct {
+		head   []int
+		val    int
 		output []int
-	} {
+	}{
 		{[]int{1, 2, 6, 3, 4, 5, 6}, 6, []int{1, 2, 3, 4, 5}},
 	}
 

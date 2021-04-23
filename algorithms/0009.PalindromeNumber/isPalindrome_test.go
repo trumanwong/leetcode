@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestIsPalindrome(t *testing.T)  {
-	tests := []struct{
+func TestIsPalindrome(t *testing.T) {
+	tests := []struct {
 		input int
-		ans bool
-	} {
+		ans   bool
+	}{
 		{10, false},
 		{-121, false},
 		{121, true},

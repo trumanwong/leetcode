@@ -6,7 +6,7 @@ func LargestNumber(nums []int) string {
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {
 			s1, s2 := strconv.Itoa(nums[i]), strconv.Itoa(nums[j])
-			if s1 + s2 > s2 + s1 {
+			if s1+s2 > s2+s1 {
 				nums[j], nums[i] = nums[i], nums[j]
 			}
 		}

@@ -1,6 +1,6 @@
 package setZeroes
 
-func GetZeroes(matrix [][]int)  {
+func GetZeroes(matrix [][]int) {
 	MODIFIED, R, C := -1000000, len(matrix), len(matrix[0])
 
 	for r := 0; r < R; r++ {

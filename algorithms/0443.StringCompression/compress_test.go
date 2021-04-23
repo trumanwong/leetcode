@@ -5,13 +5,12 @@ import (
 	"testing"
 )
 
-
-func TestCompress(t *testing.T)  {
-	tests := []struct{
-		chars []byte
+func TestCompress(t *testing.T) {
+	tests := []struct {
+		chars  []byte
 		output int
 	}{
-		{[]byte{'a','a','b','b','c','c','c'}, 6},
+		{[]byte{'a', 'a', 'b', 'b', 'c', 'c', 'c'}, 6},
 		{[]byte{'a'}, 1},
 	}
 

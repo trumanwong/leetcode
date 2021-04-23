@@ -17,15 +17,15 @@ func ThreeSum(nums []int) [][]int {
 			break
 		}
 
-		if i > 0 && v == nums[i - 1] {
+		if i > 0 && v == nums[i-1] {
 			continue
 		}
 
-		l, r := i + 1, len(nums) - 1
+		l, r := i+1, len(nums)-1
 		for l < r {
-			if (r < len(nums) - 1 && nums[r] == nums[r + 1] || v + nums[l] + nums[r] > 0) {
+			if r < len(nums)-1 && nums[r] == nums[r+1] || v+nums[l]+nums[r] > 0 {
 				r--
-			} else if (l > i + 1 && nums[l] == nums[l-1] || v + nums[l] + nums[r] < 0) {
+			} else if l > i+1 && nums[l] == nums[l-1] || v+nums[l]+nums[r] < 0 {
 				l++
 			} else {
 				res = append(res, []int{v, nums[l], nums[r]})

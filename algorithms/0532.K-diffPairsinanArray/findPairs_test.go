@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestFindPairs(t *testing.T)  {
-	tests := []struct{
-		nums []int
-		k int
+func TestFindPairs(t *testing.T) {
+	tests := []struct {
+		nums   []int
+		k      int
 		output int
 	}{
 		{[]int{3, 1, 4, 1, 5}, 2, 2},

@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestFindLHS(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestFindLHS(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
-		{[]int{1,3,2,2,5,2,3,7}, 5},
+		{[]int{1, 3, 2, 2, 5, 2, 3, 7}, 5},
 	}
 
 	for _, test := range tests {

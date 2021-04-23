@@ -5,15 +5,15 @@ import (
 	"testing"
 )
 
-func TestMinPathSum(t *testing.T)  {
-	tests := []struct{
-		input [][]int
+func TestMinPathSum(t *testing.T) {
+	tests := []struct {
+		input  [][]int
 		output int
-	} {
+	}{
 		{[][]int{
-			{1,3,1},
-			{1,5,1},
-			{4,2,1},
+			{1, 3, 1},
+			{1, 5, 1},
+			{4, 2, 1},
 		}, 7},
 	}
 

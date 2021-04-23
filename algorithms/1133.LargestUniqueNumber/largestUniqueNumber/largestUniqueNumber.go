@@ -17,7 +17,7 @@ func LargestUniqueNumber(A []int) int {
 
 	sort.Ints(a)
 	if len(a) > 0 {
-		ret = a[len(a) - 1]
+		ret = a[len(a)-1]
 	}
 	return ret
 }

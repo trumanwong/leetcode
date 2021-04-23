@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestRemoveDuplicates(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestRemoveDuplicates(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{1, 1, 1, 2, 2, 3}, 5},

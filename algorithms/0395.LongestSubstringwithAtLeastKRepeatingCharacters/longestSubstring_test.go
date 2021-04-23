@@ -5,10 +5,10 @@ import (
 	"testing"
 )
 
-func TestLongestSubstring(t *testing.T)  {
-	tests := []struct{
-		s string
-		k int
+func TestLongestSubstring(t *testing.T) {
+	tests := []struct {
+		s      string
+		k      int
 		output int
 	}{
 		{"aaabb", 3, 3},

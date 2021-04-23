@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestCountBinarySubstrings(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestCountBinarySubstrings(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"00110011", 6},

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestBalancedStringSplit(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestBalancedStringSplit(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"RLRRLLRLRL", 4},

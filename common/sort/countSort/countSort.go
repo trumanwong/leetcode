@@ -3,7 +3,7 @@ package countSort
 func CountSort(arr []int) []int {
 	res := make([]int, len(arr))
 	min, max := arr[0], arr[0]
-	for _, v:= range arr {
+	for _, v := range arr {
 		if v > max {
 			max = v
 		} else if v < min {
@@ -14,13 +14,13 @@ func CountSort(arr []int) []int {
 	k := max - min + 1
 	counts := make([]int, k)
 	for _, v := range arr {
-		counts[v - min]++
+		counts[v-min]++
 	}
 	for i := 1; i < len(counts); i++ {
-		counts[i] += counts[i - 1]
+		counts[i] += counts[i-1]
 	}
 	for i := len(arr) - 1; i >= 0; i-- {
-		res[counts[arr[i] - min] - 1] = arr[i]
+		res[counts[arr[i]-min]-1] = arr[i]
 	}
 	return res
 }

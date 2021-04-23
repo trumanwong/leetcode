@@ -7,7 +7,7 @@ func BaseNeg2(N int) string {
 	}
 
 	for N != 0 {
-		if N & 1 != 0 {
+		if N&1 != 0 {
 			if flag {
 				N -= 1
 			} else {

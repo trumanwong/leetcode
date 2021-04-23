@@ -7,14 +7,14 @@ func StrStr(haystack string, needle string) int {
 	i, j := 0, 0
 	hsLength := len(haystack)
 	needleLength := len(needle)
-	for ; i < hsLength && j < needleLength; {
+	for i < hsLength && j < needleLength {
 		if haystack[i] == needle[j] {
 			i++
 			j++
 		} else {
-				// 不匹配， i后退
-				i = i - j + 1
-				j = 0
+			// 不匹配， i后退
+			i = i - j + 1
+			j = 0
 		}
 	}
 

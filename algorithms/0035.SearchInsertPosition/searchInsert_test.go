@@ -5,16 +5,16 @@ import (
 	"testing"
 )
 
-func TestSearchInsert(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestSearchInsert(t *testing.T) {
+	tests := []struct {
+		input  []int
 		target int
 		output int
 	}{
-		{[]int{1,3,5,6}, 5, 2},
-		{[]int{1,3,5,6}, 2, 1},
-		{[]int{1,3,5,6}, 7, 4},
-		{[]int{1,3,5,6}, 0, 0},
+		{[]int{1, 3, 5, 6}, 5, 2},
+		{[]int{1, 3, 5, 6}, 2, 1},
+		{[]int{1, 3, 5, 6}, 7, 4},
+		{[]int{1, 3, 5, 6}, 0, 0},
 	}
 
 	for _, test := range tests {

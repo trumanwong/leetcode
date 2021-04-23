@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestTopKFrequent(t *testing.T)  {
-	tests := []struct{
-		nums []int
-		k int
+func TestTopKFrequent(t *testing.T) {
+	tests := []struct {
+		nums   []int
+		k      int
 		output []int
 	}{
-		{[]int{1,1,1,2,2,3},  2, []int{1,2}},
-		{[]int{1},1,[]int{1}},
+		{[]int{1, 1, 1, 2, 2, 3}, 2, []int{1, 2}},
+		{[]int{1}, 1, []int{1}},
 	}
 
 	for _, test := range tests {

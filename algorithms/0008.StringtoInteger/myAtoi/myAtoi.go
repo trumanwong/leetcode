@@ -24,7 +24,7 @@ func MyAtoi(str string) int {
 	for i, ch := range str {
 		temp, e := strconv.Atoi(string(ch))
 		if i > 0 && e != nil {
-			break;
+			break
 		}
 		if e == nil {
 			//获取首字符
@@ -48,7 +48,7 @@ func MyAtoi(str string) int {
 	if err != nil {
 		return 0
 	}
-	if ret > math.MaxInt32  {
+	if ret > math.MaxInt32 {
 		return math.MaxInt32
 	}
 	if ret < math.MinInt32 {

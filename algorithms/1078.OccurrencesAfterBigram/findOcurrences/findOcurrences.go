@@ -16,9 +16,9 @@ func FindOcurrences(text string, first string, second string) []string {
 		textArr = append(textArr, string(textBytes[start:len(textBytes)]))
 	}
 	res := []string{}
-	for i := 0; i < len(textArr) - 2; i++ {
-		if textArr[i] == first && textArr[i + 1] == second {
-			res = append(res, textArr[i + 2])
+	for i := 0; i < len(textArr)-2; i++ {
+		if textArr[i] == first && textArr[i+1] == second {
+			res = append(res, textArr[i+2])
 		}
 	}
 	return res

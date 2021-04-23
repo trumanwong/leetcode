@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestFindComplement(t *testing.T)  {
-	tests := []struct{
-		input int
+func TestFindComplement(t *testing.T) {
+	tests := []struct {
+		input  int
 		output int
 	}{
-		{5,2},
-		{1,0},
+		{5, 2},
+		{1, 0},
 	}
 
 	for _, test := range tests {

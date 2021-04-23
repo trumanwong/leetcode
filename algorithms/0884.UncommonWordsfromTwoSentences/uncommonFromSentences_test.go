@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestUncommonFromSentences(t *testing.T)  {
-	tests := []struct{
-		A string
-		B string
+func TestUncommonFromSentences(t *testing.T) {
+	tests := []struct {
+		A      string
+		B      string
 		output []string
 	}{
-		{"this apple is sweet", "this apple is sour", []string{"sweet","sour"}},
-		{"apple apple",  "banana", []string{"banana"}},
+		{"this apple is sweet", "this apple is sour", []string{"sweet", "sour"}},
+		{"apple apple", "banana", []string{"banana"}},
 	}
 
 	for _, test := range tests {

@@ -14,10 +14,10 @@ func CombinationSum(candidates []int, target int) [][]int {
 			return
 		}
 		for j := i; j < len(candidates); j++ {
-			if tmp_sum + candidates[j] > target {
+			if tmp_sum+candidates[j] > target {
 				break
 			}
-			backtrack(j, tmp_sum + candidates[j], append(tmp, candidates[j]))
+			backtrack(j, tmp_sum+candidates[j], append(tmp, candidates[j]))
 		}
 	}
 

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestDetectCapitalUse(t *testing.T)  {
-	tests := []struct{
-		word string
+func TestDetectCapitalUse(t *testing.T) {
+	tests := []struct {
+		word   string
 		output bool
 	}{
 		{"USA", true},

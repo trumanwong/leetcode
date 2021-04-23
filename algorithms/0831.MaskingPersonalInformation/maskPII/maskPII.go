@@ -22,7 +22,7 @@ func MaskPII(S string) string {
 		ret = append(ret, s[0])
 		ret = append(ret, []byte("*****")...)
 		if start >= 2 {
-			ret = append(ret, s[start - 1])
+			ret = append(ret, s[start-1])
 			ret = append(ret, s[start:len(s)]...)
 		}
 	} else {
@@ -39,12 +39,12 @@ func MaskPII(S string) string {
 			ret = append(ret, []byte("***-***-")...)
 		} else {
 			temp := ""
-			for i := 0; i < num - 10; i++ {
+			for i := 0; i < num-10; i++ {
 				temp += "*"
 			}
-			ret = append(ret, []byte("+" + temp + "-***-***-")...)
+			ret = append(ret, []byte("+"+temp+"-***-***-")...)
 		}
-		ret = append(ret, nums[len(nums) - 4:len(nums)]...)
+		ret = append(ret, nums[len(nums)-4:len(nums)]...)
 	}
 
 	return string(ret)

@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMaxDepth(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestMaxDepth(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"(1+(2*3)+((8)/4))+1", 3},

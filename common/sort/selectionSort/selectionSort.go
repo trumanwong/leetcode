@@ -1,7 +1,7 @@
 package selectionSort
 
-func SelectionSort(arr []int, n int)  {
-	for i := 0; i < n - 1; i++ {
+func SelectionSort(arr []int, n int) {
+	for i := 0; i < n-1; i++ {
 		// 记录需要和第k个元素交换
 		k := i
 		for j := i + 1; j < n; j++ {

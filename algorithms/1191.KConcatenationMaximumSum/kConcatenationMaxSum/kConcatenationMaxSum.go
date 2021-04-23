@@ -9,7 +9,7 @@ func kConcatenationMaxSum(arr []int, k int) int {
 		arrSum = arrSum + arr[i]
 	}
 	for i := 0; i < k; i++ {
-		if i == 0 || i == 1 || i == k - 2 || i == k - 1 {
+		if i == 0 || i == 1 || i == k-2 || i == k-1 {
 			for index := 0; index < len(arr); index++ {
 				sum = sum + arr[index]
 				if sum < 0 {

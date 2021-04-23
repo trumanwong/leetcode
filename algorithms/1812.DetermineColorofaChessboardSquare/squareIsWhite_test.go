@@ -6,9 +6,9 @@ import (
 )
 
 func TestSquareIsWhite(t *testing.T) {
-	tests := []struct{
+	tests := []struct {
 		coordinates string
-		output bool
+		output      bool
 	}{
 		{"a1", false},
 		{"b1", true},

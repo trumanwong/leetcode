@@ -5,17 +5,17 @@ import (
 	"testing"
 )
 
-func TestLargestValues(t *testing.T)  {
-	tests := []struct{
+func TestLargestValues(t *testing.T) {
+	tests := []struct {
 		root   largestValues.TreeNode
 		output []int
 	}{
 		{largestValues.TreeNode{1,
 			&largestValues.TreeNode{3,
-				&largestValues.TreeNode{5,nil,nil},
-				&largestValues.TreeNode{3,nil,nil}},
-				&largestValues.TreeNode{2,nil,&largestValues.TreeNode{9,nil,nil}}},
-				[]int{1,3,9}},
+				&largestValues.TreeNode{5, nil, nil},
+				&largestValues.TreeNode{3, nil, nil}},
+			&largestValues.TreeNode{2, nil, &largestValues.TreeNode{9, nil, nil}}},
+			[]int{1, 3, 9}},
 	}
 	for _, test := range tests {
 		ret := largestValues.LargestValues(&test.root)

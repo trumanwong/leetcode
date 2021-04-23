@@ -5,11 +5,11 @@ import (
 	"testing"
 )
 
-func TestWordPattern(t *testing.T)  {
-	tests := []struct{
+func TestWordPattern(t *testing.T) {
+	tests := []struct {
 		pattern string
-		str string
-		output bool
+		str     string
+		output  bool
 	}{
 		{"abba", "dog cat cat dog", true},
 		{"abba", "dog cat cat fish", false},

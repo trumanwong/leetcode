@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestSwapPairs(t *testing.T)  {
-	tests := []struct{
-		head []int
+func TestSwapPairs(t *testing.T) {
+	tests := []struct {
+		head   []int
 		output []int
 	}{
 		{[]int{1, 2, 3, 4}, []int{2, 1, 4, 3}},

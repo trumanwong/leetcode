@@ -1,7 +1,7 @@
 package missingNumber
 
 func MissingNumber(arr []int) int {
-	diff := (arr[len(arr) - 1] - arr[0]) / len(arr)
+	diff := (arr[len(arr)-1] - arr[0]) / len(arr)
 	if diff == 0 {
 		return arr[0]
 	}

@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestMaxScoreSightseeingPair(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestMaxScoreSightseeingPair(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{8,1,5,2,6},11},
+		{[]int{8, 1, 5, 2, 6}, 11},
 	}
 	for _, test := range tests {
 		ret := maxScoreSightseeingPair.MaxScoreSightseeingPair(test.input)

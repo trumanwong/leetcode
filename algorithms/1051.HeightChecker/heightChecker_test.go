@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-func TestHeightChecker(t *testing.T)  {
-	tests := []struct{
-		input []int
+func TestHeightChecker(t *testing.T) {
+	tests := []struct {
+		input  []int
 		output int
 	}{
-		{[]int{1,1,4,2,1,3},3},
+		{[]int{1, 1, 4, 2, 1, 3}, 3},
 	}
 
 	for _, test := range tests {

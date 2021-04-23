@@ -1,17 +1,15 @@
 package MyCircularDeque
 
 type MyCircularDeque struct {
-	queue []int
+	queue  []int
 	length int
 }
-
 
 /** Initialize your data structure here. Set the size of the deque to be k. */
 func Constructor(k int) MyCircularDeque {
 	queue := make([]int, 0)
 	return MyCircularDeque{queue: queue, length: k}
 }
-
 
 /** Adds an item at the front of Deque. Return true if the operation is successful. */
 func (this *MyCircularDeque) InsertFront(value int) bool {
@@ -22,7 +20,6 @@ func (this *MyCircularDeque) InsertFront(value int) bool {
 	return true
 }
 
-
 /** Adds an item at the rear of Deque. Return true if the operation is successful. */
 func (this *MyCircularDeque) InsertLast(value int) bool {
 	if len(this.queue) >= this.length {
@@ -31,7 +28,6 @@ func (this *MyCircularDeque) InsertLast(value int) bool {
 	this.queue = append(this.queue, value)
 	return true
 }
-
 
 /** Deletes an item from the front of Deque. Return true if the operation is successful. */
 func (this *MyCircularDeque) DeleteFront() bool {
@@ -42,16 +38,14 @@ func (this *MyCircularDeque) DeleteFront() bool {
 	return true
 }
 
-
 /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
 func (this *MyCircularDeque) DeleteLast() bool {
 	if len(this.queue) == 0 {
 		return false
 	}
-	this.queue = this.queue[:len(this.queue) - 1]
+	this.queue = this.queue[:len(this.queue)-1]
 	return true
 }
-
 
 /** Get the front item from the deque. */
 func (this *MyCircularDeque) GetFront() int {
@@ -61,15 +55,13 @@ func (this *MyCircularDeque) GetFront() int {
 	return this.queue[0]
 }
 
-
 /** Get the last item from the deque. */
 func (this *MyCircularDeque) GetRear() int {
 	if len(this.queue) == 0 {
 		return -1
 	}
-	return this.queue[len(this.queue) - 1]
+	return this.queue[len(this.queue)-1]
 }
-
 
 /** Checks whether the circular deque is empty or not. */
 func (this *MyCircularDeque) IsEmpty() bool {
@@ -79,7 +71,6 @@ func (this *MyCircularDeque) IsEmpty() bool {
 	return false
 }
 
-
 /** Checks whether the circular deque is full or not. */
 func (this *MyCircularDeque) IsFull() bool {
 	if len(this.queue) == this.length {
@@ -87,7 +78,6 @@ func (this *MyCircularDeque) IsFull() bool {
 	}
 	return false
 }
-
 
 /**
  * Your MyCircularDeque object will be instantiated and called as such:

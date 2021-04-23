@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestMaxLengthBetweenEqualCharacters(t *testing.T)  {
-	tests := []struct{
-		s string
+func TestMaxLengthBetweenEqualCharacters(t *testing.T) {
+	tests := []struct {
+		s      string
 		output int
 	}{
 		{"aa", 0},

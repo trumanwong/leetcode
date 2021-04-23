@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestReformatDate(t *testing.T)  {
-	tests := []struct{
-		input string
+func TestReformatDate(t *testing.T) {
+	tests := []struct {
+		input  string
 		output string
 	}{
 		{"20th Oct 2052", "2052-10-20"},

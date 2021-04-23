@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func TestIsBoomerang(t *testing.T)  {
-	tests := []struct{
-		input [][]int
+func TestIsBoomerang(t *testing.T) {
+	tests := []struct {
+		input  [][]int
 		output bool
-	} {
-		{[][]int{{1,1},{2,3},{3,2}}, true},
-		{[][]int{{1,1},{2,2},{3,3}}, false},
+	}{
+		{[][]int{{1, 1}, {2, 3}, {3, 2}}, true},
+		{[][]int{{1, 1}, {2, 2}, {3, 3}}, false},
 	}
 
 	for _, test := range tests {

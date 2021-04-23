@@ -30,8 +30,8 @@ func Permute(S string) []string {
 		}
 		for j := 0; j < len(m[im]); j++ {
 			bytes = append(bytes, m[im][j])
-			recursive(bytes, im + 1)
-			bytes = bytes[:len(bytes) - 1]
+			recursive(bytes, im+1)
+			bytes = bytes[:len(bytes)-1]
 		}
 	}
 	recursive([]byte{}, 0)

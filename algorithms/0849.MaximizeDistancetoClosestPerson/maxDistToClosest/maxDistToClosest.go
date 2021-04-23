@@ -15,11 +15,11 @@ func MaxDistToClosest(seats []int) int {
 		if last == -1 {
 			res = max(res, i)
 		} else {
-			res = max(res, (i - last) / 2)
+			res = max(res, (i-last)/2)
 		}
 		last = i
 	}
-	return max(res, len(seats) - 1 - last)
+	return max(res, len(seats)-1-last)
 }
 
 func max(x, y int) int {

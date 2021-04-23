@@ -7,7 +7,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func flatten(root *TreeNode)  {
+func flatten(root *TreeNode) {
 	if root == nil {
 		return
 	}

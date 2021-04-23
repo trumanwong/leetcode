@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestSpecialArray(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestSpecialArray(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{3, 5}, 2},

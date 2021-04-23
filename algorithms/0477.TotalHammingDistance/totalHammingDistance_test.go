@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestTotalHammingDistance(t *testing.T)  {
-	tests := []struct{
-		nums []int
+func TestTotalHammingDistance(t *testing.T) {
+	tests := []struct {
+		nums   []int
 		output int
 	}{
 		{[]int{4, 14, 2}, 6},

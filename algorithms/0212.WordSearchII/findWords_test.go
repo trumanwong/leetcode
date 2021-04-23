@@ -5,18 +5,18 @@ import (
 	"testing"
 )
 
-func TestFindWords(t *testing.T)  {
-	tests := []struct{
-		board [][]byte
-		words []string
+func TestFindWords(t *testing.T) {
+	tests := []struct {
+		board  [][]byte
+		words  []string
 		output []string
 	}{
 		{[][]byte{
-			{'o','a','a','n'},
-			{'e','t','a','e'},
-			{'i','h','k','r'},
-			{'i','f','l','v'},
-		}, []string{"oath","pea","eat","rain"}, []string{"oath", "eat"},},
+			{'o', 'a', 'a', 'n'},
+			{'e', 't', 'a', 'e'},
+			{'i', 'h', 'k', 'r'},
+			{'i', 'f', 'l', 'v'},
+		}, []string{"oath", "pea", "eat", "rain"}, []string{"oath", "eat"}},
 	}
 
 	for _, test := range tests {

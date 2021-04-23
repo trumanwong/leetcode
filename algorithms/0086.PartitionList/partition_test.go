@@ -7,10 +7,10 @@ import (
 	"testing"
 )
 
-func TestPartition(t *testing.T)  {
-	tests := []struct{
-		head []int
-		k int
+func TestPartition(t *testing.T) {
+	tests := []struct {
+		head   []int
+		k      int
 		output []int
 	}{
 		{[]int{1, 4, 3, 2, 5, 2}, 3, []int{1, 2, 2, 4, 3, 5}},
